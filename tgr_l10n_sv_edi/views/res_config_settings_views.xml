@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="res_config_settings_form_inherit_l10n_sv_edi" model="ir.ui.view">
+        <field name="name">res.config.settings.form.inherit.l10n_sv_edi</field>
+        <field name="model">res.config.settings</field>
+        <field name="inherit_id" ref="account.res_config_settings_view_form"></field>
+        <field name="arch" type="xml">
+            <xpath expr="//block[@id='invoicing_settings']" position="after">
+                <block invisible="country_code != 'SV'" title="Facturación electrónica El Salvador">
+                    <setting help="Conexiones">
+                        <div class="text-muted">EL MH tiene habilitada restricciones por GEO-IP por lo que requiere en algunos casos utilizar servidores proxy<br></br> <b>Firmador:</b> http://firmaelectronicadte.tagre.pe:8222"<br></br><b>Proxy:</b> http://proxydte.tagre.pe/</div>
+                        <div class="content-group">
+                            <div class="row mt32">
+                                <label class="col-md-5 o_light_label" for="l10n_sv_edi_environment"></label>
+                                <field name="l10n_sv_edi_environment" widget="radio"></field>
+                                <label class="col-md-5 o_light_label" for="l10n_sv_edi_communication_mode"></label>
+                                <field name="l10n_sv_edi_communication_mode" required="country_code=='SV'" widget="radio"></field>
+                                <label class="col-md-5 o_light_label" for="l10n_sv_edi_proxy_url" invisible="l10n_sv_edi_communication_mode=='direct'"></label>
+                                <field invisible="l10n_sv_edi_communication_mode=='direct'" name="l10n_sv_edi_proxy_url"></field>
+                                <label class="col-md-5 o_light_label" for="l10n_sv_edi_signer_url"></label>
+                                <field name="l10n_sv_edi_signer_url"></field>
+                            </div>
+                        </div>
+                    </setting>
+                    <setting help="Credenciales">
+                        <div class="text-muted">Este usuario y contraseña son otorgados por <b>Ministerio de Hacienda de El Salvador</b> <br></br> ¿Cómo lo consigues?: <a href="https://www.taiia.gob.sv/wp-content/uploads/2023/03/FE-TAIIA-v2-28-03-2023-con-videos.pdf">aqui</a> <br></br></div>
+                        <div class="content-group">
+                            <div class="row mt32">
+                                <label class="col-md-5 o_light_label" for="l10n_sv_edi_username"></label>
+                                <field name="l10n_sv_edi_username"></field>
+                                <label class="col-md-5 o_light_label" for="l10n_sv_edi_password"></label>
+                                <field name="l10n_sv_edi_password" password="True"></field>
+                                <label class="col-md-5 o_light_label" for="l10n_sv_edi_cert_private_key" invisible="not l10n_sv_edi_signer_url"></label>
+                                <field invisible="not l10n_sv_edi_signer_url" name="l10n_sv_edi_cert_private_key" password="True"></field>
+                                <label class="col-md-5 o_light_label" for="l10n_sv_edi_certificate_id" invisible="l10n_sv_edi_signer_url"></label>
+                                <field invisible="l10n_sv_edi_signer_url" name="l10n_sv_edi_certificate_id"></field>
+                            </div>
+                        </div>
+                    </setting>
+                </block>
+            </xpath>
+        </field>
+    </record>
+</odoo>

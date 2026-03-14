@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="res_config_settings_view_form" model="ir.ui.view">
+        <field name="name">res.config.settings.view.form.inherit.tgr_l10n.sv.pos</field>
+        <field name="model">res.config.settings</field>
+        <field name="inherit_id" ref="point_of_sale.res_config_settings_view_form"></field>
+        <field name="arch" type="xml">
+            <xpath expr="//block[@id='pos_accounting_section']" position="inside">
+                <setting string="Documentos Electrónicos SV">
+                    <div class="content-group mt16">
+                        <div class="row" title="Códigos def punto de venta para la emisión de DTE's">
+                            <label class="col-lg-4 o_light_label" for="l10n_sv_edi_cod_pos_mh" string="Cód. POS M.H."></label>
+                            <field name="l10n_sv_edi_cod_pos_mh" placeholder="e.g. P001"></field>
+                        </div>
+                        <div class="row">
+                            <label class="col-lg-4 o_light_label" for="l10n_sv_edi_cod_pos" string="Cód. POS"></label>
+                            <field name="l10n_sv_edi_cod_pos" placeholder="e.g. POS001"></field>
+                        </div>
+                        <div class="row">
+                            <label class="col-lg-4 o_light_label" for="l10n_sv_edi_receipt_header" string="Encabezado de tickets [SV]"></label>
+                            <field name="l10n_sv_edi_receipt_header" placeholder="NIT: 833..."></field>
+                        </div>
+                    </div>
+                </setting>
+            </xpath>
+        </field>
+    </record>
+</odoo>

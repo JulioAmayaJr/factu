@@ -1,0 +1,113 @@
+id,code,name,account_type,reconcile,name@es
+char1101,1101,Cash and Cash Equivalents,asset_cash,False,Efectivo Y Equivalentes
+char110101,110101,General Cash,asset_cash,False,Caja General
+char110102,110102,Banks and Financial Institutions,asset_cash,False,Bancos Y Financieras
+char1102,1102,Accounts Receivable,asset_receivable,True,Cuentas Por Cobrar
+char110201,110201,Accounts Receivable from Customers,asset_receivable,True,Cuentas Por Cobrar A Clientes
+char110202,110202,Accounts Receivable from Employees,asset_receivable,True,Cuentas Por Cobrar Empleados
+char1103,1103,Inventory of Merchandise,asset_current,False,Inventario De Mercaderia
+char1104,1104,Orders in Transit,asset_current,False,Pedidos En Transito
+char1105,1105,Inventory in Manufacturing,asset_current,False, Inventario en Fabricacion
+char1201,1201,Real Estate,asset_fixed,False,Inmuebles
+char120101,120101,Land,asset_fixed,False,Terrenos
+char120102,120102,Buildings,asset_fixed,False,Edificios
+char120103,120103,Installations,asset_fixed,False,Instalaciones
+char1202,1202,Furniture and Equipment,asset_fixed,False,Mobiliario Y Equipo
+char120201,120201,Office Furniture and Equipment,asset_fixed,False,Mobiliario Y Equipo De Oficina
+char120202,120202,Computer Furniture and Equipment,asset_fixed,False,Mobiliario Y Equipo De Computo
+char120203,120203,Transportation Equipment - Vehicle,asset_fixed,False,Equipo De Transporte-Vehículo
+char1203,1203,Intangibles,asset_fixed,False,Intangibles
+char120301,120301,Computer Software,asset_fixed,False,Software De Computación
+char120302,120302,Accounting Software,asset_fixed,False,Software De Contabilidad
+char1204,1204,Accumulated Depreciation,asset_fixed,False,Depreciación Acumulada
+char1301,1301,Security Deposits,asset_current,False,Depósitos En Garantia
+char1401,1401,VAT Credit on Purchases,asset_current,False,Iva Credito Fiscal  Compras
+char140101,140101,VAT Purchases 13%,asset_current,False,Iva Compras 13%
+char140102,140102,VAT Withheld 1%,asset_current,False,Iva Retenido 1%
+char2101,2101,Accounts Payable to Suppliers,liability_payable,True,Cuentas Por Pagar Proveedores
+char2102,2102,Taxes and Other Payables,liability_current,False,Impuestos Y Otras Ctas Por Pagar
+char210201,210201,VAT Payable,liability_current,False,Iva Por Pagar
+char210202,210202,Withheld Income Tax 10%,liability_current,False,Renta Retenida 10%
+char210203,210203,Employer Contribution to AFP,liability_current,False,Aporte Patronal Afp
+char210204,210204,Employer Contribution to ISSS,liability_current,False,Aporte Patronal Isss
+char2103,2103,Withholdings,liability_current,False,Retenciones
+char210301,210301,Laboral ISSS Withholding,liability_current,False,Retenc. Laboral Isss
+char210302,210302,Laboral AFP Withholding,liability_current,False,Retención Laboral Afp
+char210303,210303,Income Tax,liability_current,False,Impuesto Sobre La Renta
+char2104,2104,Provisions,liability_current,False,Provisiones
+char210401,210401,Provision for Labor Liabilities,liability_current,False,Provision Para Pasivo Laboral
+char210402,210402,Provision for Year-End Bonuses,liability_current,False,Provision Aguinaldos
+char210403,210403,Other Provisions,liability_current,False,Otras Provisiones
+char2105,2105,VAT Payable,liability_current,False,Debito Fiscal
+char210501,210501,VAT Sales Payable 13%,liability_current,False,Debito Fiscal Ventas 13%
+char210502,210502,VAT Sales Payable 1%,liability_current,False,Debito Fiscal Ventas 1%
+char2106,2106,Bank Overdrafts,liability_current,True,Sobregiros Bancarios
+char2201,2201,Long-Term Loans,liability_current,True,Prestamos A Largo Plazo
+char3102,3102,Profits,equity,False,Utilidades
+char4101,4101,Administrative Expenses,expense,False,Gastos De Administración
+char410101,410101,Salaries,expense,False,Sueldos
+char410102,410102,Vacations,expense,False,Vacaciones
+char410103,410103,Year-End Bonuses,expense,False,Aguinaldos
+char410104,410104,Severances,expense,False,Indemnizaciones
+char410105,410105,Employer Contribution to ISSS,expense,False,Aporte Patronal Isss
+char410106,410106,Employer Contribution to AFP,expense,False,Aporte Patronal Afp
+char410107,410107,Employer Contribution to INSAFORP,expense,False,Aporte Patronal Insaforp
+char410111,410111,Staff Training,expense,False,Capacitaciones Al Personal
+char410112,410112,Project Travel,expense,False,Viajes De Proyectos
+char410113,410113,Professional Fees,expense,False,Honorarios Profesionales
+char410114,410114,Insurance,expense,False,Seguros
+char410115,410115,Rent,expense,False,Alquileres
+char410116,410116,Furniture and Equipment Repair and Maintenance,expense,False,Reparac.Y Manten.Mob.Y Equipo
+char410117,410117,Vehicle Repair and Maintenance,expense,False,Reparación Y Mantenimiento Vehículo
+char410118,410118,Local Transportation,expense,False,Transporte Local
+char410119,410119,Fuel and Lubricants,expense,False,Combustible Y Lubricantes
+char410120,410120,Communications,expense,False,Comunicaciones
+char410121,410121,Electricity Service,expense,False,Servicio De Energía Electrica
+char410122,410122,Potable Water Service,expense,False,Servicio De Agua Potable
+char410123,410123,Security Service,expense,False,Servicio De Vigilancia
+char410124,410124,Stationery and Supplies,expense,False,Papelería Y Utiles
+char410125,410125,Subscriptions,expense,False,Suscripciones
+char410126,410126,Audit,expense,False,Auditoria
+char410127,410127,Promotion and Visibility,expense,False,Promoción Y Visibilidad
+char410128,410128,"General Expenses/Cleaning, Cafeteria",expense,False,"Gastos Generales/Limpieza, Cafeteria"
+char410129,410129,Miscellaneous Expenses,expense,False,Imprevistos
+char410130,410130,Other Administrative Expenses,expense,False,Otros Gastos De Administración
+char4102,4102,Sales Expenses,expense,False,Gastos De Ventas
+char410201,410201,Salaries,expense,False,Sueldos
+char410202,410202,Vacations,expense,False,Vacaciones
+char410203,410203,Year-End Bonuses,expense,False,Aguinaldos
+char410204,410204,Severances,expense,False,Indemnizaciones
+char410205,410205,Employer Contribution to ISSS,expense,False,Aporte Patronal Isss
+char410206,410206,Employer Contribution to AFP,expense,False,Aporte Patronal Afp
+char410207,410207,Employer Contribution to INSAFORP,expense,False,Aporte Patronal Insaforp
+char410208,410208,Staff Training,expense,False,Capacitaciones Al Personal
+char410209,410209,Project Travel,expense,False,Viajes De Proyectos
+char410210,410210,Professional Fees,expense,False,Honorarios Profesionales
+char410211,410211,Insurance,expense,False,Seguros
+char410212,410212,Rent,expense,False,Alquileres
+char410213,410213,Furniture and Equipment Repair and Maintenance,expense,False,Reparac.Y Manten.Mob.Y Equipo
+char410214,410214,Vehicle Repair and Maintenance,expense,False,Reparación Y Mantenimiento Vehículo
+char410215,410215,Local Transportation,expense,False,Transporte Local
+char410216,410216,Fuel and Lubricants,expense,False,Combustible Y Lubricantes
+char410217,410217,Communications,expense,False,Comunicaciones
+char410218,410218,Electricity Service,expense,False,Servicio De Energía Electrica
+char410219,410219,Potable Water Service,expense,False,Servicio De Agua Potable
+char410220,410220,Security Service,expense,False,Servicio De Vigilancia
+char410221,410221,Stationery and Supplies,expense,False,Papelería Y Utiles
+char410222,410222,Subscriptions,expense,False,Suscripciones
+char410223,410223,Audit,expense,False,Auditoria
+char410224,410224,Promotion and Visibility,expense,False,Promoción Y Visibilidad
+char410225,410225,"General Expenses/Cleaning, Cafeteria",expense,False,"Gastos Generales/Limpieza, Cafeteria"
+char410226,410226,Miscellaneous Expenses,expense,False,Imprevistos
+char410227,410227,Other Sales Expenses,expense,False,Otros Gastos De Venta
+char4103,4103,Financial Expenses,expense,False,Gastos Financieros
+char410301,410301,Interest,expense,False,Intereses
+char410302,410302,Commissions,expense,False,Comisiones
+char4201,4201,Cost of Goods Sold - First Cost Center,expense_direct_cost,False,Costos de Ventas
+char5101,5101,Revenue from Local Sales,income,False,Ingresos Por Ventas Locales
+char5102,5102,Revenue from Foreign Sales,income,False,Ingresos Por Ventas Al Exterior
+char5103,5103,Revenue from Bank Interest,income,False,Ingresos Por Intereses Bancarios
+char5201,5201,Revenue from Donations,income_other,False,Ingresos Por Donaciones
+char5202,5202,Revenue from Real Estate Sales,income_other,False,Ingresos Por Venta De Inmuebles
+char5203,5203,Revenue from Investment Activities,income_other,False,Ingresos Por Actividades De Inversion
+char6101,6101,Deficit and Surpluses,income,False,Déficit Y Excedentes

@@ -1,0 +1,45 @@
+id,country_id:id,state_id:id,name,l10n_sv_code
+city_sv_01_13,base.sv,state_sv_01,Ahuachapán Norte,13
+city_sv_01_14,base.sv,state_sv_01,Ahuachapán Centro,14
+city_sv_01_15,base.sv,state_sv_01,Ahuachapán Sur,15
+city_sv_02_14,base.sv,state_sv_02,Santa Ana Norte,14
+city_sv_02_15,base.sv,state_sv_02,Santa Ana Centro,15
+city_sv_02_16,base.sv,state_sv_02,Santa Ana Este,16
+city_sv_02_17,base.sv,state_sv_02,Santa Ana Oeste,17
+city_sv_03_17,base.sv,state_sv_03,Sonsonate Norte,17
+city_sv_03_18,base.sv,state_sv_03,Sonsonate Centro,18
+city_sv_03_19,base.sv,state_sv_03,Sonsonate Este,19
+city_sv_03_20,base.sv,state_sv_03,Sonsonate Oeste,20
+city_sv_04_34,base.sv,state_sv_04,Chalatenango Norte,34
+city_sv_04_35,base.sv,state_sv_04,Chalatenango Centro,35
+city_sv_04_36,base.sv,state_sv_04,Chalatenango Sur,36
+city_sv_05_23,base.sv,state_sv_05,La Libertad Norte,23
+city_sv_05_24,base.sv,state_sv_05,La Libertad Centro,24
+city_sv_05_25,base.sv,state_sv_05,La Libertad Oeste,25
+city_sv_05_26,base.sv,state_sv_05,La Libertad Este,26
+city_sv_05_27,base.sv,state_sv_05,La Libertad Costa,27
+city_sv_05_28,base.sv,state_sv_05,La Libertad Sur,28
+city_sv_06_20,base.sv,state_sv_06,San Salvador Norte,20
+city_sv_06_21,base.sv,state_sv_06,San Salvador Oeste,21
+city_sv_06_22,base.sv,state_sv_06,San Salvador Este,22
+city_sv_06_23,base.sv,state_sv_06,San Salvador Centro,23
+city_sv_06_24,base.sv,state_sv_06,San Salvador Sur,24
+city_sv_07_17,base.sv,state_sv_07,Cuscatlán Norte,17
+city_sv_07_18,base.sv,state_sv_07,Cuscatlán Sur,18
+city_sv_08_23,base.sv,state_sv_08,La Paz Oeste,23
+city_sv_08_24,base.sv,state_sv_08,La Paz Centro,24
+city_sv_08_25,base.sv,state_sv_08,La Paz Este,25
+city_sv_09_10,base.sv,state_sv_09,Cabañas Este,10
+city_sv_09_11,base.sv,state_sv_09,Cabañas Oeste,11
+city_sv_10_14,base.sv,state_sv_10,San Vicente Norte,14
+city_sv_10_15,base.sv,state_sv_10,San Vicente Sur,15
+city_sv_11_24,base.sv,state_sv_11,Usulután Norte,24
+city_sv_11_25,base.sv,state_sv_11,Usulután Este,25
+city_sv_11_26,base.sv,state_sv_11,Usulután Oeste,26
+city_sv_12_21,base.sv,state_sv_12,San Miguel Norte,21
+city_sv_12_22,base.sv,state_sv_12,San Miguel Centro,22
+city_sv_12_23,base.sv,state_sv_12,San Miguel Oeste,23
+city_sv_13_27,base.sv,state_sv_13,Morazán Norte,27
+city_sv_13_28,base.sv,state_sv_13,Morazán Sur,28
+city_sv_14_19,base.sv,state_sv_14,La Unión Norte,19
+city_sv_14_20,base.sv,state_sv_14,La Unión Sur,20

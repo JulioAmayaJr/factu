@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+  <record id="uom.product_uom_unit" model="uom.uom">
+    <field name="l10n_sv_edi_measure_unit_code">59</field>
+  </record>
+  <record id="uom.product_uom_dozen" model="uom.uom">
+    <field name="l10n_sv_edi_measure_unit_code">58</field>
+  </record>
+  <record id="uom.product_uom_kgm" model="uom.uom">
+    <field name="l10n_sv_edi_measure_unit_code">34</field>
+  </record>
+  <record id="uom.product_uom_gram" model="uom.uom">
+    <field name="l10n_sv_edi_measure_unit_code">39</field>
+  </record>
+  <record id="uom.product_uom_day" model="uom.uom">
+    <field name="l10n_sv_edi_measure_unit_code">99</field>
+  </record>
+  <record id="uom.product_uom_hour" model="uom.uom">
+    <field name="l10n_sv_edi_measure_unit_code">99</field>
+  </record>
+  <record id="uom.product_uom_ton" model="uom.uom">
+    <field name="l10n_sv_edi_measure_unit_code">30</field>
+  </record>
+  <record id="uom.product_uom_meter" model="uom.uom">
+    <field name="l10n_sv_edi_measure_unit_code">1</field>
+  </record>
+  <record id="uom.product_uom_km" model="uom.uom">
+    <field name="l10n_sv_edi_measure_unit_code">99</field>
+  </record>
+  <record id="uom.product_uom_cm" model="uom.uom">
+    <field name="l10n_sv_edi_measure_unit_code">99</field>
+  </record>
+  <record id="uom.product_uom_litre" model="uom.uom">
+    <field name="l10n_sv_edi_measure_unit_code">23</field>
+  </record>
+  <record id="uom.product_uom_lb" model="uom.uom">
+    <field name="l10n_sv_edi_measure_unit_code">36</field>
+  </record>
+  <record id="uom.product_uom_oz" model="uom.uom">
+    <field name="l10n_sv_edi_measure_unit_code">38</field>
+  </record>
+  <record id="uom.product_uom_inch" model="uom.uom">
+    <field name="l10n_sv_edi_measure_unit_code">99</field>
+  </record>
+  <record id="uom.product_uom_foot" model="uom.uom">
+    <field name="l10n_sv_edi_measure_unit_code">99</field>
+  </record>
+  <record id="uom.product_uom_mile" model="uom.uom">
+    <field name="l10n_sv_edi_measure_unit_code">99</field>
+  </record>
+  <record id="uom.product_uom_floz" model="uom.uom">
+    <field name="l10n_sv_edi_measure_unit_code">99</field>
+  </record>
+  <record id="uom.product_uom_qt" model="uom.uom">
+    <field name="l10n_sv_edi_measure_unit_code">99</field>
+  </record>
+  <record id="uom.product_uom_gal" model="uom.uom">
+    <field name="l10n_sv_edi_measure_unit_code">22</field>
+  </record>
+</odoo>

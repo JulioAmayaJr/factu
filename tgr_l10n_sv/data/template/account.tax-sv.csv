@@ -1,0 +1,41 @@
+id,name,description,amount_type,invoice_label,l10n_sv_edi_tax_code,amount,type_tax_use,sequence,include_base_amount,tax_group_id,price_include_override,include_base_amount,is_base_affected,repartition_line_ids/repartition_type,repartition_line_ids/document_type,repartition_line_ids/account_id,repartition_line_ids/factor_percent,"""description""@es"
+sale_tax_iva_13,13%,,percent,13% IVA,20,13,sale,1,1,tax-group_iva,tax_excluded,1,1,base,invoice,,,13% 
+,,,,,,,,,,,,,,tax,invoice,char210501,,
+,,,,,,,,,,,,,,base,refund,,,
+,,,,,,,,,,,,,,tax,refund,char210501,,
+sale_tax_iva_13_included,13% (Incluido en precio),,percent,13% IVA,20,13,sale,1,1,tax-group_iva,tax_included,1,0,base,invoice,,,13% (Incluido en precio)
+,,,,,,,,,,,,,,tax,invoice,char210501,,
+,,,,,,,,,,,,,,base,refund,,,
+,,,,,,,,,,,,,,tax,refund,char210501,,
+sale_tax_iva_exo,0% EXEN,,percent,0% EXEN,,0,sale,1,1,tax_group_iva_exempt,tax_excluded,1,1,base,invoice,,,0% EXEN
+,,,,,,,,,,,,,,tax,invoice,char210501,,
+,,,,,,,,,,,,,,base,refund,,,
+,,,,,,,,,,,,,,tax,refund,char210501,,
+sale_tax_iva_non_taxable,0% NO SUJ,,percent,0% NO SUJETA,,0,sale,1,1,tax_group_iva_no_suj,tax_excluded,1,1,base,invoice,,,0% NO SUJETA
+,,,,,,,,,,,,,,tax,invoice,char210501,,
+,,,,,,,,,,,,,,base,refund,,,
+,,,,,,,,,,,,,,tax,refund,char210501,,
+sale_tax_exp,0% EXP,,percent,0% EXP,C3,0,sale,1,1,tax_group_iva_export,tax_excluded,1,1,base,invoice,,,0% EXP
+,,,,,,,,,,,,,,tax,invoice,char210501,,
+,,,,,,,,,,,,,,base,refund,,,
+,,,,,,,,,,,,,,tax,refund,char210501,,
+purchase_tax_iva_13,13%,,percent,13%,20,13,purchase,1,1,tax-group_iva,tax_excluded,1,1,base,invoice,,,13% 
+,,,,,,,,,,,,,,tax,invoice,char140101,,
+,,,,,,,,,,,,,,base,refund,,,
+,,,,,,,,,,,,,,tax,refund,char140101,,
+purchase_tax_iva_13_included,13% (Incluido en precio),,percent,13% IVA,20,13,purchase,1,1,tax-group_iva,tax_included,1,0,base,invoice,,,13% (Incluido en precio)
+,,,,,,,,,,,,,,tax,invoice,char140101,,
+,,,,,,,,,,,,,,base,refund,,,
+,,,,,,,,,,,,,,tax,refund,char140101,,
+purchase_tax_iva_non_taxable,0% NO SUJ,,percent,0% NO SUJETA,,0,purchase,1,1,tax_group_iva_exempt,tax_excluded,1,1,base,invoice,,,0% NO SUJETA
+,,,,,,,,,,,,,,tax,invoice,char140101,,
+,,,,,,,,,,,,,,base,refund,,,
+,,,,,,,,,,,,,,tax,refund,char140101,,
+purchase_tax_iva_imp,13% IMP,,percent,13% IMP,,13,purchase,1,1,tax_group_iva_import,tax_excluded,1,1,base,invoice,,,13% EXP
+,,,,,,,,,,,,,,tax,invoice,char140101,,
+,,,,,,,,,,,,,,base,refund,,,
+,,,,,,,,,,,,,,tax,refund,char140101,,
+purchase_tax_iva_exo,0% EXEN,,percent,0% EXEN,,0,purchase,1,1,tax_group_iva_exempt,tax_excluded,1,1,base,invoice,,,0% EXEN
+,,,,,,,,,,,,,,tax,invoice,char140101,,
+,,,,,,,,,,,,,,base,refund,,,
+,,,,,,,,,,,,,,tax,refund,char140101,,

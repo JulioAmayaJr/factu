@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <t t-inherit="point_of_sale.ReceiptHeader" t-inherit-mode="extension" t-name="tgr_l10n_sv_edi_pos.ReceiptHeader">
+        <xpath expr="//h1[hasclass('tracking-number')]" position="before">
+            <div class="chili-ticket-info fw-bolder k d-flex flex-column align-items-center " t-if="props.data.company.sv_vat">
+                <span>NIT: <t t-out="props.data.company.sv_vat"></t></span>
+                <t t-if="props.data.sv_doc_type == '01'">Factura consumidor final</t>
+                <t t-if="props.data.sv_doc_type == '03'">Comprobante de crédito fiscal</t>
+                <t t-if="props.data.sv_doc_type == '05'">Nota de crédito</t>
+                <t t-if="props.data.sv_doc_type == '06'">Nota de débito</t>
+                <t t-if="props.data.sv_doc_type == '11'">Facturas de exportación</t>
+                <t t-if="props.data.sv_doc_type == '14'">Facturas de sujeto excluido</t>
+            </div>
+            <div class="chili-ticket-info fw-bolder k d-flex flex-column align-items-center " t-if="props.data.company.sv_vat">
+                <div style="white-space: pre-line;" t-if="props.data.receipt_header">
+                    <t t-esc="props.data.receipt_header"></t>
+                </div>
+            </div>
+            <div class="text-center fw-bolder pb-2" t-esc="props.data.date" t-if="props.data.company.sv_vat"></div>
+            <br></br>
+        </xpath>
+        <xpath expr="//div[hasclass('pos-receipt-contact')]" position="after">
+            <div class="pos-receipt-partner text-center" style="font-size: 75%;" t-if="props.data.company.sv_vat and props.data.partner">
+                <div>--------------------------------</div>
+                <!-- partner informations -->
+                <div>Cliente: <t t-esc="props.data.partner.name"></t></div>
+                <div t-if="props.data.partner.vat">
+                    <t t-esc="props.data.partner.l10n_latam_identification_type_id.name">:</t>
+                    <t t-esc="props.data.partner.vat"></t>
+                </div>
+                <div>Dirección: <t t-esc="props.data.partner.contact_address"></t></div>
+                <!-- <div>Comuna: <t t-esc="props.data.partner.city"></t></div> -->
+                <!-- <div>Giro: <t t-esc="props.data.partner.l10n_cl_activity_description"></t></div> -->
+                <div t-if="props.data.partner.phone">Teléfono: <t t-esc="props.data.partner.phone"></t></div>
+                <div t-if="props.data.partner.email">Email: <t t-esc="props.data.partner.email"></t></div>
+            </div>
+        </xpath>
+    </t>
+</templates>

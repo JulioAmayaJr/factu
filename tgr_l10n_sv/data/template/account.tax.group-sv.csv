@@ -1,0 +1,8 @@
+"id","name","sequence","country_id","name@es"
+"tax_group_iva_retention","IVA RETENIDO","0","base.sv","IVA RETENIDO"
+"tax-group_iva","IVA","1","base.sv","IVA"
+"tax_group_iva_exempt","EXENTO","2","base.sv","EXENTO"
+"tax_group_iva_no_suj","NO SUJETA","2","base.sv","NO SUJETA"
+"tax_group_iva_perception","IVA PERCIBIDO","3","base.sv","IVA PERCIBIDO"
+"tax_group_iva_export","IVA EXPORTACIÓN","4","base.sv","IVA EXPORTACIÓN"
+"tax_group_iva_import","IVA IMPORTACIÓN","5","base.sv","IVA IMPORTACIÓN"

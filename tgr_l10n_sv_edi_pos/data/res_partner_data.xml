@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo noupdate="1">
+    <record id="partner_sv_cf" model="res.partner">
+        <field name="name">Consumidor Final</field>
+        <field name="l10n_latam_identification_type_id" ref="tgr_l10n_sv.it_dui"></field>
+        <field name="country_id" ref="base.sv"></field>
+        <field name="vat"></field>
+    </record>
+</odoo>

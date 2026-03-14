@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <t t-name="tgr_l10n_sv_edi_pos.AddInfoPopup">
+        <Dialog title.translate="Información Adicional para la Facturación">
+            <div class="mb-3">
+                <label class="form-label" for="sv_document_type">Tipo de documento:</label>
+                <select class="detail form-select" id="sv_document_type" name="l10n_latam_document_type" t-model="state.l10n_latam_document_type">
+                    <t t-as="l10n_latam_document_type" t-foreach="pos.session._l10n_latam_document_type" t-key="l10n_latam_document_type.value">
+                        <option t-att-selected="l10n_latam_document_type.value === state.l10n_latam_document_type? 'selected' : undefined" t-att-value="l10n_latam_document_type.value">
+                            <t t-out="l10n_latam_document_type.name"></t>
+                        </option>
+                    </t>
+                </select>
+            </div>
+            <t t-set-slot="footer">
+                <button class="btn btn-primary o-default-button" t-on-click="confirm">Ok</button>
+            </t>
+        </Dialog>
+    </t>
+</templates>

@@ -1,0 +1,152 @@
+{
+    "identificacion": {
+        "version": 1,
+        "ambiente": "00",
+        "tipoDte": "network",
+        "numeroControl": "pattern_value",
+        "codigoGeneracion": "pattern_value",
+        "tipoModelo": 1.0,
+        "tipoOperacion": 1,
+        "fecEmi": "2023-12-21",
+        "horEmi": "pattern_value",
+        "tipoMoneda": "USD",
+        "tipoContingencia": 1,
+        "motivoContin": "xxxxx"
+    },
+    "documentoRelacionado": [
+        {
+            "tipoDocumento": "04",
+            "tipoGeneracion": 1,
+            "numeroDocumento": "x",
+            "fechaEmision": "1996-05-12"
+        }
+    ],
+    "emisor": {
+        "nit": "pattern_value",
+        "nrc": "pattern_value",
+        "nombre": "x",
+        "codActividad": "pattern_value",
+        "descActividad": "xxxxx",
+        "nombreComercial": "xxxxx",
+        "tipoEstablecimiento": "01",
+        "direccion": {
+            "departamento": "pattern_value",
+            "municipio": "pattern_value",
+            "complemento": "x"
+        },
+        "telefono": "xxxxxxxx",
+        "correo": "billywalker@example.net",
+        "codEstableMH": "xxxx",
+        "codEstable": "xxxx",
+        "codPuntoVentaMH": "xxxx",
+        "codPuntoVenta": "x"
+    },
+    "receptor": {
+        "tipoDocumento": null,
+        "numDocumento": "xxx",
+        "nrc": "pattern_value",
+        "nombre": "x",
+        "codActividad": "pattern_value",
+        "descActividad": "xxxxx",
+        "direccion": {
+            "departamento": "pattern_value",
+            "municipio": "pattern_value",
+            "complemento": "xxxxx"
+        },
+        "telefono": "xxxxxxxx",
+        "correo": "rkelley@example.org"
+    },
+    "otrosDocumentos": [
+        {
+            "codDocAsociado": 1,
+            "descDocumento": "past",
+            "detalleDocumento": "eight",
+            "medico": {
+                "nit": "pattern_value",
+                "nombre": "plan",
+                "docIdentificacion": "xx",
+                "tipoServicio": 1.0
+            }
+        }
+    ],
+    "ventaTercero": {
+        "nit": "pattern_value",
+        "nombre": "x"
+    },
+    "cuerpoDocumento": [
+        {
+            "numItem": 1,
+            "tipoItem": 1,
+            "numeroDocumento": "x",
+            "codigo": "x",
+            "codTributo": null,
+            "descripcion": "include",
+            "cantidad": 1.0,
+            "uniMedida": 1,
+            "precioUni": 1.0,
+            "montoDescu": 0.0,
+            "ventaNoSuj": 0.0,
+            "ventaExenta": 0.0,
+            "ventaGravada": 0.0,
+            "tributos": [
+                "xx"
+            ],
+            "psv": 0.0,
+            "noGravado": 1.0,
+            "ivaItem": 0.0
+        }
+    ],
+    "resumen": {
+        "totalNoSuj": 0.0,
+        "totalExenta": 0.0,
+        "totalGravada": 0.0,
+        "subTotalVentas": 0.0,
+        "descuNoSuj": 0.0,
+        "descuExenta": 0.0,
+        "descuGravada": 0.0,
+        "porcentajeDescuento": 0.0,
+        "totalDescu": 0.0,
+        "tributos": [
+            {
+                "codigo": "C3",
+                "descripcion": "xx",
+                "valor": 0.0
+            }
+        ],
+        "subTotal": 0.0,
+        "ivaRete1": 0.0,
+        "reteRenta": 0.0,
+        "montoTotalOperacion": 0.0,
+        "totalNoGravado": 1.0,
+        "totalPagar": 0.0,
+        "totalLetras": "fast",
+        "totalIva": 0.0,
+        "saldoFavor": 1.0,
+        "condicionOperacion": 1.0,
+        "pagos": [
+            {
+                "codigo": "pattern_value",
+                "montoPago": 0.0,
+                "referencia": "card",
+                "periodo": 1.0,
+                "plazo": "pattern_value"
+            }
+        ],
+        "numPagoElectronico": "view"
+    },
+    "extension": {
+        "nombEntrega": "xxxxx",
+        "docuEntrega": "xxxxx",
+        "nombRecibe": "xxxxx",
+        "docuRecibe": "xxxxx",
+        "observaciones": "class",
+        "placaVehiculo": "opportunity"
+    },
+    "apendice": [
+        {
+            "campo": "large",
+            "etiqueta": "right",
+            "valor": "if"
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="res_company_view_form" model="ir.ui.view">
+        <field name="name">res.company.form</field>
+        <field name="model">res.company</field>
+        <field name="inherit_id" ref="base.view_company_form"></field>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='l10n_sv_edi_establishment_type']" position="after">
+                <field invisible="country_code!='SV'" name="l10n_sv_edi_economic_activity_id" required="country_code=='SV'"></field>
+                <field invisible="country_code!='SV'" name="l10n_sv_edi_cod_estable" required="country_code=='SV'"></field>
+                <field invisible="country_code!='SV'" name="l10n_sv_edi_cod_estable_mh" required="country_code=='SV'"></field>
+            </xpath>
+        </field>
+    </record>
+</odoo>

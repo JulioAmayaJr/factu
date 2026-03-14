@@ -1,0 +1,774 @@
+id,code,name,active
+cat_019_01111,01111,Cultivo de cereales excepto arroz y para forrajes,TRUE
+cat_019_01112,01112,Cultivo de legumbres,TRUE
+cat_019_01113,01113,Cultivo de semillas oleaginosas,TRUE
+cat_019_01114,01114,Cultivo de plantas para la preparación de semillas,TRUE
+cat_019_01119,01119,Cultivo de otros cereales excepto arroz y forrajeros n.c.p.,TRUE
+cat_019_01120,01120,Cultivo de arroz,TRUE
+cat_019_01131,01131,Cultivo de raíces y tubérculos,TRUE
+cat_019_01132,01132,"Cultivo de brotes, bulbos, vegetales tubérculos y cultivos similares",TRUE
+cat_019_01133,01133,Cultivo hortícola de fruto,TRUE
+cat_019_01134,01134,Cultivo de hortalizas de hoja y otras hortalizas ncp,TRUE
+cat_019_01140,01140,Cultivo de caña de azúcar,TRUE
+cat_019_01150,01150,Cultivo de tabaco,TRUE
+cat_019_01161,01161,Cultivo de algodón,TRUE
+cat_019_01162,01162,Cultivo de fibras vegetales excepto algodón,TRUE
+cat_019_01191,01191,Cultivo de plantas no perennes para la producción de semillas y flores,TRUE
+cat_019_01192,01192,Cultivo de cereales y pastos para la alimentación animal,TRUE
+cat_019_01199,01199,Producción de cultivos no estacionales ncp,TRUE
+cat_019_01220,01220,Cultivo de frutas tropicales,TRUE
+cat_019_01230,01230,Cultivo de cítricos,TRUE
+cat_019_01240,01240,Cultivo de frutas de pepita y hueso,TRUE
+cat_019_01251,01251,Cultivo de frutas ncp,TRUE
+cat_019_01252,01252,Cultivo de otros frutos y nueces de árboles y arbustos,TRUE
+cat_019_01260,01260,Cultivo de frutos oleaginosos,TRUE
+cat_019_01271,01271,Cultivo de café,TRUE
+cat_019_01272,01272,Cultivo de plantas para la elaboración de bebidas excepto café,TRUE
+cat_019_01281,01281,Cultivo de especias y aromáticas,TRUE
+cat_019_01282,01282,Cultivo de plantas para la obtención de productos medicinales y farmacéuticos,TRUE
+cat_019_01291,01291,Cultivo de árboles de hule (caucho) para la obtención de látex,TRUE
+cat_019_01292,01292,Cultivo de plantas para la obtención de productos químicos y colorantes,TRUE
+cat_019_01299,01299,Producción de cultivos perennes ncp,TRUE
+cat_019_01300,01300,Propagación de plantas,TRUE
+cat_019_01301,01301,Cultivo de plantas y flores ornamentales,TRUE
+cat_019_01410,01410,Cría y engorde de ganado bovino,TRUE
+cat_019_01420,01420,Cría de caballos y otros equinos,TRUE
+cat_019_01440,01440,Cría de ovejas y cabras,TRUE
+cat_019_01450,01450,Cría de cerdos,TRUE
+cat_019_01460,01460,Cría de aves de corral y producción de huevos,TRUE
+cat_019_01491,01491,Cría de abejas apicultura para la obtención de miel y otros productos apícolas,TRUE
+cat_019_01492,01492,Cría de conejos,TRUE
+cat_019_01493,01493,Cría de iguanas y garrobos,TRUE
+cat_019_01494,01494,Cría de mariposas y otros insectos,TRUE
+cat_019_01499,01499,Cría y obtención de productos animales n.c.p.,TRUE
+cat_019_01500,01500,Cultivo de productos agrícolas en combinación con la cría de animales,TRUE
+cat_019_01611,01611,Servicios de maquinaria agrícola,TRUE
+cat_019_01612,01612,Control de plagas,TRUE
+cat_019_01613,01613,Servicios de riego,TRUE
+cat_019_01614,01614,Servicios de contratación de mano de obra para la agricultura,TRUE
+cat_019_01619,01619,Servicios agrícolas ncp,TRUE
+cat_019_01621,01621,"Actividades para mejorar la reproducción, el crecimiento y el rendimiento de los animales y sus productos",TRUE
+cat_019_01622,01622,Servicios de mano de obra pecuaria,TRUE
+cat_019_01629,01629,Servicios pecuarios ncp,TRUE
+cat_019_01631,01631,Labores post cosecha de preparación de los productos agrícolas para su comercialización o para la industria,TRUE
+cat_019_01632,01632,Servicio de beneficio de café,TRUE
+cat_019_01633,01633,Servicio de beneficiado de plantas textiles (incluye el beneficiado cuando este es realizado en la misma explotación agropecuaria),TRUE
+cat_019_01640,01640,Tratamiento de semillas para la propagación,TRUE
+cat_019_01700,01700,"Caza ordinaria y mediante trampas, repoblación de animales de caza y servicios conexos",TRUE
+cat_019_02100,02100,Silvicultura y otras actividades forestales,TRUE
+cat_019_02200,02200,Extracción de madera,TRUE
+cat_019_02300,02300,Recolección de productos diferentes a la madera,TRUE
+cat_019_02400,02400,Servicios de apoyo a la silvicultura,TRUE
+cat_019_03110,03110,Pesca marítima de altura y costera,TRUE
+cat_019_03120,03120,Pesca de agua dulce,TRUE
+cat_019_03210,03210,Acuicultura marítima,TRUE
+cat_019_03220,03220,Acuicultura de agua dulce,TRUE
+cat_019_03300,03300,Servicios de apoyo a la pesca y acuicultura,TRUE
+cat_019_05100,05100,Extracción de hulla,TRUE
+cat_019_05200,05200,Extracción y aglomeración de lignito,TRUE
+cat_019_06100,06100,Extracción de petróleo crudo,TRUE
+cat_019_06200,06200,Extracción de gas natural,TRUE
+cat_019_07100,07100,Extracción de minerales de hierro,TRUE
+cat_019_07210,07210,Extracción de minerales de uranio y torio,TRUE
+cat_019_07290,07290,Extracción de minerales metalíiferos no ferrosos,TRUE
+cat_019_08100,08100,"Extracción de piedra, arena y arcilla",TRUE
+cat_019_08910,08910,Extracción de minerales para la fabricación de abonos y productos químicos,TRUE
+cat_019_08920,08920,Extracción y aglomeración de turba,TRUE
+cat_019_08930,08930,Extracción de sal,TRUE
+cat_019_08990,08990,Explotación de otras minas y canteras ncp,TRUE
+cat_019_09100,09100,Actividades de apoyo a la extracción de petróleo y gas natural,TRUE
+cat_019_09900,09900,Actividades de apoyo a la explotación de minas y canteras,TRUE
+cat_019_10101,10101,Servicio de rastros y mataderos de bovinos y porcinos,TRUE
+cat_019_10102,10102,Matanza y procesamiento de bovinos y porcinos,TRUE
+cat_019_10103,10103,Matanza y procesamientos de aves de corral,TRUE
+cat_019_10104,10104,Elaboración y conservación de embutidos y tripas naturales,TRUE
+cat_019_10105,10105,Servicios de conservación y empaque de carnes,TRUE
+cat_019_10106,10106,Elaboración y conservación de grasas y aceites animales,TRUE
+cat_019_10107,10107,Servicios de molienda de carne,TRUE
+cat_019_10108,10108,Elaboración de productos de carne ncp,TRUE
+cat_019_10201,10201,"Procesamiento y conservación de pescado, crustáceos y moluscos",TRUE
+cat_019_10209,10209,Fabricación de productos de pescado ncp,TRUE
+cat_019_10301,10301,Elaboración de jugos de frutas y hortalizas,TRUE
+cat_019_10302,10302,"Elaboración y envase de jaleas, mermeladas y frutas deshidratadas",TRUE
+cat_019_10309,10309,Elaboración de productos de frutas y hortalizas n.c.p.,TRUE
+cat_019_10401,10401,Fabricación de aceites y grasas vegetales y animales comestibles,TRUE
+cat_019_10402,10402,Fabricación de aceites y grasas vegetales y animales no comestibles,TRUE
+cat_019_10409,10409,Servicio de maquilado de aceites,TRUE
+cat_019_10501,10501,Fabricación de productos lácteos excepto sorbetes y quesos sustitutos,TRUE
+cat_019_10502,10502,Fabricación de sorbetes y helados,TRUE
+cat_019_10503,10503,Fabricación de quesos,TRUE
+cat_019_10611,10611,Molienda de cereales,TRUE
+cat_019_10612,10612,Elaboración de cereales para el desayuno y similares,TRUE
+cat_019_10613,10613,Servicios de beneficiado de productos agrícolas ncp (excluye Beneficio de azúcar rama 1072 y beneficio de café rama 0163),TRUE
+cat_019_10621,10621,Fabricación de almidón,TRUE
+cat_019_10628,10628,Servicio de molienda de maíz húmedo molino para nixtamal,TRUE
+cat_019_10711,10711,Elaboración de tortillas,TRUE
+cat_019_10712,10712,"Fabricación de pan, galletas y barquillos",TRUE
+cat_019_10713,10713,Fabricación de repostería,TRUE
+cat_019_10721,10721,Ingenios azucareros,TRUE
+cat_019_10722,10722,Molienda de caña de azúcar para la elaboración de dulces,TRUE
+cat_019_10723,10723,Elaboración de jarabes de azúcar y otros similares,TRUE
+cat_019_10724,10724,Maquilado de azúcar de caña,TRUE
+cat_019_10730,10730,"Fabricación de cacao, chocolates y productos de confitería",TRUE
+cat_019_10740,10740,"Elaboración de macarrones, fideos, y productos farináceos similares",TRUE
+cat_019_10750,10750,Elaboración de comidas y platos preparados para la reventa en,TRUE
+cat_019_10791,10791,Elaboración de productos de café,TRUE
+cat_019_10792,10792,"Elaboración de especies, sazonadores y condimentos",TRUE
+cat_019_10793,10793,"Elaboración de sopas, cremas y consomé",TRUE
+cat_019_10794,10794,Fabricación de bocadillos tostados y/o fritos,TRUE
+cat_019_10799,10799,Elaboración de productos alimenticios ncp,TRUE
+cat_019_10800,10800,Elaboración de alimentos preparados para animales,TRUE
+cat_019_11012,11012,Fabricación de aguardiente y licores,TRUE
+cat_019_11020,11020,Elaboración de vinos,TRUE
+cat_019_11030,11030,Fabricación de cerveza,TRUE
+cat_019_11041,11041,Fabricación de aguas gaseosas,TRUE
+cat_019_11042,11042,Fabricación y envasado de agua,TRUE
+cat_019_11043,11043,Elaboración de refrescos,TRUE
+cat_019_11048,11048,Maquilado de aguas gaseosas,TRUE
+cat_019_11049,11049,Elaboración de bebidas no alcohólicas,TRUE
+cat_019_12000,12000,Elaboración de productos de tabaco,TRUE
+cat_019_13111,13111,Preparación de fibras textiles,TRUE
+cat_019_13112,13112,Fabricación de hilados,TRUE
+cat_019_13120,13120,Fabricación de telas,TRUE
+cat_019_13130,13130,Acabado de productos textiles,TRUE
+cat_019_13910,13910,Fabricación de tejidos de punto y ganchillo,TRUE
+cat_019_13921,13921,Fabricación de productos textiles para el hogar,TRUE
+cat_019_13922,13922,"Sacos, bolsas y otros artículos textiles",TRUE
+cat_019_13929,13929,"Fabricación de artículos confeccionados con materiales textiles, excepto prendas de vestir n.c.p",TRUE
+cat_019_13930,13930,Fabricación de tapices y alfombras,TRUE
+cat_019_13941,13941,"Fabricación de cuerdas de henequén y otras fibras naturales (lazos, pitas)",TRUE
+cat_019_13942,13942,Fabricación de redes de diversos materiales,TRUE
+cat_019_13948,13948,"Maquilado de productos trenzables de cualquier material (petates, sillas, etc.)",TRUE
+cat_019_13991,13991,"Fabricación de adornos, etiquetas y otros artículos para prendas de vestir",TRUE
+cat_019_13992,13992,Servicio de bordados en artículos y prendas de tela,TRUE
+cat_019_13999,13999,Fabricación de productos textiles ncp,TRUE
+cat_019_14101,14101,"Fabricación de ropa interior, para dormir y similares",TRUE
+cat_019_14102,14102,Fabricación de ropa para niños,TRUE
+cat_019_14103,14103,Fabricación de prendas de vestir para ambos sexos,TRUE
+cat_019_14104,14104,Confección de prendas a medida,TRUE
+cat_019_14105,14105,Fabricación de prendas de vestir para deportes,TRUE
+cat_019_14106,14106,Elaboración de artesanías de uso personal confeccionadas especialmente de materiales textiles,TRUE
+cat_019_14108,14108,"Maquilado de prendas de vestir, accesorios y otros",TRUE
+cat_019_14109,14109,Fabricación de prendas y accesorios de vestir n.c.p.,TRUE
+cat_019_14200,14200,Fabricación de artículos de piel,TRUE
+cat_019_14301,14301,"Fabricación de calcetines, calcetas, medias (panty house) y otros similares",TRUE
+cat_019_14302,14302,Fabricación de ropa interior de tejido de punto,TRUE
+cat_019_14309,14309,Fabricación de prendas de vestir de tejido de punto ncp,TRUE
+cat_019_15110,15110,Curtido y adobo de cueros; adobo y teñido de pieles,TRUE
+cat_019_15121,15121,"Fabricación de maletas, bolsos de mano y otros artículos de marroquinería",TRUE
+cat_019_15122,15122,"Fabricación de monturas, accesorios y vainas talabartería",TRUE
+cat_019_15123,15123,Fabricación de artesanías principalmente de cuero natural y sintético,TRUE
+cat_019_15128,15128,"Maquilado de artículos de cuero natural, sintético y de otros materiales",TRUE
+cat_019_15201,15201,Fabricación de calzado,TRUE
+cat_019_15202,15202,Fabricación de partes y accesorios de calzado,TRUE
+cat_019_15208,15208,Maquilado de partes y accesorios de calzado,TRUE
+cat_019_16100,16100,Aserradero y acepilladura de madera,TRUE
+cat_019_16210,16210,"Fabricación de madera laminada, terciada, enchapada y contrachapada, paneles para la construcción",TRUE
+cat_019_16220,16220,Fabricación de partes y piezas de carpintería para edificios y construcciones,TRUE
+cat_019_16230,16230,Fabricación de envases y recipientes de madera,TRUE
+cat_019_16292,16292,"Fabricación de artesanías de madera, semillas, materiales trenzables",TRUE
+cat_019_16299,16299,"Fabricación de productos de madera, corcho, paja y materiales trenzables ncp",TRUE
+cat_019_17010,17010,"Fabricación de pasta de madera, papel y cartón",TRUE
+cat_019_17020,17020,Fabricación de papel y cartón ondulado y envases de papel y cartón,TRUE
+cat_019_17091,17091,Fabricación de artículos de papel y cartón de uso personal y doméstico,TRUE
+cat_019_17092,17092,Fabricación de productos de papel ncp,TRUE
+cat_019_18110,18110,Impresión,TRUE
+cat_019_18120,18120,Servicios relacionados con la impresión,TRUE
+cat_019_18200,18200,Reproducción de grabaciones,TRUE
+cat_019_19100,19100,Fabricación de productos de hornos de coque,TRUE
+cat_019_19201,19201,Fabricación de combustible,TRUE
+cat_019_19202,19202,Fabricación de aceites y lubricantes,TRUE
+cat_019_20111,20111,Fabricación de materias primas para la fabricación de colorantes,TRUE
+cat_019_20112,20112,Fabricación de materiales curtientes,TRUE
+cat_019_20113,20113,Fabricación de gases industriales,TRUE
+cat_019_20114,20114,Fabricación de alcohol etílico,TRUE
+cat_019_20119,20119,Fabricación de sustancias químicas básicas,TRUE
+cat_019_20120,20120,Fabricación de abonos y fertilizantes,TRUE
+cat_019_20130,20130,Fabricación de plástico y caucho en formas primarias,TRUE
+cat_019_20210,20210,Fabricación de plaguicidas y otros productos químicos de uso agropecuario,TRUE
+cat_019_20220,20220,"Fabricación de pinturas, barnices y productos de revestimiento similares; tintas de imprenta y masillas",TRUE
+cat_019_20231,20231,"Fabricación de jabones, detergentes y similares para limpieza",TRUE
+cat_019_20232,20232,"Fabricación de perfumes, cosméticos y productos de higiene y cuidado personal, incluyendo tintes, champú, etc.",TRUE
+cat_019_20291,20291,Fabricación de tintas y colores para escribir y pintar; fabricación de cintas para impresoras,TRUE
+cat_019_20292,20292,"Fabricación de productos pirotécnicos, explosivos y municiones",TRUE
+cat_019_20299,20299,Fabricación de productos químicos n.c.p.,TRUE
+cat_019_20300,20300,Fabricación de fibras artificiales,TRUE
+cat_019_21001,21001,"Manufactura de productos farmacéuticos, sustancias químicas y productos botánicos",TRUE
+cat_019_21008,21008,Maquilado de medicamentos,TRUE
+cat_019_22110,22110,Fabricación de cubiertas y cámaras; renovación y recauchutado de cubiertas,TRUE
+cat_019_22190,22190,Fabricación de otros productos de caucho,TRUE
+cat_019_22201,22201,Fabricación de envases plásticos,TRUE
+cat_019_22202,22202,Fabricación de productos plásticos para uso personal o doméstico,TRUE
+cat_019_22208,22208,Maquila de plásticos,TRUE
+cat_019_22209,22209,Fabricación de productos plásticos n.c.p.,TRUE
+cat_019_23101,23101,Fabricación de vidrio,TRUE
+cat_019_23102,23102,Fabricación de recipientes y envases de vidrio,TRUE
+cat_019_23108,23108,Servicio de maquilado,TRUE
+cat_019_23109,23109,Fabricación de productos de vidrio ncp,TRUE
+cat_019_23910,23910,Fabricación de productos refractarios,TRUE
+cat_019_23920,23920,Fabricación de productos de arcilla para la construcción,TRUE
+cat_019_23931,23931,Fabricación de productos de cerámica y porcelana no refractaria,TRUE
+cat_019_23932,23932,Fabricación de productos de cerámica y porcelana ncp,TRUE
+cat_019_23940,23940,"Fabricación de cemento, cal y yeso",TRUE
+cat_019_23950,23950,"Fabricación de artículos de hormigón, cemento y yeso",TRUE
+cat_019_23960,23960,"Corte, tallado y acabado de la piedra",TRUE
+cat_019_23990,23990,Fabricación de productos minerales no metálicos ncp,TRUE
+cat_019_24100,24100,Industrias básicas de hierro y acero,TRUE
+cat_019_24200,24200,Fabricación de productos primarios de metales preciosos y metales no ferrosos,TRUE
+cat_019_24310,24310,Fundición de hierro y acero,TRUE
+cat_019_24320,24320,Fundición de metales no ferrosos,TRUE
+cat_019_25111,25111,Fabricación de productos metálicos para uso estructural,TRUE
+cat_019_25118,25118,Servicio de maquila para la fabricación de estructuras metálicas,TRUE
+cat_019_25120,25120,"Fabricación de tanques, depósitos y recipientes de metal",TRUE
+cat_019_25130,25130,"Fabricación de generadores de vapor, excepto calderas de agua caliente para calefacción central",TRUE
+cat_019_25200,25200,Fabricación de armas y municiones,TRUE
+cat_019_25910,25910,"Forjado, prensado, estampado y laminado de metales; pulvimetalurgia",TRUE
+cat_019_25920,25920,Tratamiento y revestimiento de metales,TRUE
+cat_019_25930,25930,"Fabricación de artículos de cuchillería, herramientas de mano y artículos de ferretería",TRUE
+cat_019_25991,25991,Fabricación de envases y artículos conexos de metal,TRUE
+cat_019_25992,25992,Fabricación de artículos metálicos de uso personal y/o doméstico,TRUE
+cat_019_25999,25999,Fabricación de productos elaborados de metal ncp,TRUE
+cat_019_26100,26100,Fabricación de componentes electrónicos,TRUE
+cat_019_26200,26200,Fabricación de computadoras y equipo conexo,TRUE
+cat_019_26300,26300,Fabricación de equipo de comunicaciones,TRUE
+cat_019_26400,26400,"Fabricación de aparatos electrónicos de consumo para audio, video radio y televisión",TRUE
+cat_019_26510,26510,"Fabricación de instrumentos y aparatos para medir, verificar, ensayar, navegar y de control de procesos industriales",TRUE
+cat_019_26520,26520,Fabricación de relojes y piezas de relojes,TRUE
+cat_019_26600,26600,Fabricación de equipo médico de irradiación y equipo electrónico de uso médico y terapéutico,TRUE
+cat_019_26700,26700,Fabricación de instrumentos de óptica y equipo fotográfico,TRUE
+cat_019_26800,26800,Fabricación de medios magnéticos y ópticos,TRUE
+cat_019_27100,27100,"Fabricación de motores, generadores, transformadores eléctricos, aparatos de distribución y control de electricidad",TRUE
+cat_019_27200,27200,"Fabricación de pilas, baterías y acumuladores",TRUE
+cat_019_27310,27310,Fabricación de cables de fibra óptica,TRUE
+cat_019_27320,27320,Fabricación de otros hilos y cables eléctricos,TRUE
+cat_019_27330,27330,Fabricación de dispositivos de cableados,TRUE
+cat_019_27400,27400,Fabricación de equipo eléctrico de iluminación,TRUE
+cat_019_27500,27500,Fabricación de aparatos de uso doméstico,TRUE
+cat_019_27900,27900,Fabricación de otros tipos de equipo eléctrico,TRUE
+cat_019_28110,28110,"Fabricación de motores y turbinas, excepto motores para aeronaves, vehículos automotores y motocicletas",TRUE
+cat_019_28120,28120,Fabricación de equipo hidráulico,TRUE
+cat_019_28130,28130,"Fabricación de otras bombas, compresores, grifos y válvulas",TRUE
+cat_019_28140,28140,"Fabricación de cojinetes, engranajes, trenes de engranajes y piezas de transmisión",TRUE
+cat_019_28150,28150,Fabricación de hornos y quemadores,TRUE
+cat_019_28160,28160,Fabricación de equipo de elevación y manipulación,TRUE
+cat_019_28170,28170,Fabricación de maquinaria y equipo de oficina,TRUE
+cat_019_28180,28180,Fabricación de herramientas manuales,TRUE
+cat_019_28190,28190,Fabricación de otros tipos de maquinaria de uso general,TRUE
+cat_019_28210,28210,Fabricación de maquinaria agropecuaria y forestal,TRUE
+cat_019_28220,28220,Fabricación de máquinas para conformar metales y maquinaria herramienta,TRUE
+cat_019_28230,28230,Fabricación de maquinaria metalúrgica,TRUE
+cat_019_28240,28240,Fabricación de maquinaria para la explotación de minas y canteras y para obras de construcción,TRUE
+cat_019_28250,28250,"Fabricación de maquinaria para la elaboración de alimentos, bebidas y tabaco",TRUE
+cat_019_28260,28260,"Fabricación de maquinaria para la elaboración de productos textiles, prendas de vestir y cueros",TRUE
+cat_019_28291,28291,Fabricación de máquinas para imprenta,TRUE
+cat_019_28299,28299,Fabricación de maquinaria de uso especial ncp,TRUE
+cat_019_29100,29100,Fabricación vehículos automotores,TRUE
+cat_019_29200,29200,Fabricación de carrocerías para vehículos automotores; fabricación de remolques y semiremolques,TRUE
+cat_019_29300,29300,"Fabricación de partes, piezas y accesorios para vehículos automotores",TRUE
+cat_019_30110,30110,Fabricación de buques,TRUE
+cat_019_30120,30120,Construcción y reparación de embarcaciones de recreo,TRUE
+cat_019_30200,30200,Fabricación de locomotoras y de material rodante,TRUE
+cat_019_30300,30300,Fabricación de aeronaves y naves espaciales,TRUE
+cat_019_30400,30400,Fabricación de vehículos militares de combate,TRUE
+cat_019_30910,30910,Fabricación de motocicletas,TRUE
+cat_019_30920,30920,Fabricación de bicicletas y sillones de ruedas para inválidos,TRUE
+cat_019_30990,30990,Fabricación de equipo de transporte ncp,TRUE
+cat_019_31001,31001,Fabricación de colchones y somier,TRUE
+cat_019_31002,31002,Fabricación de muebles y otros productos de madera a medida,TRUE
+cat_019_31008,31008,Servicios de maquilado de muebles,TRUE
+cat_019_31009,31009,Fabricación de muebles ncp,TRUE
+cat_019_32110,32110,Fabricación de joyas platerías y joyerías,TRUE
+cat_019_32120,32120,Fabricación de joyas de imitación (fantasía) y artículos conexos,TRUE
+cat_019_32200,32200,Fabricación de instrumentos musicales,TRUE
+cat_019_32301,32301,Fabricación de artículos de deporte,TRUE
+cat_019_32308,32308,Servicio de maquila de productos deportivos,TRUE
+cat_019_32401,32401,Fabricación de juegos de mesa y de salón,TRUE
+cat_019_32402,32402,Servicio de maquilado de juguetes y juegos,TRUE
+cat_019_32409,32409,Fabricación de juegos y juguetes n.c.p.,TRUE
+cat_019_32500,32500,Fabricación de instrumentos y materiales médicos y odontológicos,TRUE
+cat_019_32901,32901,"Fabricación de lápices, bolígrafos, sellos y artículos de librería en general",TRUE
+cat_019_32902,32902,"Fabricación de escobas, cepillos, pinceles y similares",TRUE
+cat_019_32903,32903,Fabricación de artesanías de materiales diversos,TRUE
+cat_019_32904,32904,Fabricación de artículos de uso personal y domésticos n.c.p.,TRUE
+cat_019_32905,32905,Fabricación de accesorios para las confecciones y la marroquinería n.c.p.,TRUE
+cat_019_32908,32908,Servicios de maquila ncp,TRUE
+cat_019_32909,32909,Fabricación de productos manufacturados n.c.p.,TRUE
+cat_019_33110,33110,Reparación y mantenimiento de productos elaborados de metal,TRUE
+cat_019_33120,33120,Reparación y mantenimiento de maquinaria,TRUE
+cat_019_33130,33130,Reparación y mantenimiento de equipo electrónico y óptico,TRUE
+cat_019_33140,33140,Reparación y mantenimiento de equipo eléctrico,TRUE
+cat_019_33150,33150,"Reparación y mantenimiento de equipo de transporte, excepto vehículos automotores",TRUE
+cat_019_33190,33190,Reparación y mantenimiento de equipos n.c.p.,TRUE
+cat_019_33200,33200,Instalación de maquinaria y equipo industrial,TRUE
+cat_019_35101,35101,Generación de energía eléctrica,TRUE
+cat_019_35102,35102,Transmisión de energía eléctrica,TRUE
+cat_019_35103,35103,Distribución de energía eléctrica,TRUE
+cat_019_35200,35200,"Fabricación de gas, distribución de combustibles gaseosos por tuberías",TRUE
+cat_019_35300,35300,Suministro de vapor y agua caliente,TRUE
+cat_019_36000,36000,"Captación, tratamiento y suministro de agua",TRUE
+cat_019_37000,37000,Evacuación de aguas residuales (alcantarillado),TRUE
+cat_019_38110,38110,Recolección y transporte de desechos sólidos proveniente de hogares y sector urbano,TRUE
+cat_019_38120,38120,Recolección de desechos peligrosos,TRUE
+cat_019_38210,38210,Tratamiento y eliminación de desechos inicuos,TRUE
+cat_019_38220,38220,Tratamiento y eliminación de desechos peligrosos,TRUE
+cat_019_38301,38301,Reciclaje de desperdicios y desechos textiles,TRUE
+cat_019_38302,38302,Reciclaje de desperdicios y desechos de plástico y caucho,TRUE
+cat_019_38303,38303,Reciclaje de desperdicios y desechos de vidrio,TRUE
+cat_019_38304,38304,Reciclaje de desperdicios y desechos de papel y cartón,TRUE
+cat_019_38305,38305,Reciclaje de desperdicios y desechos metálicos,TRUE
+cat_019_38309,38309,Reciclaje de desperdicios y desechos no metálicos n.c.p.,TRUE
+cat_019_39000,39000,Actividades de Saneamiento y otros Servicios de Gestión de Desechos,TRUE
+cat_019_41001,41001,Construcción de edificios residenciales,TRUE
+cat_019_41002,41002,Construcción de edificios no residenciales,TRUE
+cat_019_42100,42100,"Construcción de carreteras, calles y caminos",TRUE
+cat_019_42200,42200,Construcción de proyectos de servicio público,TRUE
+cat_019_42900,42900,Construcción de obras de ingeniería civil n.c.p.,TRUE
+cat_019_43110,43110,Demolición,TRUE
+cat_019_43120,43120,Preparación de terreno,TRUE
+cat_019_43210,43210,Instalaciones eléctricas,TRUE
+cat_019_43220,43220,"Instalación de fontanería, calefacción y aire acondicionado",TRUE
+cat_019_43290,43290,Otras instalaciones para obras de construcción,TRUE
+cat_019_43300,43300,Terminación y acabado de edificios,TRUE
+cat_019_43900,43900,Otras actividades especializadas de construcción,TRUE
+cat_019_43901,43901,Fabricación de techos y materiales diversos,TRUE
+cat_019_45100,45100,Venta de vehículos automotores,TRUE
+cat_019_45201,45201,Reparación mecánica de vehículos automotores,TRUE
+cat_019_45202,45202,Reparaciones eléctricas del automotor y recarga de baterías,TRUE
+cat_019_45203,45203,Enderezado y pintura de vehículos automotores,TRUE
+cat_019_45204,45204,"Reparaciones de radiadores, escapes y silenciadores",TRUE
+cat_019_45205,45205,"Reparación y reconstrucción de vías, stop y otros artículos de fibra de vidrio",TRUE
+cat_019_45206,45206,Reparación de llantas de vehículos automotores,TRUE
+cat_019_45207,45207,Polarizado de vehículos (mediante la adhesión de papel especial a los vidrios),TRUE
+cat_019_45208,45208,Lavado y pasteado de vehículos (carwash),TRUE
+cat_019_45209,45209,Reparaciones de vehículos n.c.p.,TRUE
+cat_019_45211,45211,Remolque de vehículos automotores,TRUE
+cat_019_45301,45301,"Venta de partes, piezas y accesorios nuevos para vehículos automotores",TRUE
+cat_019_45302,45302,"Venta de partes, piezas y accesorios usados para vehículos automotores",TRUE
+cat_019_45401,45401,Venta de motocicletas,TRUE
+cat_019_45402,45402,"Venta de repuestos, piezas y accesorios de motocicletas",TRUE
+cat_019_45403,45403,Mantenimiento y reparación de motocicletas,TRUE
+cat_019_46100,46100,Venta al por mayor a cambio de retribución o por contrata,TRUE
+cat_019_46201,46201,Venta al por mayor de materias primas agrícolas,TRUE
+cat_019_46202,46202,Venta al por mayor de productos de la silvicultura,TRUE
+cat_019_46203,46203,Venta al por mayor de productos pecuarios y de granja,TRUE
+cat_019_46211,46211,Venta de productos para uso agropecuario,TRUE
+cat_019_46291,46291,"Venta al por mayor de granos básicos (cereales, leguminosas)",TRUE
+cat_019_46292,46292,Venta al por mayor de semillas mejoradas para cultivo,TRUE
+cat_019_46293,46293,Venta al por mayor de café oro y uva,TRUE
+cat_019_46294,46294,Venta al por mayor de caña de azúcar,TRUE
+cat_019_46295,46295,"Venta al por mayor de flores, plantas y otros productos naturales",TRUE
+cat_019_46296,46296,Venta al por mayor de productos agrícolas,TRUE
+cat_019_46297,46297,Venta al por mayor de ganado bovino (vivo),TRUE
+cat_019_46298,46298,"Venta al por mayor de animales porcinos, ovinos, caprino, canículas, apícolas, avícolas vivos",TRUE
+cat_019_46299,46299,Venta de otras especies vivas del reino animal,TRUE
+cat_019_46301,46301,Venta al por mayor de alimentos,TRUE
+cat_019_46302,46302,Venta al por mayor de bebidas,TRUE
+cat_019_46303,46303,Venta al por mayor de tabaco,TRUE
+cat_019_46371,46371,"Venta al por mayor de frutas, hortalizas (verduras), legumbres y tubérculos",TRUE
+cat_019_46372,46372,"Venta al por mayor de pollos, gallinas destazadas, pavos y otras aves",TRUE
+cat_019_46373,46373,"Venta al por mayor de carne bovina y porcina, productos de carne y embutidos",TRUE
+cat_019_46374,46374,Venta al por mayor de huevos,TRUE
+cat_019_46375,46375,Venta al por mayor de productos lácteos,TRUE
+cat_019_46376,46376,"Venta al por mayor de productos farináceos de panadería (pan dulce, cakes, respostería, etc.)",TRUE
+cat_019_46377,46377,"Venta al por mayor de pastas alimenticias, aceites y grasas comestibles vegetal y animal",TRUE
+cat_019_46378,46378,Venta al por mayor de sal comestible,TRUE
+cat_019_46379,46379,Venta al por mayor de azúcar,TRUE
+cat_019_46391,46391,"Venta al por mayor de abarrotes (vinos, licores, productos alimenticios envasados, etc.)",TRUE
+cat_019_46392,46392,Venta al por mayor de aguas gaseosas,TRUE
+cat_019_46393,46393,Venta al por mayor de agua purificada,TRUE
+cat_019_46394,46394,"Venta al por mayor de refrescos y otras bebidas, líquidas o en polvo",TRUE
+cat_019_46395,46395,Venta al por mayor de cerveza y licores,TRUE
+cat_019_46396,46396,Venta al por mayor de hielo,TRUE
+cat_019_46411,46411,"Venta al por mayor de hilados, tejidos y productos textiles de mercería",TRUE
+cat_019_46412,46412,Venta al por mayor de artículos textiles excepto confecciones para el hogar,TRUE
+cat_019_46413,46413,Venta al por mayor de confecciones textiles para el hogar,TRUE
+cat_019_46414,46414,Venta al por mayor de prendas de vestir y accesorios de vestir,TRUE
+cat_019_46415,46415,Venta al por mayor de ropa usada,TRUE
+cat_019_46416,46416,Venta al por mayor de calzado,TRUE
+cat_019_46417,46417,Venta al por mayor de artículos de marroquinería y talabartería,TRUE
+cat_019_46418,46418,Venta al por mayor de artículos de peletería,TRUE
+cat_019_46419,46419,Venta al por mayor de otros artículos textiles n.c.p.,TRUE
+cat_019_46471,46471,Venta al por mayor de instrumentos musicales,TRUE
+cat_019_46472,46472,"Venta al por mayor de colchones, almohadas, cojines, etc.",TRUE
+cat_019_46473,46473,Venta al por mayor de artículos de aluminio para el hogar y para otros usos,TRUE
+cat_019_46474,46474,"Venta al por mayor de depósitos y otros artículos plásticos para el hogar y otros usos, incluyendo los desechables de durapax y no desechables",TRUE
+cat_019_46475,46475,"Venta al por mayor de cámaras fotográficas, accesorios y materiales",TRUE
+cat_019_46482,46482,"Venta al por mayor de medicamentos, artículos y otros productos de uso veterinario",TRUE
+cat_019_46483,46483,Venta al por mayor de productos y artículos de belleza y de uso personal,TRUE
+cat_019_46484,46484,Venta de productos farmacéuticos y medicinales,TRUE
+cat_019_46491,46491,"Venta al por mayor de productos medicinales, cosméticos, perfumería y productos de limpieza",TRUE
+cat_019_46492,46492,Venta al por mayor de relojes y artículos de joyería,TRUE
+cat_019_46493,46493,Venta al por mayor de electrodomésticos y artículos del hogar excepto bazar; artículos de iluminación,TRUE
+cat_019_46494,46494,Venta al por mayor de artículos de bazar y similares,TRUE
+cat_019_46495,46495,Venta al por mayor de artículos de óptica,TRUE
+cat_019_46496,46496,"Venta al por mayor de revistas, periódicos, libros, artículos de librería y artículos de papel y cartón en general",TRUE
+cat_019_46497,46497,"Venta de artículos deportivos, juguetes y rodados",TRUE
+cat_019_46498,46498,Venta al por mayor de productos usados para el hogar o el uso personal,TRUE
+cat_019_46499,46499,Venta al por mayor de enseres domésticos y de uso personal n.c.p.,TRUE
+cat_019_46500,46500,"Venta al por mayor de bicicletas, partes, accesorios y otros",TRUE
+cat_019_46510,46510,"Venta al por mayor de computadoras, equipo periférico y programas informáticos",TRUE
+cat_019_46520,46520,Venta al por mayor de equipos de comunicación,TRUE
+cat_019_46530,46530,"Venta al por mayor de maquinaria y equipo agropecuario, accesorios, partes y suministros",TRUE
+cat_019_46590,46590,Venta de equipos e instrumentos de uso profesional y científico y aparatos de medida y control,TRUE
+cat_019_46591,46591,"Venta al por mayor de maquinaria equipo, accesorios y materiales para la industria de la madera y sus productos",TRUE
+cat_019_46592,46592,"Venta al por mayor de maquinaria, equipo, accesorios y materiales para la industria gráfica y del papel, cartón y productos de papel y cartón",TRUE
+cat_019_46593,46593,"Venta al por mayor de maquinaria, equipo, accesorios y materiales para la industria de productos químicos, plástico y caucho",TRUE
+cat_019_46594,46594,"Venta al por mayor de maquinaria, equipo, accesorios y materiales para la industria metálica y de sus productos",TRUE
+cat_019_46595,46595,"Venta al por mayor de equipamiento para uso médico, odontológico, veterinario y servicios conexos",TRUE
+cat_019_46596,46596,"Venta al por mayor de maquinaria, equipo, accesorios y partes para la industria de la alimentación",TRUE
+cat_019_46597,46597,"Venta al por mayor de maquinaria, equipo, accesorios y partes para la industria textil, confecciones y cuero",TRUE
+cat_019_46598,46598,"Venta al por mayor de maquinaria, equipo y accesorios para la construcción y explotación de minas y canteras",TRUE
+cat_019_46599,46599,Venta al por mayor de otro tipo de maquinaria y equipo con sus accesorios y partes,TRUE
+cat_019_46610,46610,"Venta al por mayor de otros combustibles sólidos, líquidos, gaseosos y de productos conexos",TRUE
+cat_019_46612,46612,"Venta al por mayor de combustibles para automotores, aviones, barcos, maquinaria y otros",TRUE
+cat_019_46613,46613,"Venta al por mayor de lubricantes, grasas y otros aceites para automotores, maquinaria industrial, etc.",TRUE
+cat_019_46614,46614,Venta al por mayor de gas propano,TRUE
+cat_019_46615,46615,Venta al por mayor de leña y carbón,TRUE
+cat_019_46620,46620,Venta al por mayor de metales y minerales metalíferos,TRUE
+cat_019_46631,46631,"Venta al por mayor de puertas, ventanas, vitrinas y similares",TRUE
+cat_019_46632,46632,Venta al por mayor de artículos de ferretería y pinturerías,TRUE
+cat_019_46633,46633,Vidrierías,TRUE
+cat_019_46634,46634,Venta al por mayor de maderas,TRUE
+cat_019_46639,46639,Venta al por mayor de materiales para la construcción n.c.p.,TRUE
+cat_019_46691,46691,Venta al por mayor de sal industrial sin yodar,TRUE
+cat_019_46692,46692,Venta al por mayor de productos intermedios y desechos de origen textil,TRUE
+cat_019_46693,46693,Venta al por mayor de productos intermedios y desechos de origen metálico,TRUE
+cat_019_46694,46694,Venta al por mayor de productos intermedios y desechos de papel y cartón,TRUE
+cat_019_46695,46695,"Venta al por mayor fertilizantes, abonos, agroquímicos y productos similares",TRUE
+cat_019_46696,46696,Venta al por mayor de productos intermedios y desechos de origen plástico,TRUE
+cat_019_46697,46697,"Venta al por mayor de tintas para imprenta, productos curtientes y materias y productos colorantes",TRUE
+cat_019_46698,46698,Venta de productos intermedios y desechos de origen químico y de caucho,TRUE
+cat_019_46699,46699,Venta al por mayor de productos intermedios y desechos ncp,TRUE
+cat_019_46701,46701,Venta de algodón en oro,TRUE
+cat_019_46900,46900,Venta al por mayor de otros productos,TRUE
+cat_019_46901,46901,Venta al por mayor de cohetes y otros productos pirotécnicos,TRUE
+cat_019_46902,46902,Venta al por mayor de artículos diversos para consumo humano,TRUE
+cat_019_46903,46903,"Venta al por mayor de armas de fuego, municiones y accesorios",TRUE
+cat_019_46904,46904,Venta al por mayor de toldos y tiendas de campaña de cualquier material,TRUE
+cat_019_46905,46905,Venta al por mayor de exhibidores publicitarios y rótulos,TRUE
+cat_019_46906,46906,Venta al por mayor de artículos promocionales diversos,TRUE
+cat_019_47111,47111,Venta en supermercados,TRUE
+cat_019_47112,47112,Venta en tiendas de artículos de primera necesidad,TRUE
+cat_019_47119,47119,Almacenes (venta de diversos artículos),TRUE
+cat_019_47190,47190,Venta al por menor de otros productos en comercios no especializados,TRUE
+cat_019_47199,47199,"Venta de establecimientos no especializados con surtido compuesto principalmente de alimentos, bebidas y tabaco",TRUE
+cat_019_47211,47211,Venta al por menor de frutas y hortalizas,TRUE
+cat_019_47212,47212,"Venta al por menor de carnes, embutidos y productos de granja",TRUE
+cat_019_47213,47213,Venta al por menor de pescado y mariscos,TRUE
+cat_019_47214,47214,Venta al por menor de productos lácteos,TRUE
+cat_019_47215,47215,"Venta al por menor de productos de panadería, repostería y galletas",TRUE
+cat_019_47216,47216,Venta al por menor de huevos,TRUE
+cat_019_47217,47217,Venta al por menor de carnes y productos cárnicos,TRUE
+cat_019_47218,47218,Venta al por menor de granos básicos y otros,TRUE
+cat_019_47219,47219,Venta al por menor de alimentos n.c.p.,TRUE
+cat_019_47221,47221,Venta al por menor de hielo,TRUE
+cat_019_47223,47223,"Venta de bebidas no alcohólicas, para su consumo fuera del establecimiento",TRUE
+cat_019_47224,47224,"Venta de bebidas alcohólicas, para su consumo fuera del establecimiento",TRUE
+cat_019_47225,47225,Venta de bebidas alcohólicas para su consumo dentro del establecimiento,TRUE
+cat_019_47230,47230,Venta al por menor de tabaco,TRUE
+cat_019_47300,47300,"Venta de combustibles, lubricantes y otros (gasolineras)",TRUE
+cat_019_47411,47411,Venta al por menor de computadoras y equipo periférico,TRUE
+cat_019_47412,47412,Venta de equipo y accesorios de telecomunicación,TRUE
+cat_019_47420,47420,Venta al por menor de equipo de audio y video,TRUE
+cat_019_47510,47510,"Venta al por menor de hilados, tejidos y productos textiles de mercería; confecciones para el hogar y textiles n.c.p.",TRUE
+cat_019_47521,47521,Venta al por menor de productos de madera,TRUE
+cat_019_47522,47522,Venta al por menor de artículos de ferretería,TRUE
+cat_019_47523,47523,Venta al por menor de productos de pinturerías,TRUE
+cat_019_47524,47524,Venta al por menor en vidrierías,TRUE
+cat_019_47529,47529,Venta al por menor de materiales de construcción y artículos conexos,TRUE
+cat_019_47530,47530,"Venta al por menor de tapices, alfombras y revestimientos de paredes y pisos en comercios especializados",TRUE
+cat_019_47591,47591,Venta al por menor de muebles,TRUE
+cat_019_47592,47592,Venta al por menor de artículos de bazar,TRUE
+cat_019_47593,47593,"Venta al por menor de aparatos electrodomésticos, repuestos y accesorios",TRUE
+cat_019_47594,47594,Venta al por menor de artículos eléctricos y de iluminación,TRUE
+cat_019_47598,47598,Venta al por menor de instrumentos musicales,TRUE
+cat_019_47610,47610,"Venta al por menor de libros, periódicos y artículos de papelería en comercios especializados",TRUE
+cat_019_47620,47620,"Venta al por menor de discos láser, cassettes, cintas de video y otros",TRUE
+cat_019_47630,47630,Venta al por menor de productos y equipos de deporte,TRUE
+cat_019_47631,47631,"Venta al por menor de bicicletas, accesorios y repuestos",TRUE
+cat_019_47640,47640,Venta al por menor de juegos y juguetes en comercios especializados,TRUE
+cat_019_47711,47711,Venta al por menor de prendas de vestir y accesorios de vestir,TRUE
+cat_019_47712,47712,Venta al por menor de calzado,TRUE
+cat_019_47713,47713,"Venta al por menor de artículos de peletería, marroquinería y talabartería",TRUE
+cat_019_47721,47721,"Venta al por menor de medicamentos farmacéuticos y otros materiales y artículos de uso médico, odontológico y veterinario",TRUE
+cat_019_47722,47722,Venta al por menor de productos cosméticos y de tocador,TRUE
+cat_019_47731,47731,"Venta al por menor de productos de joyería, bisutería, Óptica, relojería",TRUE
+cat_019_47732,47732,"Venta al por menor de plantas, semillas, animales y artículos conexos",TRUE
+cat_019_47733,47733,Venta al por menor de combustibles de uso doméstico (gas propano y gas licuado),TRUE
+cat_019_47734,47734,"Venta al por menor de artesanías, artículos cerámicos y recuerdos en general",TRUE
+cat_019_47735,47735,"Venta al por menor de ataúdes, lápidas y cruces, trofeos, artículos religiosos en general",TRUE
+cat_019_47736,47736,"Venta al por menor de armas de fuego, municiones y accesorios",TRUE
+cat_019_47737,47737,Venta al por menor de artículos de cohetería y pirotécnicos,TRUE
+cat_019_47738,47738,"Venta al por menor de artículos desechables de uso personal y doméstico (servilletas, papel higiénico, pañales, toallas sanitarias, etc.)",TRUE
+cat_019_47739,47739,Venta al por menor de otros productos n.c.p.,TRUE
+cat_019_47741,47741,Venta al por menor de artículos usados,TRUE
+cat_019_47742,47742,Venta al por menor de textiles y confecciones usados,TRUE
+cat_019_47743,47743,"Venta al por menor de libros, revistas, papel y cartón usados",TRUE
+cat_019_47749,47749,Venta al por menor de productos usados n.c.p.,TRUE
+cat_019_47811,47811,"Venta al por menor de frutas, verduras y hortalizas",TRUE
+cat_019_47814,47814,Venta al por menor de productos lácteos,TRUE
+cat_019_47815,47815,"Venta al por menor de productos de panadería, galletas y similares",TRUE
+cat_019_47816,47816,Venta al por menor de bebidas,TRUE
+cat_019_47818,47818,Venta al por menor en tiendas de mercado y puestos,TRUE
+cat_019_47821,47821,"Venta al por menor de hilados, tejidos y productos textiles de mercería en puestos de mercados y ferias",TRUE
+cat_019_47822,47822,Venta al por menor de artículos textiles excepto confecciones para el hogar en puestos de mercados y ferias,TRUE
+cat_019_47823,47823,Venta al por menor de confecciones textiles para el hogar en puestos de mercados y ferias,TRUE
+cat_019_47824,47824,"Venta al por menor de prendas de vestir, accesorios de vestir y similares en puestos de mercados y ferias",TRUE
+cat_019_47825,47825,Venta al por menor de ropa usada,TRUE
+cat_019_47826,47826,"Venta al por menor de calzado, artículos de marroquinería y talabartería en puestos de mercados y ferias",TRUE
+cat_019_47827,47827,Venta al por menor de artículos de marroquinería y talabartería en puestos de mercados y ferias,TRUE
+cat_019_47829,47829,Venta al por menor de artículos textiles ncp en puestos de mercados y ferias,TRUE
+cat_019_47891,47891,"Venta al por menor de animales, flores y productos conexos en puestos de feria y mercados",TRUE
+cat_019_47892,47892,"Venta al por menor de productos medicinales, cosméticos, de tocador y de limpieza en puestos de ferias y mercados",TRUE
+cat_019_47893,47893,Venta al por menor de artículos de bazar en puestos de ferias y mercados,TRUE
+cat_019_47894,47894,"Venta al por menor de artículos de papel, envases, libros, revistas y conexos en puestos de feria y mercados",TRUE
+cat_019_47895,47895,"Venta al por menor de materiales de construcción, electrodomésticos, accesorios para autos y similares en puestos de feria y mercados",TRUE
+cat_019_47896,47896,Venta al por menor de equipos accesorios para las comunicaciones en puestos de feria y mercados,TRUE
+cat_019_47899,47899,Venta al por menor en puestos de ferias y mercados n.c.p.,TRUE
+cat_019_47910,47910,Venta al por menor por correo o Internet,TRUE
+cat_019_47990,47990,"Otros tipos de venta al por menor no realizada, en almacenes, puestos de venta o mercado",TRUE
+cat_019_49110,49110,Transporte interurbano de pasajeros por ferrocarril,TRUE
+cat_019_49120,49120,Transporte de carga por ferrocarril,TRUE
+cat_019_49211,49211,Transporte de pasajeros urbanos e interurbano mediante buses,TRUE
+cat_019_49212,49212,Transporte de pasajeros interdepartamental mediante microbuses,TRUE
+cat_019_49213,49213,Transporte de pasajeros urbanos e interurbano mediante microbuses,TRUE
+cat_019_49214,49214,Transporte de pasajeros interdepartamental mediante buses,TRUE
+cat_019_49221,49221,Transporte internacional de pasajeros,TRUE
+cat_019_49222,49222,Transporte de pasajeros mediante taxis y autos con chofer,TRUE
+cat_019_49223,49223,Transporte escolar,TRUE
+cat_019_49225,49225,Transporte de pasajeros para excursiones,TRUE
+cat_019_49226,49226,Servicios de transporte de personal,TRUE
+cat_019_49229,49229,Transporte de pasajeros por vía terrestre ncp,TRUE
+cat_019_49231,49231,Transporte de carga urbano,TRUE
+cat_019_49232,49232,Transporte nacional de carga,TRUE
+cat_019_49233,49233,Transporte de carga internacional,TRUE
+cat_019_49234,49234,Servicios de mudanza,TRUE
+cat_019_49235,49235,Alquiler de vehículos de carga con conductor,TRUE
+cat_019_49300,49300,Transporte por oleoducto o gasoducto,TRUE
+cat_019_50110,50110,Transporte de pasajeros marítimo y de cabotaje,TRUE
+cat_019_50120,50120,Transporte de carga marítimo y de cabotaje,TRUE
+cat_019_50211,50211,Transporte de pasajeros por vías de navegación interiores,TRUE
+cat_019_50212,50212,Alquiler de equipo de transporte de pasajeros por vías de navegación interior con conductor,TRUE
+cat_019_50220,50220,Transporte de carga por vías de navegación interiores,TRUE
+cat_019_51100,51100,Transporte aéreo de pasajeros,TRUE
+cat_019_51201,51201,Transporte de carga por vía aérea,TRUE
+cat_019_51202,51202,Alquiler de equipo de aerotransporte con operadores para el propósito de transportar carga,TRUE
+cat_019_52101,52101,Alquiler de instalaciones de almacenamiento en zonas francas,TRUE
+cat_019_52102,52102,Alquiler de silos para conservación y almacenamiento de granos,TRUE
+cat_019_52103,52103,Alquiler de instalaciones con refrigeración para almacenamiento y conservación de alimentos y otros productos,TRUE
+cat_019_52109,52109,Alquiler de bodegas para almacenamiento y depósito n.c.p.,TRUE
+cat_019_52211,52211,Servicio de garaje y estacionamiento,TRUE
+cat_019_52212,52212,Servicios de terminales para el transporte por vía terrestre,TRUE
+cat_019_52219,52219,Servicios para el transporte por vía terrestre n.c.p.,TRUE
+cat_019_52220,52220,Servicios para el transporte acuático,TRUE
+cat_019_52230,52230,Servicios para el transporte aéreo,TRUE
+cat_019_52240,52240,Manipulación de carga,TRUE
+cat_019_52290,52290,Servicios para el transporte ncp,TRUE
+cat_019_52291,52291,Agencias de tramitaciones aduanales,TRUE
+cat_019_53100,53100,Servicios de correo nacional,TRUE
+cat_019_53200,53200,Actividades de correo distintas a las actividades postales nacionales,TRUE
+cat_019_53201,53201,Agencia privada de correo y encomiendas,TRUE
+cat_019_55101,55101,Actividades de alojamiento para estancias cortas,TRUE
+cat_019_55102,55102,Hoteles,TRUE
+cat_019_55200,55200,"Actividades de campamentos, parques de vehículos de recreo y parques de caravanas",TRUE
+cat_019_55900,55900,Alojamiento n.c.p.,TRUE
+cat_019_56101,56101,Restaurantes,TRUE
+cat_019_56106,56106,Pupusería,TRUE
+cat_019_56107,56107,Actividades varias de restaurantes,TRUE
+cat_019_56108,56108,Comedores,TRUE
+cat_019_56109,56109,Merenderos ambulantes,TRUE
+cat_019_56210,56210,Preparación de comida para eventos especiales,TRUE
+cat_019_56291,56291,Servicios de provisión de comidas por contrato,TRUE
+cat_019_56292,56292,Servicios de concesión de cafetines y chalet en empresas e,TRUE
+cat_019_56299,56299,Servicios de preparación de comidas ncp,TRUE
+cat_019_56301,56301,Servicio de expendio de bebidas en salones y bares,TRUE
+cat_019_56302,56302,"Servicio de expendio de bebidas en puestos callejeros, mercados y ferias",TRUE
+cat_019_58110,58110,"Edición de libros, folletos, partituras y otras ediciones distintas a estas",TRUE
+cat_019_58120,58120,Edición de directorios y listas de correos,TRUE
+cat_019_58130,58130,"Edición de periódicos, revistas y otras publicaciones periódicas",TRUE
+cat_019_58190,58190,Otras actividades de edición,TRUE
+cat_019_58200,58200,Edición de programas informáticos (software),TRUE
+cat_019_59110,59110,Actividades de producción cinematográfica,TRUE
+cat_019_59120,59120,"Actividades de post producción de películas, videos y programas de televisión",TRUE
+cat_019_59130,59130,"Actividades de distribución de películas cinematográficas, videos y programas de televisión",TRUE
+cat_019_59140,59140,Actividades de exhibición de películas cinematográficas y cintas de vídeo,TRUE
+cat_019_59200,59200,Actividades de edición y grabación de música,TRUE
+cat_019_60100,60100,Servicios de difusiones de radio,TRUE
+cat_019_60201,60201,Actividades de programación y difusión de televisión abierta,TRUE
+cat_019_60202,60202,Actividades de suscripción y difusión de televisión por cable y/o suscripción,TRUE
+cat_019_60299,60299,"Servicios de televisión, incluye televisión por cable",TRUE
+cat_019_60900,60900,Programación y transmisión de radio y televisión,TRUE
+cat_019_61101,61101,Servicio de telefonía,TRUE
+cat_019_61102,61102,Servicio de Internet,TRUE
+cat_019_61103,61103,Servicio de telefonía fija,TRUE
+cat_019_61109,61109,Servicio de Internet n.c.p.,TRUE
+cat_019_61201,61201,Servicios de telefonía celular,TRUE
+cat_019_61202,61202,Servicios de Internet inalámbrico,TRUE
+cat_019_61209,61209,Servicios de telecomunicaciones inalámbrico n.c.p.,TRUE
+cat_019_61301,61301,Telecomunicaciones satelitales,TRUE
+cat_019_61309,61309,Comunicación vía satélite n.c.p.,TRUE
+cat_019_61900,61900,Actividades de telecomunicación n.c.p.,TRUE
+cat_019_62010,62010,Programación Informática,TRUE
+cat_019_62020,62020,Consultorías y gestión de servicios informáticos,TRUE
+cat_019_62090,62090,Otras actividades de tecnología de información y servicios de computadora,TRUE
+cat_019_63110,63110,Procesamiento de datos y actividades relacionadas,TRUE
+cat_019_63120,63120,Portales WEB,TRUE
+cat_019_63910,63910,Servicios de Agencias de Noticias,TRUE
+cat_019_63990,63990,Otros servicios de información n.c.p.,TRUE
+cat_019_64110,64110,Servicios provistos por el Banco Central de El salvador,TRUE
+cat_019_64190,64190,Bancos,TRUE
+cat_019_64192,64192,Entidades dedicadas al envío de remesas,TRUE
+cat_019_64199,64199,Otras entidades financieras,TRUE
+cat_019_64200,64200,Actividades de sociedades de cartera,TRUE
+cat_019_64300,64300,"Fideicomisos, fondos y otras fuentes de financiamiento",TRUE
+cat_019_64910,64910,Arrendamientos financieros,TRUE
+cat_019_64920,64920,Asociaciones cooperativas de ahorro y crédito dedicadas a la intermediación financiera,TRUE
+cat_019_64921,64921,Instituciones emisoras de tarjetas de crédito y otros,TRUE
+cat_019_64922,64922,Tipos de crédito ncp,TRUE
+cat_019_64928,64928,Prestamistas y casas de empeño,TRUE
+cat_019_64990,64990,"Actividades de servicios financieros, excepto la financiación de planes de seguros y de pensiones n.c.p.",TRUE
+cat_019_65110,65110,Planes de seguros de vida,TRUE
+cat_019_65120,65120,Planes de seguro excepto de vida,TRUE
+cat_019_65199,65199,Seguros generales de todo tipo,TRUE
+cat_019_65200,65200,Planes se seguro,TRUE
+cat_019_65300,65300,Planes de pensiones,TRUE
+cat_019_66110,66110,Administración de mercados financieros (Bolsa de Valores),TRUE
+cat_019_66120,66120,Actividades bursátiles (Corredores de Bolsa),TRUE
+cat_019_66190,66190,Actividades auxiliares de la intermediación financiera ncp,TRUE
+cat_019_66210,66210,Evaluación de riesgos y daños,TRUE
+cat_019_66220,66220,Actividades de agentes y corredores de seguros,TRUE
+cat_019_66290,66290,Otras actividades auxiliares de seguros y fondos de pensiones,TRUE
+cat_019_66300,66300,Actividades de administración de fondos,TRUE
+cat_019_68101,68101,Servicio de alquiler y venta de lotes en cementerios,TRUE
+cat_019_68109,68109,Actividades inmobiliarias realizadas con bienes propios o arrendados n.c.p.,TRUE
+cat_019_68200,68200,Actividades Inmobiliarias Realizadas a Cambio de una Retribución o por Contrata,TRUE
+cat_019_69100,69100,Actividades jurídicas,TRUE
+cat_019_69200,69200,"Actividades de contabilidad, teneduría de libros y auditoría; asesoramiento en materia de impuestos",TRUE
+cat_019_70100,70100,Actividades de oficinas centrales de sociedades de cartera,TRUE
+cat_019_70200,70200,Actividades de consultoría en gestión empresarial,TRUE
+cat_019_71101,71101,Servicios de arquitectura y planificación urbana y servicios conexos,TRUE
+cat_019_71102,71102,Servicios de ingeniería,TRUE
+cat_019_71103,71103,"Servicios de agrimensura, topografía, cartografía, prospección y geofísica y servicios conexos",TRUE
+cat_019_71200,71200,Ensayos y análisis técnicos,TRUE
+cat_019_72100,72100,Investigaciones y desarrollo experimental en el campo de las ciencias naturales y la ingeniería,TRUE
+cat_019_72199,72199,Investigaciones científicas,TRUE
+cat_019_72200,72200,Investigaciones y desarrollo experimental en el campo de las ciencias sociales y las humanidades científica y desarrollo,TRUE
+cat_019_73100,73100,Publicidad,TRUE
+cat_019_73200,73200,Investigación de mercados y realización de encuestas de opinión pública,TRUE
+cat_019_74100,74100,Actividades de diseño especializado,TRUE
+cat_019_74200,74200,Actividades de fotografía,TRUE
+cat_019_74900,74900,Servicios profesionales y científicos ncp,TRUE
+cat_019_75000,75000,Actividades veterinarias,TRUE
+cat_019_77101,77101,Alquiler de equipo de transporte terrestre,TRUE
+cat_019_77102,77102,Alquiler de equipo de transporte acuático,TRUE
+cat_019_77103,77103,Alquiler de equipo de transporte por vía aérea,TRUE
+cat_019_77210,77210,Alquiler y arrendamiento de equipo de recreo y deportivo,TRUE
+cat_019_77220,77220,Alquiler de cintas de video y discos,TRUE
+cat_019_77290,77290,Alquiler de otros efectos personales y enseres domésticos,TRUE
+cat_019_77300,77300,Alquiler de maquinaria y equipo,TRUE
+cat_019_77400,77400,Arrendamiento de productos de propiedad intelectual,TRUE
+cat_019_78100,78100,Obtención y dotación de personal,TRUE
+cat_019_78200,78200,Actividades de las agencias de trabajo temporal,TRUE
+cat_019_78300,78300,Dotación de recursos humanos y gestión; gestión de las funciones de recursos humanos,TRUE
+cat_019_79110,79110,Actividades de agencias de viajes y organizadores de viajes; actividades de asistencia a turistas,TRUE
+cat_019_79120,79120,Actividades de los operadores turísticos,TRUE
+cat_019_79900,79900,Otros servicios de reservas y actividades relacionadas,TRUE
+cat_019_80100,80100,Servicios de seguridad privados,TRUE
+cat_019_80201,80201,Actividades de servicios de sistemas de seguridad,TRUE
+cat_019_80202,80202,Actividades para la prestación de sistemas de seguridad,TRUE
+cat_019_80300,80300,Actividades de investigación,TRUE
+cat_019_81100,81100,Actividades combinadas de mantenimiento de edificios e instalaciones,TRUE
+cat_019_81210,81210,Limpieza general de edificios,TRUE
+cat_019_81290,81290,Otras actividades combinadas de mantenimiento de edificios e instalaciones ncp,TRUE
+cat_019_81300,81300,Servicio de jardinería,TRUE
+cat_019_82110,82110,Servicios administrativos de oficinas,TRUE
+cat_019_82190,82190,"Servicio de fotocopiado y similares, excepto en imprentas",TRUE
+cat_019_82200,82200,Actividades de las centrales de llamadas (call center),TRUE
+cat_019_82300,82300,Organización de convenciones y ferias de negocios,TRUE
+cat_019_82910,82910,Actividades de agencias de cobro y oficinas de crédito,TRUE
+cat_019_82921,82921,Servicios de envase y empaque de productos alimenticios,TRUE
+cat_019_82922,82922,Servicios de envase y empaque de productos medicinales,TRUE
+cat_019_82929,82929,Servicio de envase y empaque ncp,TRUE
+cat_019_82990,82990,Actividades de apoyo empresariales ncp,TRUE
+cat_019_84110,84110,Actividades de la Administración Pública en general,TRUE
+cat_019_84111,84111,Alcaldías Municipales,TRUE
+cat_019_84120,84120,"Regulación de las actividades de prestación de servicios sanitarios, educativos, culturales y otros servicios sociales, excepto seguridad social",TRUE
+cat_019_84130,84130,Regulación y facilitación de la actividad económica,TRUE
+cat_019_84210,84210,Actividades de administración y funcionamiento del Ministerio de Relaciones Exteriores,TRUE
+cat_019_84220,84220,Actividades de defensa,TRUE
+cat_019_84230,84230,Actividades de mantenimiento del orden público y de seguridad,TRUE
+cat_019_84300,84300,Actividades de planes de seguridad social de afiliación obligatoria,TRUE
+cat_019_85101,85101,Guardería educativa,TRUE
+cat_019_85102,85102,Enseñanza preescolar o parvularia,TRUE
+cat_019_85103,85103,Enseñanza primaria,TRUE
+cat_019_85104,85104,Servicio de educación preescolar y primaria integrada,TRUE
+cat_019_85211,85211,"Enseñanza secundaria tercer ciclo (7*, 8? y 99)",TRUE
+cat_019_85212,85212,Enseñanza secundaria de formación general bachillerato,TRUE
+cat_019_85221,85221,Enseñanza secundaria de formación técnica y profesional,TRUE
+cat_019_85222,85222,Enseñanza secundaria de formación técnica y profesional integrada con enseñanza primaria,TRUE
+cat_019_85301,85301,Enseñanza superior universitaria,TRUE
+cat_019_85302,85302,Enseñanza superior no universitaria,TRUE
+cat_019_85303,85303,Enseñanza superior integrada a educación secundaria y/o primaria,TRUE
+cat_019_85410,85410,Educación deportiva y recreativa,TRUE
+cat_019_85420,85420,Educación cultural,TRUE
+cat_019_85490,85490,Otros tipos de enseñanza n.c.p.,TRUE
+cat_019_85499,85499,Enseñanza formal,TRUE
+cat_019_85500,85500,Servicios de apoyo a la enseñanza,TRUE
+cat_019_86100,86100,Actividades de hospitales,TRUE
+cat_019_86201,86201,Clínicas médicas,TRUE
+cat_019_86202,86202,Servicios de Odontología,TRUE
+cat_019_86203,86203,Servicios médicos,TRUE
+cat_019_86901,86901,Servicios de análisis y estudios de diagnóstico,TRUE
+cat_019_86902,86902,Actividades de atención de la salud humana,TRUE
+cat_019_86909,86909,Otros Servicio relacionados con la salud ncp,TRUE
+cat_019_87100,87100,Residencias de ancianos con atención de enfermería,TRUE
+cat_019_87200,87200,"Instituciones dedicadas al tratamiento del retraso mental, problemas de salud mental y el uso indebido de sustancias nocivas",TRUE
+cat_019_87300,87300,Instituciones dedicadas al cuidado de ancianos y discapacitados,TRUE
+cat_019_87900,87900,Actividades de asistencia a niños y jóvenes,TRUE
+cat_019_87901,87901,Otras actividades de atención en instituciones,TRUE
+cat_019_88100,88100,Actividades de asistencia sociales sin alojamiento para ancianos y discapacitados,TRUE
+cat_019_88900,88900,servicios sociales sin alojamiento ncp,TRUE
+cat_019_90000,90000,Actividades creativas artísticas y de esparcimiento,TRUE
+cat_019_91010,91010,Actividades de bibliotecas y archivos,TRUE
+cat_019_91020,91020,Actividades de museos y preservación de lugares y edificios históricos,TRUE
+cat_019_91030,91030,"Actividades de jardines botánicos, zoológicos y de reservas naturales",TRUE
+cat_019_92000,92000,Actividades de juegos y apuestas,TRUE
+cat_019_93110,93110,Gestión de instalaciones deportivas,TRUE
+cat_019_93120,93120,Actividades de clubes deportivos,TRUE
+cat_019_93190,93190,Otras actividades deportivas,TRUE
+cat_019_93210,93210,Actividades de parques de atracciones y parques temáticos,TRUE
+cat_019_93291,93291,Discotecas y salas de baile,TRUE
+cat_019_93298,93298,Centros vacacionales,TRUE
+cat_019_93299,93299,Actividades de esparcimiento ncp,TRUE
+cat_019_94110,94110,Actividades de organizaciones empresariales y de empleadores,TRUE
+cat_019_94120,94120,Actividades de organizaciones profesionales,TRUE
+cat_019_94200,94200,Actividades de sindicatos,TRUE
+cat_019_94910,94910,Actividades de organizaciones religiosas,TRUE
+cat_019_94920,94920,Actividades de organizaciones políticas,TRUE
+cat_019_94990,94990,Actividades de asociaciones n.c.p.,TRUE
+cat_019_95110,95110,Reparación de computadoras y equipo periférico,TRUE
+cat_019_95120,95120,Reparación de equipo de comunicación,TRUE
+cat_019_95210,95210,Reparación de aparatos electrónicos de consumo,TRUE
+cat_019_95220,95220,Reparación de aparatos doméstico y equipo de hogar y jardín,TRUE
+cat_019_95230,95230,Reparación de calzado y artículos de cuero,TRUE
+cat_019_95240,95240,Reparación de muebles y accesorios para el hogar,TRUE
+cat_019_95291,95291,Reparación de Instrumentos musicales,TRUE
+cat_019_95292,95292,Servicios de cerrajería y copiado de llaves,TRUE
+cat_019_95293,95293,Reparación de joyas y relojes,TRUE
+cat_019_95294,95294,"Reparación de bicicletas, sillas de ruedas y rodados n.c.p.",TRUE
+cat_019_95299,95299,Reparaciones de enseres personales n.c.p.,TRUE
+cat_019_96010,96010,"Lavado y limpieza de prendas de tela y de piel, incluso la limpieza en seco",TRUE
+cat_019_96020,96020,Peluquería y otros tratamientos de belleza,TRUE
+cat_019_96030,96030,Pompas fúnebres y actividades conexas,TRUE
+cat_019_96091,96091,Servicios de sauna y otros servicios para la estética corporal n.c.p.,TRUE
+cat_019_96092,96092,Servicios n.c.p.,TRUE
+cat_019_97000,97000,Actividad de los hogares en calidad de empleadores de personal doméstico,TRUE
+cat_019_98100,98100,Actividades indiferenciadas de producción de bienes de los hogares privados para uso propio,TRUE
+cat_019_98200,98200,Actividades indiferenciadas de producción de servicios de los hogares privados para uso propio,TRUE
+cat_019_99000,99000,Actividades de organizaciones y órganos extraterritoriales,TRUE
+cat_019_10001,10001,Empleados,TRUE
+cat_019_10002,10002,Pensionado,TRUE
+cat_019_10003,10003,Estudiante,TRUE
+cat_019_10004,10004,Desempleado,TRUE
+cat_019_10005,10005,Otros,TRUE
+cat_019_10006,10006,Comerciante,TRUE

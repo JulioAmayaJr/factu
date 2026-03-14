@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+tgr_l10n_sv_edi.access_l10n_sv_cat_019,access_l10n_sv_cat_019,tgr_l10n_sv_edi.model_l10n_sv_cat_019,base.group_user,1,0,0,0
+tgr_l10n_sv_edi.access_tgr_l10n_sv_edi_cancel,access_tgr_l10n_sv_edi_cancel,tgr_l10n_sv_edi.model_tgr_l10n_sv_edi_cancel,base.group_user,1,1,1,1
+tgr_l10n_sv_edi.access_l10n_sv_certificate,access_l10n_sv_certificate,tgr_l10n_sv_edi.model_l10n_sv_certificate,base.group_user,1,1,1,1

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="l10n_sv_certificate_form" model="ir.ui.view">
+        <field name="name">l10n_sv.certificate.form</field>
+        <field name="model">l10n_sv.certificate</field>
+        <field name="arch" type="xml">
+            <form string="Certificado .crt [SV]">
+                <sheet>
+                    <group id="certificate_input">
+                        <field name="name" placeholder="e.g. New Certificate"></field>
+                        <field groups="base.group_multi_company" name="company_id" readonly="1"></field>
+                        <field name="content" widget="binary"></field>
+                        <field name="private_key" password="True"></field>
+                        <field invisible="1" name="encodied_key"></field>
+                        <field name="is_valid"></field>
+                    </group>
+                    <group id="certificate_data"></group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+</odoo>

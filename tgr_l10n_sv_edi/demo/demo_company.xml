@@ -1,0 +1,6 @@
+<odoo>
+    <record id="tgr_l10n_sv.demo_company_sv" model='res.company'>
+      <field name="l10n_sv_edi_establishment_type">02</field>
+      <field name="l10n_sv_edi_economic_activity_id" ref="cat_019_14105" />
+    </record>
+</odoo>

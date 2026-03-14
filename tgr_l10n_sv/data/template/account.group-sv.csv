@@ -1,0 +1,20 @@
+id,code_prefix_start,name,name@es
+group1,1,Asset,Activo
+group11,11,Current Asset,Activo Corriente
+group12,12,Non-Current Asset,Activo No Corriente
+group13,13,Other Assets,Otros Activos
+group14,14,VAT Credit,Iva Credito Fiscal
+group2,2,Liability,Pasivo
+group21,21,Current Liability,Pasivo Corriente
+group22,22,Non-Current Liability,Pasivo No Corriente
+group3,3,Equity,Patrimonio
+group31,31,Capital,Capital
+group4,4,Debtor Income Statement Accounts,Cuentas De Resultado Deudoras
+group41,41,Operating Expenses,Gastos De Operación
+group42,42,Cost of Sales,Costos De Ventas
+group5,5,Creditor Income Statement Accounts,Cuentas De Resultado Acreedoras
+group51,51,Operating Income,Ingresos De Operación
+group52,52,Other Income,Otros Ingresos
+group6,6,Income Settlement Accounts,Cuentas Liquidadora De Resultados
+group61,61,Closing Accounts,Cuentas De Cierre
+group7,7,Contingent Accounts,Cuentas De Orden

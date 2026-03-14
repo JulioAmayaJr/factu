@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="account_tax_group_tree_inherit_l10n_sv_edi" model="ir.ui.view">
+      <field name="name">account.tax.group.tree.inherit.l10n_sv_edi</field>
+      <field name="model">account.tax.group</field>
+      <field name="inherit_id" ref="account.view_tax_group_tree" />
+      <field name="arch" type="xml">
+        <xpath expr="//field[@name='tax_payable_account_id']" position="after">
+          <field
+                    name="l10n_sv_edi_code"
+                    invisible="country_code != 'SV'"
+                    optional="hide"
+                />
+        </xpath>
+      </field>
+    </record>
+</odoo>

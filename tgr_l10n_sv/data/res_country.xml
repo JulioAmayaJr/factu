@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="base.sv" model="res.country">
+        <field name="enforce_cities" eval="1" />
+        <field name="currency_id" ref="base.USD" />
+        <field name="state_required" eval="True" />
+        <field
+            name="address_format"
+            eval="'%(street)s\n%(zip)s%(city)s\n%(state_name)s\n%(country_name)s'"
+        />
+    </record>
+
+  <!-- CURRENCY -->
+    <record id="base.USD" model="res.currency">
+        <field name="active" eval="True" />
+    </record>
+    <record id="base.SVC" model="res.currency">
+      <field name="active" eval="False" />
+     </record>
+</odoo>

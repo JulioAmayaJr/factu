@@ -1,0 +1,262 @@
+id,country_id:id,state_id:id,name,zipcode
+city_sv_01_001,base.sv,state_sv_01,Ahuachapan,01001
+city_sv_01_002,base.sv,state_sv_01,Apaneca,01002
+city_sv_01_003,base.sv,state_sv_01,Atiquizaya,01003
+city_sv_01_004,base.sv,state_sv_01,Concepcion De Ataco,01004
+city_sv_01_005,base.sv,state_sv_01,El Refugio,01005
+city_sv_01_006,base.sv,state_sv_01,Guaymango,01006
+city_sv_01_007,base.sv,state_sv_01,Jujutla,01007
+city_sv_01_008,base.sv,state_sv_01,San Francisco Menendez,01008
+city_sv_01_009,base.sv,state_sv_01,San Lorenzo,01009
+city_sv_01_010,base.sv,state_sv_01,San Pedro Puxtla,01010
+city_sv_01_011,base.sv,state_sv_01,Tacuba,01011
+city_sv_01_012,base.sv,state_sv_01,Turin,01012
+city_sv_02_001,base.sv,state_sv_02,Candelaria De La Frontera,02001
+city_sv_02_002,base.sv,state_sv_02,Coatepeque,02002
+city_sv_02_003,base.sv,state_sv_02,Chalchuapa,02003
+city_sv_02_004,base.sv,state_sv_02,El Congo,02004
+city_sv_02_005,base.sv,state_sv_02,El Porvenir,02005
+city_sv_02_006,base.sv,state_sv_02,Masahuat,02006
+city_sv_02_007,base.sv,state_sv_02,Metapan,02007
+city_sv_02_008,base.sv,state_sv_02,San Antonio Pajonal,02008
+city_sv_02_009,base.sv,state_sv_02,San Sebastian Salitrillo,02009
+city_sv_02_010,base.sv,state_sv_02,Santa Ana,02010
+city_sv_02_011,base.sv,state_sv_02,Santa Rosa Guachipilin,02011
+city_sv_02_012,base.sv,state_sv_02,Santiago De La Frontera,02012
+city_sv_02_013,base.sv,state_sv_02,Texistepeque,02013
+city_sv_03_001,base.sv,state_sv_03,Acajutla,03001
+city_sv_03_002,base.sv,state_sv_03,Armenia,03002
+city_sv_03_003,base.sv,state_sv_03,Caluco,03003
+city_sv_03_004,base.sv,state_sv_03,Cuisnauat,03004
+city_sv_03_005,base.sv,state_sv_03,Izalco,03005
+city_sv_03_006,base.sv,state_sv_03,Juayua,03006
+city_sv_03_007,base.sv,state_sv_03,Nahuizalco,03007
+city_sv_03_008,base.sv,state_sv_03,Nahulingo,03008
+city_sv_03_009,base.sv,state_sv_03,Salcoatitan,03009
+city_sv_03_010,base.sv,state_sv_03,San Antonio De Monte,03010
+city_sv_03_011,base.sv,state_sv_03,San Julian,03011
+city_sv_03_012,base.sv,state_sv_03,Santa Catarina Masahuat,03012
+city_sv_03_013,base.sv,state_sv_03,Santo Domingo,03013
+city_sv_03_014,base.sv,state_sv_03,Sonsonate,03014
+city_sv_03_015,base.sv,state_sv_03,Sonzacate,03015
+city_sv_04_001,base.sv,state_sv_04,Agua Caliente,04001
+city_sv_04_002,base.sv,state_sv_04,Arcatao,04002
+city_sv_04_003,base.sv,state_sv_04,Azacualpa,04003
+city_sv_04_004,base.sv,state_sv_04,Cancasque,04004
+city_sv_04_005,base.sv,state_sv_04,Citala,04005
+city_sv_04_006,base.sv,state_sv_04,Comalapa,04006
+city_sv_04_007,base.sv,state_sv_04,Concepcion Quezaltepeque,04007
+city_sv_04_008,base.sv,state_sv_04,Chalatenango,04008
+city_sv_04_009,base.sv,state_sv_04,Dulce Nombre De Maria,04009
+city_sv_04_010,base.sv,state_sv_04,El Carrizal,04010
+city_sv_04_011,base.sv,state_sv_04,El Paraiso,04011
+city_sv_04_012,base.sv,state_sv_04,La Laguna,04012
+city_sv_04_013,base.sv,state_sv_04,La Palma,04013
+city_sv_04_014,base.sv,state_sv_04,La Reina,04014
+city_sv_04_015,base.sv,state_sv_04,Las Flores,04015
+city_sv_04_016,base.sv,state_sv_04,Las Vueltas,04016
+city_sv_04_017,base.sv,state_sv_04,Anamoros,04017
+city_sv_04_018,base.sv,state_sv_04,Bolivar,04018
+city_sv_04_019,base.sv,state_sv_04,Concepcion Oriente,04019
+city_sv_04_020,base.sv,state_sv_04,Conchagua,04020
+city_sv_04_021,base.sv,state_sv_04,El Carmen,04021
+city_sv_04_022,base.sv,state_sv_04,El Sauce,04022
+city_sv_04_023,base.sv,state_sv_04,Intipuca,04023
+city_sv_04_024,base.sv,state_sv_04,La Union,04024
+city_sv_04_025,base.sv,state_sv_04,Lislique,04025
+city_sv_04_026,base.sv,state_sv_04,Meanguera Del Golfol,04026
+city_sv_04_027,base.sv,state_sv_04,Nueva Esparta,04027
+city_sv_04_028,base.sv,state_sv_04,Pasaquina,04028
+city_sv_04_029,base.sv,state_sv_04,Poloros,04029
+city_sv_04_030,base.sv,state_sv_04,San Alejo,04030
+city_sv_04_031,base.sv,state_sv_04,San Jose,04031
+city_sv_04_032,base.sv,state_sv_04,Santa Rosa De Lima,04032
+city_sv_04_033,base.sv,state_sv_04,Yayantique,04033
+city_sv_05_001,base.sv,state_sv_05,Antiguo Cuscatlan,05001
+city_sv_05_002,base.sv,state_sv_05,Ciudad Arce,05002
+city_sv_05_003,base.sv,state_sv_05,Colon,05003
+city_sv_05_004,base.sv,state_sv_05,Comasagua,05004
+city_sv_05_005,base.sv,state_sv_05,Chitiupan,05005
+city_sv_05_006,base.sv,state_sv_05,Huizucar,05006
+city_sv_05_007,base.sv,state_sv_05,Jayaque,05007
+city_sv_05_008,base.sv,state_sv_05,Jicalapa,05008
+city_sv_05_009,base.sv,state_sv_05,La Libertad,05009
+city_sv_05_010,base.sv,state_sv_05,Nueva San Salvador,05010
+city_sv_05_011,base.sv,state_sv_05,Nuevo Cuscatlan,05011
+city_sv_05_012,base.sv,state_sv_05,Quezaltepeque,05012
+city_sv_05_013,base.sv,state_sv_05,Sacacoyo,05013
+city_sv_05_014,base.sv,state_sv_05,San Jose Villanueva,05014
+city_sv_05_015,base.sv,state_sv_05,San Juan Opico,05015
+city_sv_05_016,base.sv,state_sv_05,San Matias,05016
+city_sv_05_017,base.sv,state_sv_05,San Pablo Tacachico,05017
+city_sv_05_018,base.sv,state_sv_05,Tahique,05018
+city_sv_05_019,base.sv,state_sv_05,Tamanique,05019
+city_sv_05_020,base.sv,state_sv_05,Teotepeque,05020
+city_sv_05_021,base.sv,state_sv_05,Tepecoyo,05021
+city_sv_05_022,base.sv,state_sv_05,Zaragoza,05022
+city_sv_06_001,base.sv,state_sv_06,Aguilares,06001
+city_sv_06_002,base.sv,state_sv_06,Apopa,06002
+city_sv_06_003,base.sv,state_sv_06,Ayutuxtepeque,06003
+city_sv_06_004,base.sv,state_sv_06,Cuscatancingo,06004
+city_sv_06_005,base.sv,state_sv_06,Delgado,06005
+city_sv_06_006,base.sv,state_sv_06,El Paisnal,06006
+city_sv_06_007,base.sv,state_sv_06,Guazapa,06007
+city_sv_06_008,base.sv,state_sv_06,Ilopango,06008
+city_sv_06_009,base.sv,state_sv_06,Mejicanos,06009
+city_sv_06_010,base.sv,state_sv_06,Nejapa,06010
+city_sv_06_011,base.sv,state_sv_06,Panchimelco,06011
+city_sv_06_012,base.sv,state_sv_06,Rosario De Mora,06012
+city_sv_06_013,base.sv,state_sv_06,San Marcos,06013
+city_sv_06_014,base.sv,state_sv_06,San Martin,06014
+city_sv_06_015,base.sv,state_sv_06,San Salvador,06015
+city_sv_06_016,base.sv,state_sv_06,Santiago Texacuangos,06016
+city_sv_06_017,base.sv,state_sv_06,Santo Tomas,06017
+city_sv_06_018,base.sv,state_sv_06,Soyapango,06018
+city_sv_06_019,base.sv,state_sv_06,Tonacatepeque,06019
+city_sv_07_001,base.sv,state_sv_07,Candelaria De La Frontera,07001
+city_sv_07_002,base.sv,state_sv_07,Cojutepeque,07002
+city_sv_07_003,base.sv,state_sv_07,El Carmen,07003
+city_sv_07_004,base.sv,state_sv_07,El Rosario,07004
+city_sv_07_005,base.sv,state_sv_07,Monte San Juan,07005
+city_sv_07_006,base.sv,state_sv_07,Oratorio De Concepcion,07006
+city_sv_07_007,base.sv,state_sv_07,San Bartolome Perulapia,07007
+city_sv_07_008,base.sv,state_sv_07,San Cristobal,07008
+city_sv_07_009,base.sv,state_sv_07,San Jose Guayabal,07009
+city_sv_07_010,base.sv,state_sv_07,San Pedro Perulapan,07010
+city_sv_07_011,base.sv,state_sv_07,San Rafael Cedros,07011
+city_sv_07_012,base.sv,state_sv_07,San Ramon,07012
+city_sv_07_013,base.sv,state_sv_07,Santa Cruz Analquito,07013
+city_sv_07_014,base.sv,state_sv_07,Santa Cruz Michapa,07014
+city_sv_07_015,base.sv,state_sv_07,Suchitoto,07015
+city_sv_07_016,base.sv,state_sv_07,Tenancingo,07016
+city_sv_08_001,base.sv,state_sv_08,Cuyultitan,08001
+city_sv_08_002,base.sv,state_sv_08,El Rosario,08002
+city_sv_08_003,base.sv,state_sv_08,Jerusalen,08003
+city_sv_08_004,base.sv,state_sv_08,Mercedes La Ceiba,08004
+city_sv_08_005,base.sv,state_sv_08,Olocuilta,08005
+city_sv_08_006,base.sv,state_sv_08,Paraiso De Osorio,08006
+city_sv_08_007,base.sv,state_sv_08,San Antonio Masahuat,08007
+city_sv_08_008,base.sv,state_sv_08,San Emigdio,08008
+city_sv_08_009,base.sv,state_sv_08,San Francisco Chinameca,08009
+city_sv_08_010,base.sv,state_sv_08,San Juan Nonualco,08010
+city_sv_08_011,base.sv,state_sv_08,San Juan Talpa,08011
+city_sv_08_012,base.sv,state_sv_08,San Juan Tepazontes,08012
+city_sv_08_013,base.sv,state_sv_08,San Luis La Herradura,08013
+city_sv_08_014,base.sv,state_sv_08,San Luis Talpa,08014
+city_sv_08_015,base.sv,state_sv_08,San Miguel Tepezontes,08015
+city_sv_08_016,base.sv,state_sv_08,San Pedro Msasahuat,08016
+city_sv_08_017,base.sv,state_sv_08,San Pedro Nonualco,08017
+city_sv_08_018,base.sv,state_sv_08,San Rafael Obrajuelo,08018
+city_sv_08_019,base.sv,state_sv_08,Santa Maria Ostuma,08019
+city_sv_08_020,base.sv,state_sv_08,Santiago Nonualco,08020
+city_sv_08_021,base.sv,state_sv_08,Tapalhuaca,08021
+city_sv_08_022,base.sv,state_sv_08,Zacatecoluca,08022
+city_sv_09_001,base.sv,state_sv_09,Cinquera,09001
+city_sv_09_002,base.sv,state_sv_09,Dolores,09002
+city_sv_09_003,base.sv,state_sv_09,Guacotecti,09003
+city_sv_09_004,base.sv,state_sv_09,Lobasco,09004
+city_sv_09_005,base.sv,state_sv_09,Jutiapa,09005
+city_sv_09_006,base.sv,state_sv_09,San Isidro,09006
+city_sv_09_007,base.sv,state_sv_09,Sensuntepeque,09007
+city_sv_09_008,base.sv,state_sv_09,Tejutepeque,09008
+city_sv_09_009,base.sv,state_sv_09,Victoria,09009
+city_sv_10_001,base.sv,state_sv_10,Apastepeque,10001
+city_sv_10_002,base.sv,state_sv_10,Guadalupe,10002
+city_sv_10_003,base.sv,state_sv_10,San Cayetano Istepeque,10003
+city_sv_10_004,base.sv,state_sv_10,San Esteban Catarina,10004
+city_sv_10_005,base.sv,state_sv_10,San Iidefonso,10005
+city_sv_10_006,base.sv,state_sv_10,San Lorenzo,10006
+city_sv_10_007,base.sv,state_sv_10,San Sebastian Salitrillo,10007
+city_sv_10_008,base.sv,state_sv_10,San Vicente,10008
+city_sv_10_009,base.sv,state_sv_10,Santa Clara,10009
+city_sv_10_010,base.sv,state_sv_10,Santo Domingo,10010
+city_sv_10_011,base.sv,state_sv_10,Tecoluca,10011
+city_sv_10_012,base.sv,state_sv_10,Tepetitan,10012
+city_sv_10_013,base.sv,state_sv_10,Verapaz,10013
+city_sv_11_001,base.sv,state_sv_11,Alegria,11001
+city_sv_11_002,base.sv,state_sv_11,Berlin,11002
+city_sv_11_003,base.sv,state_sv_11,California,11003
+city_sv_11_004,base.sv,state_sv_11,Concepcion Batres,11004
+city_sv_11_005,base.sv,state_sv_11,El Triunfo,11005
+city_sv_11_006,base.sv,state_sv_11,Ereguayquin,11006
+city_sv_11_007,base.sv,state_sv_11,Estanzuelas,11007
+city_sv_11_008,base.sv,state_sv_11,Jiquilisco,11008
+city_sv_11_009,base.sv,state_sv_11,Jucuapa,11009
+city_sv_11_010,base.sv,state_sv_11,Jucuaran,11010
+city_sv_11_011,base.sv,state_sv_11,Merces Umaña,11011
+city_sv_11_012,base.sv,state_sv_11,Nueva Granada,11012
+city_sv_11_013,base.sv,state_sv_11,Ozatlan,11013
+city_sv_11_014,base.sv,state_sv_11,Puerto El Triunfo,11014
+city_sv_11_015,base.sv,state_sv_11,San Agustin,11015
+city_sv_11_016,base.sv,state_sv_11,San Buenaventura,11016
+city_sv_11_017,base.sv,state_sv_11,San Dionisio,11017
+city_sv_11_018,base.sv,state_sv_11,Santa Elena,11018
+city_sv_11_019,base.sv,state_sv_11,San Francisco Javier,11019
+city_sv_11_020,base.sv,state_sv_11,Santa Maria Ostuma,11020
+city_sv_11_021,base.sv,state_sv_11,Santiago De Maria,11021
+city_sv_11_022,base.sv,state_sv_11,Tecapan,11022
+city_sv_11_023,base.sv,state_sv_11,Usulutan,11023
+city_sv_12_001,base.sv,state_sv_12,Carolina,12001
+city_sv_12_002,base.sv,state_sv_12,Ciudad Barrios,12002
+city_sv_12_003,base.sv,state_sv_12,Comacaran,12003
+city_sv_12_004,base.sv,state_sv_12,Chapeltique,12004
+city_sv_12_005,base.sv,state_sv_12,Chinameca,12005
+city_sv_12_006,base.sv,state_sv_12,Chirilagua,12006
+city_sv_12_007,base.sv,state_sv_12,El Transito,12007
+city_sv_12_008,base.sv,state_sv_12,Lolotique,12008
+city_sv_12_009,base.sv,state_sv_12,Moncagua,12009
+city_sv_12_010,base.sv,state_sv_12,Nueva Guadalupe,12010
+city_sv_12_011,base.sv,state_sv_12,Nuevo Eden De San Juan,12011
+city_sv_12_012,base.sv,state_sv_12,Quelepa,12012
+city_sv_12_013,base.sv,state_sv_12,San Antonio,12013
+city_sv_12_014,base.sv,state_sv_12,San Gerardo,12014
+city_sv_12_015,base.sv,state_sv_12,San Jorge,12015
+city_sv_12_016,base.sv,state_sv_12,San Luis De La Reina,12016
+city_sv_12_017,base.sv,state_sv_12,San Miguel Tepezontes,12017
+city_sv_12_018,base.sv,state_sv_12,San Rafael Oriente,12018
+city_sv_12_019,base.sv,state_sv_12,Sesori,12019
+city_sv_12_020,base.sv,state_sv_12,Uluazapa,12020
+city_sv_13_001,base.sv,state_sv_13,Arambala,13001
+city_sv_13_002,base.sv,state_sv_13,Cacaopera,13002
+city_sv_13_003,base.sv,state_sv_13,Corinto,13003
+city_sv_13_004,base.sv,state_sv_13,Chilanga,13004
+city_sv_13_005,base.sv,state_sv_13,Delicias De Concepcion,13005
+city_sv_13_006,base.sv,state_sv_13,El Divisadero,13006
+city_sv_13_007,base.sv,state_sv_13,El Rosario,13007
+city_sv_13_008,base.sv,state_sv_13,Gualococti,13008
+city_sv_13_009,base.sv,state_sv_13,Guatajiagua,13009
+city_sv_13_010,base.sv,state_sv_13,Joateca,13010
+city_sv_13_011,base.sv,state_sv_13,Jocoaitique,13011
+city_sv_13_012,base.sv,state_sv_13,Jocoro,13012
+city_sv_13_013,base.sv,state_sv_13,Lolotiquillo,13013
+city_sv_13_014,base.sv,state_sv_13,Meanguera,13014
+city_sv_13_015,base.sv,state_sv_13,Osicala,13015
+city_sv_13_016,base.sv,state_sv_13,Perquin,13016
+city_sv_13_017,base.sv,state_sv_13,San Carlos,13017
+city_sv_13_018,base.sv,state_sv_13,San Fernando,13018
+city_sv_13_019,base.sv,state_sv_13,San Francisco,13019
+city_sv_13_020,base.sv,state_sv_13,San Isidro,13020
+city_sv_13_021,base.sv,state_sv_13,San Simon,13021
+city_sv_13_022,base.sv,state_sv_13,Sensembra,13022
+city_sv_13_023,base.sv,state_sv_13,Sociedad,13023
+city_sv_13_024,base.sv,state_sv_13,Torola,13024
+city_sv_13_025,base.sv,state_sv_13,Yamabal,13025
+city_sv_13_026,base.sv,state_sv_13,Yoloaiquin,13026
+city_sv_14_001,base.sv,state_sv_14,Anamoros,14001
+city_sv_14_002,base.sv,state_sv_14,Bolivar,14002
+city_sv_14_003,base.sv,state_sv_14,Concepcion De Oriente,14003
+city_sv_14_004,base.sv,state_sv_14,Conchagua,14004
+city_sv_14_005,base.sv,state_sv_14,El Carmen,14005
+city_sv_14_006,base.sv,state_sv_14,El Sauce,14006
+city_sv_14_007,base.sv,state_sv_14,Intipuca,14007
+city_sv_14_008,base.sv,state_sv_14,La Union,14008
+city_sv_14_009,base.sv,state_sv_14,Lislique,14009
+city_sv_14_010,base.sv,state_sv_14,Meanguera Del Golfo ,14010
+city_sv_14_011,base.sv,state_sv_14,Nueva Esparta,14011
+city_sv_14_012,base.sv,state_sv_14,Pasaquina,14012
+city_sv_14_013,base.sv,state_sv_14,Poloros,14013
+city_sv_14_014,base.sv,state_sv_14,San Alejo,14014
+city_sv_14_015,base.sv,state_sv_14,San Jose,14015
+city_sv_14_016,base.sv,state_sv_14,Santa Rosa De,14016
+city_sv_14_017,base.sv,state_sv_14,Yayantique,14017
+city_sv_14_018,base.sv,state_sv_14,Yucualquin,14018

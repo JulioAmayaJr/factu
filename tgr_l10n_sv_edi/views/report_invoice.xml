@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Inheriting the invoice PDF template to add customer code -->
+    <template id="report_invoice_document" inherit_id="account.report_invoice_document">
+        <!-- Add column amount total on line -->
+        <xpath expr="//table[@name='invoice_line_table']/thead/tr" position="inside">
+            <th class="text-end" name="th_total_line" t-if="o.l10n_latam_document_type_id.code =='01'">
+                <span>Total</span>
+            </th>
+        </xpath>
+        <xpath expr="//td[@name='td_subtotal']" position="after">
+            <td class="text-end o_price_total" name="td_total_line" t-if="line.move_id.l10n_latam_document_type_id.code =='01'">
+                <span class="text-nowrap" t-esc="line.quantity * line.price_unit">30.00</span>
+            </td>
+        </xpath>
+        <!-- End add column amount total on line -->
+        <xpath expr="//div[@id='partner_vat_address_same_as_shipping']//t[@id='inv_tax_id_label']" position="replace">
+            <t id="inv_tax_id_label" t-if="o.partner_id.l10n_latam_identification_type_id" t-out="o.partner_id.l10n_latam_identification_type_id.name"></t>
+        </xpath>
+        <xpath expr="//t[@t-set='layout_document_title']" position="before">
+            <t t-set="extra_edi_vals" t-value="o._l10n_sv_edi_get_extra_report_values()"></t>
+        </xpath>
+        <xpath expr="//div[@name='address_same_as_shipping']//t[@t-set='address']" position="inside">
+            <div t-if="o.partner_id.l10n_sv_nrc">NRC: <span t-out="o.partner_id.l10n_sv_nrc"></span></div>
+            <div t-if="o.partner_id.l10n_sv_edi_economic_activity_id">Act. Económica: <span t-field="o.partner_id.l10n_sv_edi_economic_activity_id"></span></div>
+            <div>
+                <t t-if="o.partner_id.phone">Teléfono: <span t-field="o.partner_id.phone"></span></t>
+                <t t-if="o.partner_id.mobile">Tel. Movil: <span t-field="o.partner_id.mobile"></span></t>
+                <t t-if="o.partner_id.email">Email: <span t-field="o.partner_id.email"></span></t>
+            </div>
+        </xpath>
+        <xpath expr="//div[@name='address_not_same_as_shipping']//t[@t-set='address']" position="inside">
+            <div t-if="o.partner_id.l10n_sv_nrc">NRC: <span t-out="o.partner_id.l10n_sv_nrc"></span></div>
+            <div t-if="o.partner_id.l10n_sv_edi_economic_activity_id">Act. Económica: <span t-field="o.partner_id.l10n_sv_edi_economic_activity_id"></span></div>
+            <div>
+                <t t-if="o.partner_id.phone">Teléfono: <span t-field="o.partner_id.phone"></span></t>
+                <t t-if="o.partner_id.mobile">Tel. Movil: <span t-field="o.partner_id.mobile"></span></t>
+                <t t-if="o.partner_id.email">Email: <span t-field="o.partner_id.email"></span></t>
+            </div>
+        </xpath>
+        <xpath expr="//div[@name='no_shipping']//t[@t-set='address']" position="inside">
+            <div t-if="o.partner_id.l10n_sv_nrc">NRC: <span t-out="o.partner_id.l10n_sv_nrc"></span></div>
+            <div t-if="o.partner_id.l10n_sv_edi_economic_activity_id">Act. Económica: <span t-field="o.partner_id.l10n_sv_edi_economic_activity_id"></span></div>
+            <div>
+                <t t-if="o.partner_id.phone">Teléfono: <span t-field="o.partner_id.phone"></span></t>
+                <t t-if="o.partner_id.mobile">Tel. Movil: <span t-field="o.partner_id.mobile"></span></t>
+                <t t-if="o.partner_id.email">Email: <span t-field="o.partner_id.email"></span></t>
+            </div>
+        </xpath>
+        <xpath expr="//t[@t-set='layout_document_title']/span[contains(@t-if, 'out_invoice') and contains(@t-if, 'posted')]" position="attributes">
+            <attribute name="t-out">o.l10n_latam_document_type_id.report_name</attribute>
+        </xpath>
+        <xpath expr="//t[@t-set='layout_document_title']/span[contains(@t-elif, 'out_refund') and contains(@t-elif, 'posted')]" position="attributes">
+            <attribute name="t-out">o.l10n_latam_document_type_id.report_name</attribute>
+        </xpath>
+        <xpath expr="//t[@t-set='layout_document_title']/span[@t-field='o.name']" position="replace">
+            <span class="me-4" t-if="o.name" t-out="o.name.replace(' ', '')"></span>
+        </xpath>
+        <xpath expr="//div[@t-if='not is_html_empty(o.narration)']" position="before">
+            <p>
+                <span>
+                    <b>SON:</b>
+                    <t t-out="extra_edi_vals.get('totalLetras')"></t>
+                </span>
+            </p>
+        </xpath>
+        <!-- QR-code -->
+        <xpath expr="//div[@id='qrcode']" position="after">
+            <div class="col-12 mb-3" t-if="extra_edi_vals">
+                <div class="row bg-secondary">
+                    <div class="col text-center">
+                        <b>Documento Tributario Electrónico -</b>
+                        <b t-out="o.l10n_latam_document_type_id.report_name"></b>
+                    </div>
+                </div>
+                <div class="row" t-if="extra_edi_vals.get('numeroControl')">
+                    <div class="col-4">
+                        <small>
+                            <b>Número de Control:</b>
+                        </small>
+                    </div>
+                    <div class="col-8">
+                        <small t-out="extra_edi_vals.get('numeroControl')"></small>
+                    </div>
+                </div>
+                <div class="row" t-if="extra_edi_vals.get('codigoGeneracion')">
+                    <div class="col-4">
+                        <small>
+                            <b>Código Generación:</b>
+                        </small>
+                    </div>
+                    <div class="col-8">
+                        <small t-out="extra_edi_vals.get('codigoGeneracion')"></small>
+                    </div>
+                </div>
+                <div class="row" t-if="extra_edi_vals.get('selloRecibido')">
+                    <div class="col-4">
+                        <small>
+                            <b>Sello de Recepción:</b>
+                        </small>
+                    </div>
+                    <div class="col-8">
+                        <span style="font-size:.7rem" t-out="extra_edi_vals.get('selloRecibido')"></span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <small>
+                            <b>Modelo de Fact.:</b>
+                        </small>
+                    </div>
+                    <div class="col" name="modelo_transmision">
+                        <small>Previo</small>
+                    </div>
+                    <div class="col">
+                        <small>
+                            <b>Tipo de Tran.:</b>
+                        </small>
+                    </div>
+                    <div class="col" name="tipo_transmision">
+                        <small>Normal</small>
+                    </div>
+                </div>
+                <div class="row mb-2">
+                    <div class="col">
+                        <small>
+                            <b>versión Json:</b>
+                        </small>
+                    </div>
+                    <div class="col">
+                        <small t-out="extra_edi_vals.get('version')"></small>
+                    </div>
+                    <div class="col">
+                        <small>
+                            <b>Hora de E.:</b>
+                        </small>
+                    </div>
+                    <div class="col">
+                        <small t-out="extra_edi_vals.get('horEmi')"></small>
+                    </div>
+                </div>
+                <div t-if="extra_edi_vals.get('documentoRelacionado')">
+                    <div class="row bg-secondary">
+                        <div class="col text-center">
+                            <b>Documentos Relacionados</b>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2">
+                            <small>
+                                <b>Tipo Doc.</b>
+                            </small>
+                        </div>
+                        <div class="col-2">
+                            <small>
+                                <b>Fecha</b>
+                            </small>
+                        </div>
+                        <div class="col-8">
+                            <small>
+                                <b>Número Documento</b>
+                            </small>
+                        </div>
+                    </div>
+                    <t t-as="doc_relacionado" t-foreach="extra_edi_vals.get('documentoRelacionado')">
+                        <div class="row">
+                            <div class="col-2">
+                                <small t-out="doc_relacionado.get('tipoDocumento')"></small>
+                            </div>
+                            <div class="col-2">
+                                <small t-out="doc_relacionado.get('fechaEmision')"></small>
+                            </div>
+                            <div class="col-8">
+                                <small t-out="doc_relacionado.get('numeroDocumento')"></small>
+                            </div>
+                        </div>
+                    </t>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <figure t-if="extra_edi_vals.get('qr_str')">
+                            <!-- <img class="border border-dark rounded" t-att-src="'/report/barcode/?barcode_type=%s&amp;value=%s&amp;width=%s&amp;height=%s' % ('QR', extra_edi_vals.get('qr_str'), 100, 100)"></img> -->
+                            <img class="border border-dark p-1" style="width:100px; height:100px" t-attf-src="data:image/*;base64,{{o.tgr_l10n_sv_edi_barcode_image}}"></img>
+                            <figcaption style="font-size:8px">Ministerio de Hacienda</figcaption>
+                        </figure>
+                    </div>
+                    <div class="col">
+                        <figure t-if="extra_edi_vals.get('codigoGeneracion')">
+                            <img class="border border-dark rounded p-1" t-att-src="'/report/barcode/?barcode_type=%s&amp;value=%s&amp;width=%s&amp;height=%s' % ('QR', extra_edi_vals.get('codigoGeneracion'), 80, 80)"></img>
+                            <figcaption style="font-size:8px">Código Generación</figcaption>
+                        </figure>
+                    </div>
+                    <div class="col">
+                        <figure t-if="extra_edi_vals.get('selloRecibido')">
+                            <img class="border border-dark rounded p-1" t-att-src="'/report/barcode/?barcode_type=%s&amp;value=%s&amp;width=%s&amp;height=%s' % ('QR', extra_edi_vals.get('selloRecibido'), 80, 80)" t-if="extra_edi_vals.get('selloRecibido')"></img>
+                            <figcaption style="font-size:8px">Sello Recepción</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </xpath>
+    </template>
+</odoo>

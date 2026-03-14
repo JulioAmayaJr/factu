@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+  <!-- View res.partner form -->
+  <record id="tgr_l10n_sv_res_partner_city_form" model="ir.ui.view">
+    <field name="name">tgr_l10n_sv.res.partner.form</field>
+    <field name="model">res.partner</field>
+    <field
+            name="inherit_id"
+            ref="base_address_extended.address_street_extended_city_form"
+        />
+    <field name="arch" type="xml">
+      <xpath expr="//field[@name='street2']" position="after">
+        <field
+                    name="l10n_sv_district"
+                    placeholder="Distrito"
+                    domain="[('city_id', '=', city_id)]"
+                    invisible="country_code!='SV'"
+                />
+      </xpath>
+      <xpath expr="//field[@name='city_id']" position="attributes">
+        <attribute
+                    name="domain"
+                >[('country_id', '=', country_id),('state_id', '=', state_id)]</attribute>
+      </xpath>
+
+      <xpath expr="//field[@name='city_id']" position="attributes">
+        <attribute name="placeholder">Municipio</attribute>
+      </xpath>
+
+    </field>
+  </record>
+
+  <record id="tgr_l10n_sv_res_partner_nrc_form" model="ir.ui.view">
+    <field name="name">tgr_l10n_sv.res.partner.form</field>
+    <field name="model">res.partner</field>
+    <field name="inherit_id" ref="base_vat.view_partner_base_vat_form" />
+    <field name="arch" type="xml">
+      <!-- <field name="l10n_latam_identification_type_di" position="attibutes">
+                <attribute name="default"></attribute>
+            </field> -->
+      <xpath expr="//div[@name='vat_vies_container']" position="after">
+        <field
+                    name="l10n_sv_nrc"
+                    readonly="parent_id"
+                    class="oe_inline"
+                    invisible="company_type=='person'"
+                    placeholder="NRC"
+                />
+        <field
+                    name="l10n_sv_edi_establishment_type"
+                    invisible="not is_company or country_code!='SV'"
+                />
+      </xpath>
+    </field>
+  </record>
+
+</odoo>

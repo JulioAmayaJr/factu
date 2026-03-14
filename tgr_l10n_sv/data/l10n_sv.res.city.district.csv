@@ -1,0 +1,263 @@
+id,city_id:id,name,code
+district_01_13_03,city_sv_01_13,Atiquizaya,011303
+district_01_13_05,city_sv_01_13,El Refugio,011305
+district_01_13_09,city_sv_01_13,San Lorenzo,011309
+district_01_13_12,city_sv_01_13,Turín,011312
+district_01_14_01,city_sv_01_14,Ahuachapán,011401
+district_01_14_02,city_sv_01_14,Apaneca,011402
+district_01_14_04,city_sv_01_14,Concepción de Ataco,011404
+district_01_14_11,city_sv_01_14,Tacuba,011411
+district_01_15_06,city_sv_01_15,Guaymango,011506
+district_01_15_07,city_sv_01_15,Jujutla,011507
+district_01_15_08,city_sv_01_15,San Francisco Menéndez,011508
+district_01_15_10,city_sv_01_15,San Pedro Puxtla,011510
+district_02_14_06,city_sv_02_14,Masahuat,021406
+district_02_14_07,city_sv_02_14,Metapán,021407
+district_02_14_11,city_sv_02_14,Santa Rosa Guachipilín,021411
+district_02_14_13,city_sv_02_14,Texistepeque,021413
+district_02_15_10,city_sv_02_15,Santa Ana,021510
+district_02_16_02,city_sv_02_16,Coatepeque,021602
+district_02_16_04,city_sv_02_16,El Congo,021604
+district_02_17_01,city_sv_02_17,Candelaria de la Frontera,021701
+district_02_17_03,city_sv_02_17,Chalchuapa,021703
+district_02_17_05,city_sv_02_17,El Porvenir,021705
+district_02_17_08,city_sv_02_17,San Antonio Pajonal,021708
+district_02_17_09,city_sv_02_17,San Sebastián Salitrillo,021709
+district_02_17_12,city_sv_02_17,Santiago de la Frontera,021712
+district_03_17_07,city_sv_03_17,Juayúa,031707
+district_03_17_08,city_sv_03_17,Nahuizalco,031708
+district_03_17_10,city_sv_03_17,Salcoatitán,031710
+district_03_17_13,city_sv_03_17,Santa Catarina Masahuat,031713
+district_03_18_15,city_sv_03_18,Sonsonate,031815
+district_03_18_16,city_sv_03_18,Sonzacate,031816
+district_03_18_09,city_sv_03_18,Nahulingo,031809
+district_03_18_11,city_sv_03_18,San Antonio del Monte,031811
+district_03_18_14,city_sv_03_18,Santo Domingo de Guzmán,031814
+district_03_19_02,city_sv_03_19,Armenia,031902
+district_03_19_03,city_sv_03_19,Caluco,031903
+district_03_19_04,city_sv_03_19,Cuisnahuat,031904
+district_03_19_06,city_sv_03_19,Izalco,031906
+district_03_19_12,city_sv_03_19,San Julián,031912
+district_03_19_05,city_sv_03_19,Santa Isabel Ishuatán,031905
+district_03_20_01,city_sv_03_20,Acajutla,032001
+district_04_34_04,city_sv_04_34,Citalá,043404
+district_04_34_12,city_sv_04_34,La Palma,043412
+district_04_34_25,city_sv_04_34,San Ignacio,043425
+district_04_35_01,city_sv_04_35,Agua Caliente,043501
+district_04_35_08,city_sv_04_35,Dulce Nombre de María,043508
+district_04_35_10,city_sv_04_35,El Paraíso,043510
+district_04_35_13,city_sv_04_35,La Reina,043513
+district_04_35_16,city_sv_04_35,Nueva Concepción,043516
+district_04_35_22,city_sv_04_35,San Fernando,043522
+district_04_35_24,city_sv_04_35,San Francisco Morazán,043524
+district_04_35_31,city_sv_04_35,San Rafael,043531
+district_04_35_32,city_sv_04_35,Santa Rita,043532
+district_04_35_33,city_sv_04_35,Tejutla,043533
+district_04_36_02,city_sv_04_36,Arcatao,043602
+district_04_36_03,city_sv_04_36,Azacualpa,043603
+district_04_36_27,city_sv_04_36,Cancasque,043627
+district_04_36_07,city_sv_04_36,Chalatenango,043607
+district_04_36_05,city_sv_04_36,Comalapa,043605
+district_04_36_06,city_sv_04_36,Concepción Quezaltepeque,043606
+district_04_36_09,city_sv_04_36,El Carrizal,043609
+district_04_36_11,city_sv_04_36,La Laguna,043611
+district_04_36_28,city_sv_04_36,Las Flores,043628
+district_04_36_14,city_sv_04_36,Las Vueltas,043614
+district_04_36_15,city_sv_04_36,Nombre de Jesús,043615
+district_04_36_17,city_sv_04_36,Nueva Trinidad,043617
+district_04_36_18,city_sv_04_36,Ojos de Agua,043618
+district_04_36_19,city_sv_04_36,Potonico,043619
+district_04_36_20,city_sv_04_36,San Antonio de la Cruz,043620
+district_04_36_21,city_sv_04_36,San Antonio Los Ranchos,043621
+district_04_36_23,city_sv_04_36,San Francisco Lempa,043623
+district_04_36_26,city_sv_04_36,San Isidro Labrador,043626
+district_04_36_29,city_sv_04_36,San Luis del Carmen,043629
+district_04_36_30,city_sv_04_36,San Miguel de Mercedes,043630
+district_05_23_12,city_sv_05_23,Quezaltepeque,052312
+district_05_23_16,city_sv_05_23,San Matías,052316
+district_05_23_17,city_sv_05_23,San Pablo Tacachico,052317
+district_05_24_02,city_sv_05_24,Ciudad Arce,052402
+district_05_24_15,city_sv_05_24,San Juan Opico,052415
+district_05_25_03,city_sv_05_25,Colón,052503
+district_05_25_07,city_sv_05_25,Jayaque,052507
+district_05_25_13,city_sv_05_25,Sacacoyo,052513
+district_05_25_19,city_sv_05_25,Talnique,052519
+district_05_25_21,city_sv_05_25,Tepecoyo,052521
+district_05_26_01,city_sv_05_26,Antiguo Cuscatlán,052601
+district_05_26_06,city_sv_05_26,Huizúcar,052606
+district_05_26_10,city_sv_05_26,Nuevo Cuscatlán,052610
+district_05_26_14,city_sv_05_26,San José Villanueva,052614
+district_05_26_22,city_sv_05_26,Zaragoza,052622
+district_05_27_05,city_sv_05_27,Chiltiupán,052705
+district_05_27_08,city_sv_05_27,Jicalapa,052708
+district_05_27_09,city_sv_05_27,La Libertad,052709
+district_05_27_18,city_sv_05_27,Tamanique,052718
+district_05_27_20,city_sv_05_27,Teotepeque,052720
+district_05_28_04,city_sv_05_28,Comasagua,052804
+district_05_28_11,city_sv_05_28,Santa Tecla,052811
+district_06_20_01,city_sv_06_20,Aguilares,062001
+district_06_20_05,city_sv_06_20,El Paisnal,062005
+district_06_20_06,city_sv_06_20,Guazapa,062006
+district_06_21_02,city_sv_06_21,Apopa,062102
+district_06_21_09,city_sv_06_21,Nejapa,062109
+district_06_22_07,city_sv_06_22,Ilopango,062207
+district_06_22_13,city_sv_06_22,San Martín,062213
+district_06_22_17,city_sv_06_22,Soyapango,062217
+district_06_22_18,city_sv_06_22,Tonacatepeque,062218
+district_06_23_03,city_sv_06_23,Ayutuxtepeque,062303
+district_06_23_19,city_sv_06_23,Ciudad Delgado,062319
+district_06_23_04,city_sv_06_23,Cuscatancingo,062304
+district_06_23_08,city_sv_06_23,Mejicanos,062308
+district_06_23_14,city_sv_06_23,San Salvador,062314
+district_06_24_10,city_sv_06_24,Panchimalco,062410
+district_06_24_11,city_sv_06_24,Rosario de Mora,062411
+district_06_24_12,city_sv_06_24,San Marcos,062412
+district_06_24_15,city_sv_06_24,Santiago Texacuangos,062415
+district_06_24_16,city_sv_06_24,Santo Tomás,062416
+district_07_17_06,city_sv_07_17,Oratorio de Concepción,071706
+district_07_17_07,city_sv_07_17,San Bartolomé Perulapía,071707
+district_07_17_09,city_sv_07_17,San José Guayabal,071709
+district_07_17_10,city_sv_07_17,San Pedro Perulapán,071710
+district_07_17_15,city_sv_07_17,Suchitoto,071715
+district_07_18_01,city_sv_07_18,Candelaria,071801
+district_07_18_02,city_sv_07_18,Cojutepeque,071802
+district_07_18_03,city_sv_07_18,El Carmen,071803
+district_07_18_04,city_sv_07_18,El Rosario,071804
+district_07_18_05,city_sv_07_18,Monte San Juan,071805
+district_07_18_08,city_sv_07_18,San Cristóbal,071808
+district_07_18_11,city_sv_07_18,San Rafael Cedros,071811
+district_07_18_12,city_sv_07_18,San Ramón,071812
+district_07_18_13,city_sv_07_18,Santa Cruz Analquito,071813
+district_07_18_14,city_sv_07_18,Santa Cruz Michapa,071814
+district_07_18_16,city_sv_07_18,Tenancingo,071816
+district_08_23_01,city_sv_08_23,Cuyultitán,082301
+district_08_23_05,city_sv_08_23,Olocuilta,082305
+district_08_23_09,city_sv_08_23,San Francisco Chinameca,082309
+district_08_23_11,city_sv_08_23,San Juan Talpa,082311
+district_08_23_13,city_sv_08_23,San Luis Talpa,082313
+district_08_23_15,city_sv_08_23,San Pedro Masahuat,082315
+district_08_23_20,city_sv_08_23,Tapalhuaca,082320
+district_08_24_02,city_sv_08_24,El Rosario,082402
+district_08_24_03,city_sv_08_24,Jerusalén,082403
+district_08_24_04,city_sv_08_24,Mercedes La Ceiba,082404
+district_08_24_06,city_sv_08_24,Paraíso de Osorio,082406
+district_08_24_16,city_sv_08_24,San Antonio Masahuat,082416
+district_08_24_07,city_sv_08_24,San Emigdio,082407
+district_08_24_08,city_sv_08_24,San Juan Tepezontes,082408
+district_08_24_18,city_sv_08_24,San Luis La Herradura,082418
+district_08_24_12,city_sv_08_24,San Miguel Tepezontes,082412
+district_08_24_14,city_sv_08_24,San Pedro Nonualco,082414
+district_08_24_19,city_sv_08_24,Santa María Ostuma,082419
+district_08_24_22,city_sv_08_24,Santiago Nonualco,082422
+district_08_25_10,city_sv_08_25,San Juan Nonualco,082510
+district_08_25_17,city_sv_08_25,San Rafael Obrajuelo,082517
+district_08_25_21,city_sv_08_25,Zacatecoluca,082521
+district_09_10_02,city_sv_09_10,Guacotecti,091002
+district_09_10_05,city_sv_09_10,San Isidro,091005
+district_09_10_06,city_sv_09_10,Sensuntepeque,091006
+district_09_10_08,city_sv_09_10,Victoria,091008
+district_09_10_09,city_sv_09_10,Dolores,091009
+district_09_11_01,city_sv_09_11,Cinquera,091101
+district_09_11_03,city_sv_09_11,Ilobasco,091103
+district_09_11_04,city_sv_09_11,Jutiapa,091104
+district_09_11_07,city_sv_09_11,Tejutepeque,091107
+district_10_14_01,city_sv_10_14,Apastepeque,101401
+district_10_14_06,city_sv_10_14,San Esteban Catarina,101406
+district_10_14_07,city_sv_10_14,San Ildefonso,101407
+district_10_14_08,city_sv_10_14,San Lorenzo,101408
+district_10_14_09,city_sv_10_14,San Sebastián,101409
+district_10_14_04,city_sv_10_14,Santa Clara,101404
+district_10_14_05,city_sv_10_14,Santo Domingo,101405
+district_10_15_02,city_sv_10_15,Guadalupe,101502
+district_10_15_03,city_sv_10_15,San Cayetano Istepeque,101503
+district_10_15_10,city_sv_10_15,San Vicente,101510
+district_10_15_11,city_sv_10_15,Tecoluca,101511
+district_10_15_12,city_sv_10_15,Tepetitán,101512
+district_10_15_13,city_sv_10_15,Verapaz,101513
+district_11_24_01,city_sv_11_24,Alegría,112401
+district_11_24_02,city_sv_11_24,Berlín,112402
+district_11_24_05,city_sv_11_24,El Triunfo,112405
+district_11_24_07,city_sv_11_24,Estanzuelas,112407
+district_11_24_09,city_sv_11_24,Jucuapa,112409
+district_11_24_11,city_sv_11_24,Mercedes Umaña,112411
+district_11_24_12,city_sv_11_24,Nueva Granada,112412
+district_11_24_16,city_sv_11_24,San Buenaventura,112416
+district_11_24_21,city_sv_11_24,Santiago de María,112421
+district_11_25_03,city_sv_11_25,California,112503
+district_11_25_04,city_sv_11_25,Concepción Batres,112504
+district_11_25_06,city_sv_11_25,Ereguayquín,112506
+district_11_25_10,city_sv_11_25,Jucuarán,112510
+district_11_25_13,city_sv_11_25,Ozatlán,112513
+district_11_25_17,city_sv_11_25,San Dionisio,112517
+district_11_25_18,city_sv_11_25,Santa Elena,112518
+district_11_25_20,city_sv_11_25,Santa María,112520
+district_11_25_22,city_sv_11_25,Tecapán,112522
+district_11_25_23,city_sv_11_25,Usulután,112523
+district_11_26_08,city_sv_11_26,Jiquilisco,112608
+district_11_26_14,city_sv_11_26,Puerto El Triunfo,112614
+district_11_26_15,city_sv_11_26,San Agustín,112615
+district_11_26_19,city_sv_11_26,San Francisco Javier,112619
+district_12_21_01,city_sv_12_21,Carolina,122101
+district_12_21_04,city_sv_12_21,Chapeltique,122104
+district_12_21_02,city_sv_12_21,Ciudad Barrios,122102
+district_12_21_11,city_sv_12_21,Nuevo Edén de San Juan,122111
+district_12_21_13,city_sv_12_21,San Antonio,122113
+district_12_21_14,city_sv_12_21,San Gerardo,122114
+district_12_21_16,city_sv_12_21,San Luis de la Reina,122116
+district_12_21_19,city_sv_12_21,Sesori,122119
+district_12_22_06,city_sv_12_22,Chirilagua,122206
+district_12_22_03,city_sv_12_22,Comacarán,122203
+district_12_22_09,city_sv_12_22,Moncagua,122209
+district_12_22_12,city_sv_12_22,Quelepa,122212
+district_12_22_17,city_sv_12_22,San Miguel,122217
+district_12_22_20,city_sv_12_22,Uluazapa,122220
+district_12_23_05,city_sv_12_23,Chinameca,122305
+district_12_23_07,city_sv_12_23,El Tránsito,122307
+district_12_23_08,city_sv_12_23,Lolotique,122308
+district_12_23_10,city_sv_12_23,Nueva Guadalupe,122310
+district_12_23_15,city_sv_12_23,San Jorge,122315
+district_12_23_18,city_sv_12_23,San Rafael Oriente,122318
+district_13_27_01,city_sv_13_27,Arambala,132701
+district_13_27_02,city_sv_13_27,Cacaopera,132702
+district_13_27_03,city_sv_13_27,Corinto,132703
+district_13_27_07,city_sv_13_27,El Rosario,132707
+district_13_27_10,city_sv_13_27,Joateca,132710
+district_13_27_11,city_sv_13_27,Jocoaitique,132711
+district_13_27_14,city_sv_13_27,Meanguera,132714
+district_13_27_16,city_sv_13_27,Perquín,132716
+district_13_27_18,city_sv_13_27,San Fernando,132718
+district_13_27_20,city_sv_13_27,San Isidro,132720
+district_13_27_24,city_sv_13_27,Torola,132724
+district_13_28_04,city_sv_13_28,Chilanga,132804
+district_13_28_05,city_sv_13_28,Delicias de Concepción,132805
+district_13_28_06,city_sv_13_28,El Divisadero,132806
+district_13_28_08,city_sv_13_28,Gualococti,132808
+district_13_28_09,city_sv_13_28,Guatajiagua,132809
+district_13_28_12,city_sv_13_28,Jocoro,132812
+district_13_28_13,city_sv_13_28,Lolotiquillo,132813
+district_13_28_15,city_sv_13_28,Osicala,132815
+district_13_28_17,city_sv_13_28,San Carlos,132817
+district_13_28_19,city_sv_13_28,San Francisco Gotera,132819
+district_13_28_21,city_sv_13_28,San Simón,132821
+district_13_28_22,city_sv_13_28,Sensembra,132822
+district_13_28_23,city_sv_13_28,Sociedad,132823
+district_13_28_25,city_sv_13_28,Yamabal,132825
+district_13_28_26,city_sv_13_28,Yoloaiquín,132826
+district_14_19_01,city_sv_14_19,Anamorós,141901
+district_14_19_02,city_sv_14_19,Bolívar,141902
+district_14_19_03,city_sv_14_19,Concepción de Oriente,141903
+district_14_19_06,city_sv_14_19,El Sauce,141906
+district_14_19_09,city_sv_14_19,Lislique,141909
+district_14_19_11,city_sv_14_19,Nueva Esparta,141911
+district_14_19_12,city_sv_14_19,Pasaquina,141912
+district_14_19_13,city_sv_14_19,Polorós,141913
+district_14_19_15,city_sv_14_19,San José,141915
+district_14_19_16,city_sv_14_19,Santa Rosa de Lima,141916
+district_14_20_04,city_sv_14_20,Conchagua,142004
+district_14_20_05,city_sv_14_20,El Carmen,142005
+district_14_20_07,city_sv_14_20,Intipucá,142007
+district_14_20_08,city_sv_14_20,La Unión,142008
+district_14_20_10,city_sv_14_20,Meanguera del Golfo,142010
+district_14_20_14,city_sv_14_20,San Alejo,142014
+district_14_20_17,city_sv_14_20,Yayantique,142017
+district_14_20_18,city_sv_14_20,Yucuaiquín,142018

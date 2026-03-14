@@ -1,0 +1,45 @@
+{
+  "identificacion": {
+    "version": 2,
+    "ambiente": "00",
+    "codigoGeneracion": "example",
+    "fecAnula": "2025-05-16",
+    "horAnula": "example"
+  },
+  "emisor": {
+    "nit": "example",
+    "nombre": "Nombre de ejemplo",
+    "tipoEstablecimiento": "04",
+    "nomEstablecimiento": "unknown",
+    "codEstableMH": "unknown",
+    "codEstable": "unknown",
+    "codPuntoVentaMH": "unknown",
+    "codPuntoVenta": "unknown",
+    "telefono": "unknown",
+    "correo": "example@example.com"
+  },
+  "documento": {
+    "tipoDte": "01",
+    "codigoGeneracion": "example",
+    "selloRecibido": "example",
+    "numeroControl": "example",
+    "fecEmi": "2025-05-16",
+    "montoIva": "unknown",
+    "codigoGeneracionR": "unknown",
+    "tipoDocumento": "02",
+    "numDocumento": "string",
+    "nombre": "Nombre de ejemplo",
+    "telefono": "unknown",
+    "correo": "example@example.com"
+  },
+  "motivo": {
+    "tipoAnulacion": 3,
+    "motivoAnulacion": "unknown",
+    "nombreResponsable": "Nombre de ejemplo",
+    "tipDocResponsable": "37",
+    "numDocResponsable": "string",
+    "nombreSolicita": "Nombre de ejemplo",
+    "tipDocSolicita": "02",
+    "numDocSolicita": "string"
+  }
+}

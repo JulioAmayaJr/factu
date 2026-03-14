@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="edi_sv_dte_1" model="account.edi.format">
+        <field name="name">El Salvador DTE 1.0</field>
+        <field name="code">sv_dte_1_0</field>
+    </record>
+</odoo>

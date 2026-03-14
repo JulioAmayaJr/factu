@@ -1,0 +1,100 @@
+{
+  "identificacion": {
+    "version": 3,
+    "ambiente": "00",
+    "tipoDte": "03",
+    "numeroControl": "example",
+    "codigoGeneracion": "example",
+    "tipoModelo": 1,
+    "tipoOperacion": 1,
+    "tipoContingencia": 5,
+    "motivoContin": "unknown",
+    "fecEmi": "2025-05-03",
+    "horEmi": "example",
+    "tipoMoneda": "USD"
+  },
+  "documentoRelacionado": "unknown",
+  "emisor": {
+    "nit": "example",
+    "nrc": "example",
+    "nombre": "Nombre de ejemplo",
+    "codActividad": "example",
+    "descActividad": "string",
+    "nombreComercial": "unknown",
+    "tipoEstablecimiento": "01",
+    "direccion": {
+      "departamento": "example",
+      "municipio": "example",
+      "complemento": "string"
+    },
+    "telefono": "string",
+    "correo": "example@example.com",
+    "codEstableMH": "unknown",
+    "codEstable": "unknown",
+    "codPuntoVentaMH": "unknown",
+    "codPuntoVenta": "unknown"
+  },
+  "receptor": {
+    "nit": "example",
+    "nrc": "example",
+    "nombre": "Nombre de ejemplo",
+    "codActividad": "example",
+    "descActividad": "string",
+    "nombreComercial": "unknown",
+    "direccion": {
+      "departamento": "example",
+      "municipio": "example",
+      "complemento": "string"
+    },
+    "telefono": "unknown",
+    "correo": "example@example.com"
+  },
+  "otrosDocumentos": "unknown",
+  "ventaTercero": "unknown",
+  "cuerpoDocumento": [
+    {
+      "numItem": 1,
+      "tipoItem": 2,
+      "numeroDocumento": "unknown",
+      "codigo": "unknown",
+      "codTributo": "A8",
+      "descripcion": "string",
+      "cantidad": 2.4061541826097965,
+      "uniMedida": 1,
+      "precioUni": 1.8615229709178305,
+      "montoDescu": 5.649209385071562,
+      "ventaNoSuj": 1.5063788421266855,
+      "ventaExenta": 6.39441053785324,
+      "ventaGravada": 2.2020704235359134,
+      "tributos": "unknown",
+      "psv": 3.159554569257722,
+      "noGravado": 6.429494564266534
+    }
+  ],
+  "resumen": {
+    "totalNoSuj": 0.9253262209361202,
+    "totalExenta": 2.146252068370509,
+    "totalGravada": 7.73391814788539,
+    "subTotalVentas": 0.5759556739841598,
+    "descuNoSuj": 6.829760850765984,
+    "descuExenta": 5.560019891228248,
+    "descuGravada": 3.678571257042292,
+    "porcentajeDescuento": 6.675770928730108,
+    "totalDescu": 1.788399946247553,
+    "tributos": "unknown",
+    "subTotal": 2.735022322217442,
+    "ivaPerci1": 0.16003907663385886,
+    "ivaRete1": 0.9879229341117102,
+    "reteRenta": 4.833813403790712,
+    "montoTotalOperacion": 7.010181887807102,
+    "totalNoGravado": 4.81925272467172,
+    "totalPagar": 1.1820200174892415,
+    "totalLetras": "string",
+    "saldoFavor": 0,
+    "condicionOperacion": 1,
+    "pagos": "unknown",
+    "numPagoElectronico": "unknown"
+  },
+  "extension": "unknown",
+  "apendice": "unknown"
+}

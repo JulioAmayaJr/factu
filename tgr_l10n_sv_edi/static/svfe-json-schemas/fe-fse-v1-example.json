@@ -1,0 +1,75 @@
+{
+  "identificacion": {
+    "version": 1,
+    "ambiente": "01",
+    "tipoDte": "14",
+    "numeroControl": "example",
+    "codigoGeneracion": "example",
+    "tipoModelo": 2,
+    "tipoOperacion": 1,
+    "tipoContingencia": 3,
+    "motivoContin": "unknown",
+    "fecEmi": "2025-06-10",
+    "horEmi": "example",
+    "tipoMoneda": "USD"
+  },
+  "emisor": {
+    "nit": "example",
+    "nrc": "unknown",
+    "nombre": "Nombre de ejemplo",
+    "codActividad": "example",
+    "descActividad": "string",
+    "direccion": {
+      "departamento": "example",
+      "municipio": "example",
+      "complemento": "string"
+    },
+    "telefono": "string",
+    "codEstableMH": "unknown",
+    "codEstable": "unknown",
+    "codPuntoVentaMH": "unknown",
+    "codPuntoVenta": "unknown",
+    "correo": "example@example.com"
+  },
+  "sujetoExcluido": {
+    "tipoDocumento": "02",
+    "numDocumento": "string",
+    "nombre": "Nombre de ejemplo",
+    "codActividad": "unknown",
+    "descActividad": "unknown",
+    "direccion": {
+      "departamento": "example",
+      "municipio": "example",
+      "complemento": "string"
+    },
+    "telefono": "unknown",
+    "correo": "unknown"
+  },
+  "cuerpoDocumento": [
+    {
+      "numItem": 9,
+      "tipoItem": 1,
+      "cantidad": 5.370630622615776,
+      "codigo": "unknown",
+      "uniMedida": 22,
+      "descripcion": "string",
+      "precioUni": 1.8625964092967295,
+      "montoDescu": 2.9450660085236544,
+      "compra": 4.436800907738712
+    }
+  ],
+  "resumen": {
+    "totalCompra": 7.054346726394039,
+    "descu": 2.570336209298758,
+    "totalDescu": "unknown",
+    "subTotal": 0.07210389908096415,
+    "ivaRete1": 5.262702645572951,
+    "reteRenta": 0.47651184154642534,
+    "totalPagar": 0.8475667149784993,
+    "totalLetras": "string",
+    "condicionOperacion": 2,
+    "pagos": "unknown",
+    "observaciones": "unknown"
+  },
+  "apendice": "unknown"
+}

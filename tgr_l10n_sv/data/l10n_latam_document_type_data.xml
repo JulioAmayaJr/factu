@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+        <record model='l10n_latam.document.type' id='document_type01'>
+            <field name='sequence'>10</field>
+            <field name='code'>01</field>
+            <field name='report_name'>Factura</field>
+            <field name='name'>Factura</field>
+            <field name='country_id' ref='base.sv' />
+            <field name='doc_code_prefix'>F</field>
+            <field name='internal_type'>invoice</field>
+        </record>
+
+        <record model='l10n_latam.document.type' id='document_type03'>
+            <field name='sequence'>10</field>
+            <field name='code'>03</field>
+            <field name='report_name'>Comprobante de crédito fiscal</field>
+            <field name='name'>Comprobante de crédito fiscal</field>
+            <field name='country_id' ref='base.sv' />
+            <field name='doc_code_prefix'>C</field>
+            <field name='internal_type'>invoice</field>
+        </record>
+        <record model='l10n_latam.document.type' id='document_type05'>
+            <field name='sequence'>10</field>
+            <field name='code'>05</field>
+            <field name='report_name'>Nota de crédito</field>
+            <field name='name'>Nota de crédito</field>
+            <field name='country_id' ref='base.sv' />
+            <field name='doc_code_prefix'>F</field>
+            <field name='internal_type'>credit_note</field>
+        </record>
+
+        <record model='l10n_latam.document.type' id='document_type06'>
+            <field name='sequence'>10</field>
+            <field name='code'>06</field>
+            <field name='report_name'>Nota de débito</field>
+            <field name='name'>Nota de débito</field>
+            <field name='country_id' ref='base.sv' />
+            <field name='doc_code_prefix'>F</field>
+            <field name='internal_type'>debit_note</field>
+        </record>
+
+        <record model='l10n_latam.document.type' id='document_type11'>
+            <field name='sequence'>10</field>
+            <field name='code'>11</field>
+            <field name='report_name'>Facturas de exportación</field>
+            <field name='name'>Facturas de exportación</field>
+            <field name='country_id' ref='base.sv' />
+            <field name='doc_code_prefix'>F</field>
+            <field name='internal_type'>invoice</field>
+        </record>
+
+        <record model='l10n_latam.document.type' id='document_type14'>
+            <field name='sequence'>10</field>
+            <field name='code'>14</field>
+            <field name='report_name'>Factura de sujeto excluido</field>
+            <field name='name'>Factura de sujeto excluido</field>
+            <field name='country_id' ref='base.sv' />
+            <field name='doc_code_prefix'>F</field>
+            <field name='internal_type'>invoice</field>
+        </record>
+
+        <record model='l10n_latam.document.type' id='document_type15'>
+            <field name='sequence'>10</field>
+            <field name='code'>15</field>
+            <field name='report_name'>Comprobante de donación</field>
+            <field name='name'>Comprobante de donación</field>
+            <field name='country_id' ref='base.sv' />
+            <field name='doc_code_prefix'>C</field>
+        </record>
+
+</odoo>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <t t-inherit="point_of_sale.OrderReceipt" t-inherit-mode="extension" t-name="OrderReceipt">
+        <xpath expr="//div[hasclass('before-footer')]" position="after">
+            <t t-if="props.data.headerData.company.country_id?.code === 'SV'">
+                <!-- <div t-if="props.data.voucher_number"> -->
+                <!--     <div class="pos-receipt-order-data">Voucher Number: <t t-esc="props.data.voucher_number"></t></div> -->
+                <!-- </div> -->
+                <div class="d-flex flex-column align-items-center pos-receipt-order-data">
+                    <b>Número de Control:</b>
+                    <span>
+                        <t t-out="props.data.tgr_l10n_sv_edi_numero_control"></t>
+                    </span>
+                    <b>Código de Generación:</b>
+                    <span>
+                        <t t-out="props.data.tgr_l10n_sv_edi_codigo_generacion"></t>
+                    </span>
+                    <b>Sello de recepción:</b>
+                    <span>
+                        <t t-out="props.data.tgr_l10n_sv_edi_sello_recibido"></t>
+                    </span>
+                    <img class="img-fluid w-50" t-attf-src="data:image/*;base64,{{props.data.tgr_l10n_sv_edi_barcode_image}}" t-if="props.data.tgr_l10n_sv_edi_barcode_image"></img>
+                </div>
+            </t>
+        </xpath>
+    </t>
+</templates>

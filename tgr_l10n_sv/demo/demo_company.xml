@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="partner_demo_company_sv" model="res.partner">
+        <field name="name">SV Company</field>
+        <field name="vat">06141246431062</field>
+        <field name="street">Calle El Progreso No.2033B, Col. Flor Blanca</field>
+        <field name="country_id" ref="base.sv"></field>
+        <field name="zip">062006</field>
+        <field name="email">info@company.peexample.com</field>
+        <field name="website">www.peexample.com</field>
+        <field name="l10n_latam_identification_type_id" ref="it_nit"></field>
+        <field name="company_type">company</field>
+    </record>
+    <record id="demo_company_sv" model="res.company">
+        <field name="name">SV Company</field>
+        <field name="partner_id" ref="partner_demo_company_sv"></field>
+    </record>
+    <function model="res.company" name="_onchange_country_id">
+        <value eval="[ref('demo_company_sv')]"></value>
+    </function>
+    <function model="res.users" name="write">
+        <value eval="[ref('base.user_root'), ref('base.user_admin'), ref('base.user_demo')]"></value>
+        <value eval="{'company_ids': [(4, ref('tgr_l10n_sv.demo_company_sv'))]}"></value>
+    </function>
+    <function model="account.chart.template" name="try_loading">
+        <value eval="[]"></value>
+        <value>sv</value>
+        <value eval="obj().env.ref('tgr_l10n_sv.demo_company_sv')" model="res.company"></value>
+    </function>
+</odoo>

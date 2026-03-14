@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record model="l10n_latam.identification.type" id='l10n_latam_base.it_vat'>
+        <field name="l10n_sv_vat_code">37</field>
+        <field name="description">Otro</field>
+    </record>
+    <record model="l10n_latam.identification.type" id='l10n_latam_base.it_pass'>
+        <field name="l10n_sv_vat_code">03</field>
+    </record>
+    <record model="l10n_latam.identification.type" id='l10n_latam_base.it_fid'>
+        <field name="l10n_sv_vat_code">02</field>
+        <field name="description">Carnet de Residente</field>
+    </record>
+
+    <record model='l10n_latam.identification.type' id='it_nit'>
+        <field name='name'>NIT</field>
+        <field name='description'>Número de Identificación Tributaria</field>
+        <field name='country_id' ref='base.sv' />
+        <field name='is_vat' eval='False' />
+        <field name='l10n_sv_vat_code'>36</field>
+        <field name='sequence'>10</field>
+    </record>
+    <record model='l10n_latam.identification.type' id='it_dui'>
+        <field name='name'>DUI</field>
+        <field name='description'>Documento Único de Identidad</field>
+        <field name='country_id' ref='base.sv' />
+        <field name='l10n_sv_vat_code'>13</field>
+        <field name='sequence'>20</field>
+    </record>
+</odoo>

@@ -1,0 +1,94 @@
+{
+  "identificacion": {
+    "version": 3,
+    "ambiente": "01",
+    "tipoDte": "05",
+    "numeroControl": "example",
+    "codigoGeneracion": "example",
+    "tipoModelo": 1,
+    "tipoOperacion": 1,
+    "tipoContingencia": 4,
+    "motivoContin": "unknown",
+    "fecEmi": "2025-05-13",
+    "horEmi": "example",
+    "tipoMoneda": "USD"
+  },
+  "documentoRelacionado": [
+    {
+      "tipoDocumento": "07",
+      "tipoGeneracion": 1,
+      "numeroDocumento": "string",
+      "fechaEmision": "2025-05-13"
+    }
+  ],
+  "emisor": {
+    "nit": "example",
+    "nrc": "example",
+    "nombre": "Nombre de ejemplo",
+    "codActividad": "example",
+    "descActividad": "string",
+    "nombreComercial": "unknown",
+    "tipoEstablecimiento": "20",
+    "direccion": {
+      "departamento": "example",
+      "municipio": "example",
+      "complemento": "string"
+    },
+    "telefono": "string",
+    "correo": "example@example.com"
+  },
+  "receptor": {
+    "nit": "example",
+    "nrc": "example",
+    "nombre": "Nombre de ejemplo",
+    "codActividad": "example",
+    "descActividad": "string",
+    "nombreComercial": "unknown",
+    "direccion": {
+      "departamento": "example",
+      "municipio": "example",
+      "complemento": "string"
+    },
+    "telefono": "unknown",
+    "correo": "example@example.com"
+  },
+  "ventaTercero": "unknown",
+  "cuerpoDocumento": [
+    {
+      "numItem": 6,
+      "tipoItem": 1,
+      "numeroDocumento": "string",
+      "cantidad": 8.676113239964062,
+      "codigo": "unknown",
+      "codTributo": "57",
+      "uniMedida": 11,
+      "descripcion": "unknown",
+      "precioUni": 1.2860418177683364,
+      "montoDescu": 6.511441790141608,
+      "ventaNoSuj": 5.167618235466557,
+      "ventaExenta": 4.5344842946826525,
+      "ventaGravada": 0.6354352985119371,
+      "tributos": "unknown"
+    }
+  ],
+  "resumen": {
+    "totalNoSuj": 5.874701463925871,
+    "totalExenta": 2.1978308609418216,
+    "totalGravada": 4.157717417186384,
+    "subTotalVentas": 1.2367147453100447,
+    "descuNoSuj": 1.5286418194132512,
+    "descuExenta": 2.014884109918528,
+    "descuGravada": 0.8946394957453041,
+    "totalDescu": 5.579130692379147,
+    "tributos": "unknown",
+    "subTotal": 7.451224392776856,
+    "ivaPerci1": 0.6929661764330297,
+    "ivaRete1": 5.938831996686567,
+    "reteRenta": 4.700102131957457,
+    "montoTotalOperacion": 6.400181300557209,
+    "totalLetras": "string",
+    "condicionOperacion": 3
+  },
+  "extension": "unknown",
+  "apendice": "unknown"
+}
