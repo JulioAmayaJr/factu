@@ -1,0 +1,95 @@
+.pets-page{max-width:1500px;margin:32px auto;padding:0 16px;}
+.pets-head{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;margin-bottom:28px;}
+.pets-title{font-size:48px;font-weight:900;line-height:1;color:#0f172a;margin:0;}
+.pets-sub{font-size:18px;color:#64748b;margin-top:8px;}
+.add-pet-btn{background:#f97316;color:#fff !important;padding:18px 28px;border-radius:18px;text-decoration:none;font-size:18px;font-weight:800;box-shadow:0 12px 24px rgba(249,115,22,.22);}
+.pets-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:28px;}
+.pet-list-card,.pet-add-card{background:#fff;border:1px solid #dbe3ef;border-radius:22px;overflow:hidden;box-shadow:0 6px 18px rgba(15,23,42,.04);}
+.pet-list-card img{width:100%;height:360px;object-fit:cover;display:block;}
+.pet-list-body{padding:22px;}
+.pet-type-badge{position:absolute;top:14px;right:14px;background:#fff7ed;color:#f97316;border:1px solid #fed7aa;padding:8px 18px;border-radius:999px;font-weight:800;}
+.pet-img-wrap{position:relative;}
+.pet-list-name{font-size:28px;font-weight:900;color:#0f172a;margin:0 0 4px 0;}
+.pet-list-breed{color:#64748b;font-size:18px;margin-bottom:18px;}
+.pet-view-btn{display:block;text-align:center;background:#eef2f7;color:#334155 !important;text-decoration:none;padding:16px;border-radius:14px;font-size:18px;font-weight:800;}
+.pet-add-card{border:2px dashed #cbd5e1;display:flex;align-items:center;justify-content:center;min-height:560px;background:#fafcff;}
+.pet-add-inner{text-align:center;color:#475569;}
+.pet-add-circle{width:84px;height:84px;border-radius:50%;margin:0 auto 18px auto;background:#fff1e8;color:#f97316;display:flex;align-items:center;justify-content:center;font-size:54px;line-height:1;}
+.pet-add-text{font-size:24px;font-weight:800;}
+
+.pet-wrap{max-width:1400px;margin:40px auto;padding:0 16px;}
+.pet-grid{display:grid;grid-template-columns:420px 1fr;gap:28px;align-items:start;}
+.pet-card,.pet-panel,.pet-note{background:#fff;border:1px solid #eceff4;border-radius:22px;box-shadow:0 8px 24px rgba(15,23,42,.05);overflow:hidden;}
+.pet-photo{height:300px;background:#f8fafc;display:flex;align-items:center;justify-content:center;overflow:hidden;}
+.pet-photo img{width:100%;height:100%;object-fit:cover;}
+.pet-body{padding:22px;}
+.pet-name{font-size:28px;font-weight:800;line-height:1.1;margin:0 0 6px 0;color:#0f172a;}
+.pet-sub{font-size:18px;color:#64748b;margin-bottom:20px;}
+.pet-badge{display:inline-block;background:#3b82f6;color:#fff;padding:6px 14px;border-radius:999px;font-weight:700;font-size:12px;}
+.pet-mini-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:18px;}
+.pet-mini{background:#f8fafc;border:1px solid #e5e7eb;border-radius:16px;padding:16px;}
+.pet-mini-label{font-size:12px;text-transform:uppercase;color:#94a3b8;font-weight:700;margin-bottom:6px;}
+.pet-mini-value{font-size:16px;font-weight:700;color:#1e293b;}
+.pet-edit-btn{display:block;background:#07163a;color:#fff !important;text-decoration:none;text-align:center;border-radius:16px;padding:16px;font-size:18px;font-weight:800;margin-top:20px;}
+.pet-note{margin-top:20px;background:#fff8e8;border-color:#f2d59a;}
+.pet-note .pet-body{color:#9a4c12;}
+.panel-head{display:flex;justify-content:space-between;align-items:center;padding:22px 26px;border-bottom:1px solid #eef2f7;}
+.panel-title{font-size:20px;font-weight:800;color:#1e293b;margin:0;}
+.timeline{padding:18px 26px 24px 26px;}
+.time-item{position:relative;padding-left:44px;padding-bottom:26px;}
+.time-item:last-child{padding-bottom:0;}
+.time-item:before{content:"";position:absolute;left:14px;top:8px;bottom:-8px;width:2px;background:#e5e7eb;}
+.time-item:last-child:before{display:none;}
+.time-dot{position:absolute;left:2px;top:6px;width:24px;height:24px;border-radius:50%;background:#dbeafe;border:6px solid #93c5fd;}
+.time-title{font-size:18px;font-weight:800;color:#1e293b;}
+.time-meta{color:#64748b;}
+.time-date{position:absolute;right:0;top:0;color:#94a3b8;font-weight:700;}
+.table-wrap{padding:0 0 8px 0;}
+.pet-table{width:100%;border-collapse:collapse;}
+.pet-table th,.pet-table td{padding:18px 26px;border-bottom:1px solid #eef2f7;vertical-align:top;}
+.pet-table th{font-size:12px;text-transform:uppercase;color:#94a3b8;font-weight:800;}
+.status-pill{display:inline-block;padding:6px 12px;border-radius:999px;background:#dcfce7;color:#166534;font-weight:800;font-size:14px;}
+.pet-section-space{margin-bottom:28px;}
+
+.pet-form-page{max-width:980px;margin:32px auto;padding:0 16px;}
+.pet-form-title{font-size:52px;font-weight:900;line-height:1;color:#0f172a;margin:0;}
+.pet-form-sub{font-size:16px;color:#64748b;margin:10px 0 28px 0;}
+.pet-upload-box{position:relative;border:2px dashed #d7dde7;border-radius:22px;overflow:hidden;background:#f8fafc;height:290px;display:flex;align-items:center;justify-content:center;margin-bottom:26px;}
+.pet-upload-preview{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;}
+.pet-upload-overlay{position:absolute;inset:0;background:rgba(255,255,255,.55);}
+.pet-upload-content{position:relative;z-index:2;text-align:center;}
+.pet-upload-icon{width:48px;height:48px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;background:#f97316;color:#fff;font-size:22px;font-weight:900;margin-bottom:10px;}
+.pet-upload-title{font-size:24px;font-weight:800;color:#0f172a;}
+.pet-upload-sub{font-size:14px;color:#64748b;margin:8px 0 14px 0;}
+.pet-upload-btn{display:inline-block;background:#f97316;color:#fff !important;text-decoration:none;padding:12px 22px;border-radius:12px;font-weight:800;position:relative;overflow:hidden;}
+.pet-upload-btn input{position:absolute;inset:0;opacity:0;cursor:pointer;}
+.pet-form-section{margin-bottom:24px;}
+.pet-form-card{background:#fff;border:1px solid #ebeef5;border-radius:22px;padding:26px;box-shadow:0 8px 20px rgba(15,23,42,.04);}
+.pet-form-section-title{display:flex;align-items:center;gap:10px;font-size:28px;font-weight:900;color:#0f172a;margin:0 0 18px 0;}
+.pet-form-section-dot{color:#f97316;font-size:18px;}
+.pet-form-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px 22px;}
+.pet-field label{display:block;font-size:14px;font-weight:800;color:#475569;margin-bottom:8px;}
+.pet-field input,.pet-field select,.pet-field textarea{width:100%;border:1px solid #e2e8f0;border-radius:12px;padding:14px 16px;font-size:16px;color:#0f172a;background:#fff;}
+.pet-field textarea{min-height:110px;resize:vertical;}
+.pet-full{grid-column:1 / -1;}
+.pet-check-wrap{display:flex;gap:26px;align-items:center;padding-top:8px;}
+.pet-check{display:flex;align-items:center;gap:8px;font-weight:700;color:#475569;}
+.pet-form-actions{display:flex;align-items:center;gap:22px;margin-top:28px;}
+.pet-save-btn{background:#f97316;color:#fff !important;text-decoration:none;border:none;padding:16px 28px;border-radius:14px;font-size:18px;font-weight:900;box-shadow:0 12px 24px rgba(249,115,22,.24);}
+.pet-cancel-link{color:#64748b !important;text-decoration:none;font-weight:700;}
+
+.appt-page{max-width:1020px;margin:32px auto;padding:0 16px;}
+.appt-header{display:flex;align-items:center;gap:18px;margin-bottom:24px;}
+.appt-back{color:#f97316 !important;text-decoration:none;font-size:34px;line-height:1;font-weight:900;}
+.appt-title{font-size:48px;font-weight:900;color:#0f172a;margin:0;}
+.appt-card{background:#fff;border:1px solid #e5eaf2;border-radius:22px;padding:28px;box-shadow:0 8px 22px rgba(15,23,42,.05);}
+.appt-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px 24px;}
+.appt-field{grid-column:span 2;}
+.appt-half{grid-column:span 1;}
+.appt-field label{display:block;font-size:14px;font-weight:800;color:#475569;margin-bottom:10px;}
+.appt-field input,.appt-field select,.appt-field textarea{width:100%;border:1px solid #dbe3ef;border-radius:16px;padding:18px 18px;font-size:18px;color:#0f172a;background:#fff;}
+.appt-field textarea{min-height:140px;resize:vertical;}
+.appt-submit{width:100%;margin-top:20px;background:#f97316;color:#fff;border:none;border-radius:16px;padding:18px;font-size:22px;font-weight:900;box-shadow:0 12px 24px rgba(249,115,22,.24);}
+@media (max-width: 1200px){.pets-grid{grid-template-columns:repeat(2,minmax(0,1fr));}}
+@media (max-width: 1100px){.pet-grid{grid-template-columns:1fr;}}
+@media (max-width: 768px){.pets-grid,.pet-form-grid,.appt-grid{grid-template-columns:1fr;}.appt-field,.appt-half,.pet-full{grid-column:auto;}.pets-head{flex-direction:column;}.pets-title,.appt-title,.pet-form-title{font-size:36px;}}

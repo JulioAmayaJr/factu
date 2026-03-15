@@ -1,4 +1,5 @@
 from datetime import datetime, timedelta
+import pytz
 
 from odoo import http
 from odoo.http import request
@@ -26,21 +27,33 @@ class PetGroomingWebsiteController(http.Controller):
             breed = (post.get("breed") or "").strip()
             color = (post.get("color") or "").strip()
             sex = post.get("sex") or False
-            service_id = int(post.get("service_id"))
+            service_raw = post.get("service_id")
             date_str = post.get("date")
             hour_str = post.get("hour")
             notes = (post.get("notes") or "").strip()
 
-            if not owner_name or not pet_name or not service_id or not date_str or not hour_str:
+            if not owner_name or not pet_name or not service_raw or not date_str or not hour_str:
                 return request.redirect("/pet-grooming?error=1")
 
-            appointment_start = datetime.strptime(f"{date_str} {hour_str}", "%Y-%m-%d %H:%M")
+            service_id = int(service_raw)
 
-            partner = request.env["res.partner"].sudo().search([
-                "|",
-                ("email", "=", email),
-                ("phone", "=", phone),
-            ], limit=1)
+            sv_tz = pytz.timezone("America/El_Salvador")
+            local_dt = sv_tz.localize(datetime.strptime(f"{date_str} {hour_str}", "%Y-%m-%d %H:%M"))
+            appointment_start = local_dt.astimezone(pytz.UTC).replace(tzinfo=None)
+
+            partner = False
+            if email and phone:
+                partner = request.env["res.partner"].sudo().search([
+                    "|", ("email", "=", email), ("phone", "=", phone)
+                ], limit=1)
+            elif email:
+                partner = request.env["res.partner"].sudo().search([
+                    ("email", "=", email)
+                ], limit=1)
+            elif phone:
+                partner = request.env["res.partner"].sudo().search([
+                    ("phone", "=", phone)
+                ], limit=1)
 
             if not partner:
                 partner = request.env["res.partner"].sudo().create({
@@ -50,8 +63,8 @@ class PetGroomingWebsiteController(http.Controller):
                 })
 
             pet = request.env["pet.animal"].sudo().search([
-                ("name", "=", pet_name),
                 ("partner_id", "=", partner.id),
+                ("name", "=ilike", pet_name),
             ], limit=1)
 
             if not pet:
@@ -61,7 +74,7 @@ class PetGroomingWebsiteController(http.Controller):
                     "species": species,
                     "breed": breed,
                     "color": color,
-                    "sex": sex,
+                    "sex": sex or False,
                 })
 
             request.env["pet.grooming.appointment"].sudo().create({
@@ -74,7 +87,9 @@ class PetGroomingWebsiteController(http.Controller):
             })
 
             return request.redirect("/pet-grooming?success=1")
-        except Exception:
+
+        except Exception as e:
+            print("PET GROOMING SUBMIT ERROR:", e)
             return request.redirect("/pet-grooming?error=1")
 
     @http.route("/pet-grooming/available_slots", type="json", auth="public", website=True, csrf=False)
@@ -84,6 +99,7 @@ class PetGroomingWebsiteController(http.Controller):
 
         service = request.env["pet.grooming.service"].sudo().browse(int(service_id))
         duration = service.duration_hours or 1.0
+        sv_tz = pytz.timezone("America/El_Salvador")
         base_date = datetime.strptime(date, "%Y-%m-%d")
 
         appointments = request.env["pet.grooming.appointment"].sudo().search([
@@ -92,8 +108,11 @@ class PetGroomingWebsiteController(http.Controller):
 
         slots = []
         for hour in range(8, 17):
-            start_dt = base_date.replace(hour=hour, minute=0, second=0)
-            end_dt = start_dt + timedelta(hours=duration)
+            local_start = sv_tz.localize(base_date.replace(hour=hour, minute=0, second=0))
+            local_end = local_start + timedelta(hours=duration)
+
+            start_dt = local_start.astimezone(pytz.UTC).replace(tzinfo=None)
+            end_dt = local_end.astimezone(pytz.UTC).replace(tzinfo=None)
 
             occupied = False
             for appt in appointments:
@@ -104,8 +123,8 @@ class PetGroomingWebsiteController(http.Controller):
 
             if not occupied:
                 slots.append({
-                    "value": start_dt.strftime("%H:%M"),
-                    "label": start_dt.strftime("%H:%M"),
+                    "value": local_start.strftime("%H:%M"),
+                    "label": local_start.strftime("%H:%M"),
                 })
 
         return slots

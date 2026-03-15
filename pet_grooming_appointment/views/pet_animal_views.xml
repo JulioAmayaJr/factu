@@ -8,6 +8,8 @@
                 <field name="partner_id"/>
                 <field name="species"/>
                 <field name="breed"/>
+                <field name="sex"/>
+                <field name="weight"/>
             </list>
         </field>
     </record>
@@ -20,21 +22,31 @@
                 <sheet>
                     <group>
                         <group>
+                            <field name="image_1920" widget="image" class="oe_avatar" options="{'size': [256, 256]}"/>
                             <field name="name"/>
                             <field name="partner_id"/>
                             <field name="species"/>
                             <field name="breed"/>
-                            <field name="birthdate"/>
+                            <field name="sex"/>
                         </group>
                         <group>
+                            <field name="birthdate"/>
+                            <field name="age_text"/>
                             <field name="color"/>
-                            <field name="sex"/>
                             <field name="weight"/>
+                            <field name="is_vaccinated"/>
+                            <field name="sterilized"/>
+                            <field name="active"/>
                         </group>
                     </group>
+
                     <group>
+                        <field name="vaccine_notes"/>
+                        <field name="allergies"/>
+                        <field name="medical_notes"/>
                         <field name="notes"/>
                     </group>
+
                     <notebook>
                         <page string="Historial Clínico">
                             <field name="medical_history_ids"/>

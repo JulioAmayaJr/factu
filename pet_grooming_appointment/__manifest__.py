@@ -5,7 +5,7 @@
     "category": "Services",
     "author": "Julio Amaya",
     "license": "LGPL-3",
-    "depends": ["base", "mail", "website"],
+    "depends": ["base", "mail", "website", "portal"],
     "data": [
         "security/ir.model.access.csv",
         "data/grooming_service_data.xml",
@@ -16,7 +16,10 @@
         "views/grooming_appointment_views.xml",
         "views/menu_views.xml",
         "views/website_templates.xml",
-        "views/website_menu.xml"
+        "views/website_menu.xml",
+        "views/portal_templates.xml",
+        "views/register_templates.xml",
+        "views/register_menu.xml"
     ],
     "installable": True,
     "application": True

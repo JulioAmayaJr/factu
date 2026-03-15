@@ -4,3 +4,9 @@ access_pet_grooming_appointment_user,access.pet.grooming.appointment.user,model_
 access_pet_animal_user,access.pet.animal.user,model_pet_animal,base.group_user,1,1,1,1
 access_pet_medical_history_user,access.pet.medical.history.user,model_pet_medical_history,base.group_user,1,1,1,1
 access_pet_grooming_history_user,access.pet.grooming.history.user,model_pet_grooming_history,base.group_user,1,1,1,1
+access_pet_portal_signup_code_user,access.pet.portal.signup.code.user,model_pet_portal_signup_code,base.group_user,1,1,1,1
+access_pet_grooming_service_portal,access.pet.grooming.service.portal,model_pet_grooming_service,base.group_portal,1,0,0,0
+access_pet_grooming_appointment_portal,access.pet.grooming.appointment.portal,model_pet_grooming_appointment,base.group_portal,1,1,1,0
+access_pet_animal_portal,access.pet.animal.portal,model_pet_animal,base.group_portal,1,1,1,0
+access_pet_medical_history_portal,access.pet.medical.history.portal,model_pet_medical_history,base.group_portal,1,0,0,0
+access_pet_grooming_history_portal,access.pet.grooming.history.portal,model_pet_grooming_history,base.group_portal,1,0,0,0
