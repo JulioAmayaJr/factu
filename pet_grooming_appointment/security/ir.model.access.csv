@@ -1,0 +1,6 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_pet_grooming_service_user,access.pet.grooming.service.user,model_pet_grooming_service,base.group_user,1,1,1,1
+access_pet_grooming_appointment_user,access.pet.grooming.appointment.user,model_pet_grooming_appointment,base.group_user,1,1,1,1
+access_pet_animal_user,access.pet.animal.user,model_pet_animal,base.group_user,1,1,1,1
+access_pet_medical_history_user,access.pet.medical.history.user,model_pet_medical_history,base.group_user,1,1,1,1
+access_pet_grooming_history_user,access.pet.grooming.history.user,model_pet_grooming_history,base.group_user,1,1,1,1

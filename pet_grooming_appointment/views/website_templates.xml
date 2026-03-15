@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="website_pet_grooming_form" name="Pet Grooming Form" page="True">
+        <t t-call="website.layout">
+            <div class="container my-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <h1 class="mb-4">Agenda una cita para tu mascota</h1>
+
+                        <t t-if="success">
+                            <div class="alert alert-success">Tu cita fue registrada correctamente.</div>
+                        </t>
+
+                        <t t-if="error">
+                            <div class="alert alert-danger">Ocurrió un error al registrar la cita.</div>
+                        </t>
+
+                        <form action="/pet-grooming/submit" method="post" class="card p-4 shadow-sm">
+                            <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/>
+
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label class="form-label">Nombre del dueño</label>
+                                    <input type="text" name="owner_name" class="form-control" required="required"/>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <label class="form-label">Teléfono</label>
+                                    <input type="text" name="phone" class="form-control"/>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <label class="form-label">Correo</label>
+                                    <input type="email" name="email" class="form-control"/>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <label class="form-label">Nombre de la mascota</label>
+                                    <input type="text" name="pet_name" class="form-control" required="required"/>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <label class="form-label">Especie</label>
+                                    <select name="species" class="form-select">
+                                        <option value="dog">Perro</option>
+                                        <option value="cat">Gato</option>
+                                        <option value="other">Otro</option>
+                                    </select>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <label class="form-label">Raza</label>
+                                    <input type="text" name="breed" class="form-control"/>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <label class="form-label">Color</label>
+                                    <input type="text" name="color" class="form-control"/>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <label class="form-label">Sexo</label>
+                                    <select name="sex" class="form-select">
+                                        <option value="">Seleccionar</option>
+                                        <option value="male">Macho</option>
+                                        <option value="female">Hembra</option>
+                                    </select>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <label class="form-label">Servicio</label>
+                                    <select name="service_id" id="service_id" class="form-select" required="required">
+                                        <option value="">Selecciona</option>
+                                        <t t-foreach="services" t-as="service">
+                                            <option t-att-value="service.id">
+                                                <t t-out="service.name"/> - <t t-out="service.duration_hours"/>h
+                                            </option>
+                                        </t>
+                                    </select>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <label class="form-label">Fecha</label>
+                                    <input type="date" name="date" id="appointment_date" class="form-control" required="required"/>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <label class="form-label">Hora</label>
+                                    <select name="hour" id="hour_select" class="form-select" required="required">
+                                        <option value="">Selecciona fecha y servicio</option>
+                                    </select>
+                                </div>
+
+                                <div class="col-12">
+                                    <label class="form-label">Notas</label>
+                                    <textarea name="notes" class="form-control" rows="4"></textarea>
+                                </div>
+
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-primary">Agendar cita</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <script type="text/javascript">
+                document.addEventListener("DOMContentLoaded", function () {
+                    const serviceInput = document.getElementById("service_id");
+                    const dateInput = document.getElementById("appointment_date");
+                    const hourSelect = document.getElementById("hour_select");
+
+                    async function loadSlots() {
+                        const serviceId = serviceInput.value;
+                        const date = dateInput.value;
+
+                        if (!serviceId || !date) {
+                            hourSelect.innerHTML = '<option value="">Selecciona fecha y servicio</option>';
+                            return;
+                        }
+
+                        hourSelect.innerHTML = '<option value="">Cargando...</option>';
+
+                        const response = await fetch("/pet-grooming/available_slots", {
+                            method: "POST",
+                            headers: { "Content-Type": "application/json" },
+                            body: JSON.stringify({
+                                jsonrpc: "2.0",
+                                method: "call",
+                                params: { date: date, service_id: serviceId },
+                                id: Date.now()
+                            })
+                        });
+
+                        const result = await response.json();
+                        const slots = result.result || [];
+                        hourSelect.innerHTML = "";
+
+                        if (!slots.length) {
+                            hourSelect.innerHTML = '<option value="">No hay horarios disponibles</option>';
+                            return;
+                        }
+
+                        hourSelect.innerHTML = '<option value="">Selecciona una hora</option>';
+                        slots.forEach((slot) => {
+                            const option = document.createElement("option");
+                            option.value = slot.value;
+                            option.textContent = slot.label;
+                            hourSelect.appendChild(option);
+                        });
+                    }
+
+                    serviceInput.addEventListener("change", loadSlots);
+                    dateInput.addEventListener("change", loadSlots);
+                });
+            </script>
+        </t>
+    </template>
+</odoo>

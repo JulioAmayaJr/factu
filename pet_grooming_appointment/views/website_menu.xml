@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="website_menu_pet_grooming" model="website.menu">
+        <field name="name">Agendar Cita</field>
+        <field name="url">/pet-grooming</field>
+        <field name="parent_id" ref="website.main_menu"/>
+        <field name="sequence" eval="80"/>
+    </record>
+</odoo>
