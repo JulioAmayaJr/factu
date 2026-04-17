@@ -128,20 +128,20 @@ class MixinDteDocument(models.AbstractModel):
         for item in values["invoice_line_vals_list"]:
             totalDescu += item["price_discount"]
         return {
-            "totalNoSuj": float_round(total_no_suj, 6),
-            "totalExenta": float_round(total_exenta, 6),
-            "totalGravada": float_round(total_gravada, 6),
-            "subTotalVentas": float_round(sub_total_ventas, 6),
+            "totalNoSuj": float_round(total_no_suj, 2),
+            "totalExenta": float_round(total_exenta, 2),
+            "totalGravada": float_round(total_gravada, 2),
+            "subTotalVentas": float_round(sub_total_ventas, 2),
             "descuNoSuj": 0.00,
             "descuExenta": 0.00,
             "descuGravada": 0.00,
-            "totalDescu": float_round(totalDescu, 6),
+            "totalDescu": float_round(totalDescu, 2),
             "tributos": tributos,
-            "subTotal": float_round(sub_total, 6),
+            "subTotal": float_round(sub_total, 2),
             "ivaPerci1": 0.00,
-            "ivaRete1": float_round(iva_rete1, 6),
+            "ivaRete1": float_round(iva_rete1, 2),
             "reteRenta": 0.00,
-            "montoTotalOperacion": float_round(values["record"].amount_total + iva_rete1, 6),
+            "montoTotalOperacion": float_round(values["record"].amount_total + iva_rete1, 2),
             "totalLetras": str(values["record"]._l10n_sv_edi_amount_to_text()).replace("DOLLARS", "DÓLARES").replace("CENTS", "CENTAVOS"),
             "condicionOperacion": 1,
         }
@@ -170,7 +170,7 @@ class MixinDteDocument(models.AbstractModel):
 
     def _l10n_sv_edi_get_dte_values(self, invoice):
         price_precision = self.env["decimal.precision"].precision_get("Product Price")
-        precision_rounding = 0.000001
+        precision_rounding = 0.01
 
         def clean_amount(value, precision_digits=None, precision_rounding=None):
             return (

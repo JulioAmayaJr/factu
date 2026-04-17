@@ -123,7 +123,7 @@ class AccountMove(models.Model):
         return {
             "document_code": self.l10n_latam_document_type_id.code,
             "cod_estable_mh": self.company_id.sudo().l10n_sv_edi_cod_estable_mh or "0000",
-            "cod_pos_mh": "0000",
+            "cod_pos_mh": "P001",
             "correlantivo": correlantivo,
         }
 

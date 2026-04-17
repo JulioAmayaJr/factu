@@ -63,7 +63,7 @@ class AccountEdiJsonDTESV(models.AbstractModel):
     def _get_invoice_line_price_vals(self, line):
         vals = super()._get_invoice_line_price_vals(line)
         vals["price_amount"] = (
-            float(Decimal(line.price_subtotal / line.quantity).quantize(Decimal("0.0000000001"), rounding=ROUND_HALF_UP))
+            float(Decimal(line.price_subtotal / line.quantity).quantize(Decimal("0.01"), rounding=ROUND_HALF_UP))
             if line.quantity
             else 0.0
         )
@@ -330,7 +330,7 @@ class AccountEdiJsonDTESV(models.AbstractModel):
 
     def _l10n_sv_edi_get_dte_values(self, invoice):
         price_precision = self.env["decimal.precision"].precision_get("Product Price")
-        precision_rounding = 0.000001
+        precision_rounding = 0.01
 
         def clean_amount(value, precision_digits=None, precision_rounding=None):
             return (

@@ -49,7 +49,7 @@ class CfDteDocument(models.AbstractModel):
         return {
             **res,
             **cod_estable,
-            "codPuntoVentaMH": "0001",
+            "codPuntoVentaMH": "P001",
             "codPuntoVenta": "0001",
         }
 
@@ -201,16 +201,16 @@ class CfDteDocument(models.AbstractModel):
                 {
                     **common_line,
                     # "precioUni": round(item["price_total_unit"], 6),
-                    "precioUni": float_round(precioUni, 6),
-                    "montoDescu": float_round(montoDescu, 6),
+                    "precioUni": float_round(precioUni, 2),
+                    "montoDescu": float_round(montoDescu, 2),
                     "ventaNoSuj": 0.0,
                     "ventaExenta": 0.0,
                     # "ventaGravad": round(base_amount + tax_amount, 6),
-                    "ventaGravada": float_round(ventaGravada, 6),
+                    "ventaGravada": float_round(ventaGravada, 2),
                     "tributos": None,
                     "psv": 0.0,
                     "noGravado": 0.0,
-                    "ivaItem": float_round(ivaItem, 6),
+                    "ivaItem": float_round(ivaItem, 2),
                 }
             )
         return cuerpo_documento
@@ -239,25 +239,25 @@ class CfDteDocument(models.AbstractModel):
                     descuento = (precioUni * quantity) - (item["price_total_unit"] * quantity)
                     totalDescu += float(descuento)
         return {
-            "totalNoSuj": float_round(total_no_suj, 6),
-            "totalExenta": float_round(total_exenta, 6),
+            "totalNoSuj": float_round(total_no_suj, 2),
+            "totalExenta": float_round(total_exenta,2),
             # "totalGravada": total_venta,
-            "totalGravada": float_round(total_gravada + total_iva, 6),
-            "subTotalVentas": float_round(total_gravada + total_iva, 6),
+            "totalGravada": float_round(total_gravada + total_iva, 2),
+            "subTotalVentas": float_round(total_gravada + total_iva, 2),
             "descuNoSuj": 0.0,
             "descuExenta": 0.0,
             "descuGravada": 0.0,
             "porcentajeDescuento": 0.0,
             "totalDescu": float(Decimal(str(totalDescu)).quantize((Decimal("0.01")))),
             "tributos": None,
-            "subTotal": float_round(total_gravada + total_iva, 6),
-            "ivaRete1": float_round(iva_rete1, 6),
+            "subTotal": float_round(total_gravada + total_iva, 2),
+            "ivaRete1": float_round(iva_rete1, 2),
             "reteRenta": 0.0,
-            "montoTotalOperacion": float_round(total_venta + iva_rete1 or 0.00, 6),
+            "montoTotalOperacion": float_round(total_venta + iva_rete1 or 0.00, 2),
             "totalNoGravado": 0.00,
-            "totalPagar": float_round(total_venta, 6),
+            "totalPagar": float_round(total_venta, 2),
             "totalLetras": str(values["record"]._l10n_sv_edi_amount_to_text()).replace("DOLLARS", "DÓLARES").replace("CENTS", "CENTAVOS"),
-            "totalIva": float_round(total_iva, 6),
+            "totalIva": float_round(total_iva, 2),
             "saldoFavor": 0.00,
             "condicionOperacion": 1,
             "pagos": None,

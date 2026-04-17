@@ -23,6 +23,7 @@
         "point_of_sale._assets_pos": ["tgr_l10n_sv_edi_pos/static/src/**/*"],
     },
     "installable": True,
+    "application": True,
     "auto_install": True,
     "license": "LGPL-3",
     "price": 200.00,

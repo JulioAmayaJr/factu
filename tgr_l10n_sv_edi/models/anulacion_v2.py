@@ -41,7 +41,7 @@ class DteAnulacion(models.AbstractModel):
             "nombre": root_partner.name,
             "tipoEstablecimiento": partner.l10n_sv_edi_establishment_type if partner.l10n_sv_edi_establishment_type else "02",
             "nomEstablecimiento": partner.name,
-            "codPuntoVentaMH": "0001",
+            "codPuntoVentaMH": None,
             "codPuntoVenta": "0001",
             "telefono": partner.phone or None,
             "correo": partner.email or None,

@@ -1,9 +1,0 @@
-<odoo>
-    <menuitem id="menu_pet_root" name="Pet Grooming"/>
-
-    <menuitem id="menu_pet_appointments" name="Citas" parent="menu_pet_root" action="action_pet_appointments" sequence="10"/>
-    <menuitem id="menu_pet_animals" name="Mascotas" parent="menu_pet_root" action="action_pet_animals" sequence="20"/>
-    <menuitem id="menu_pet_services" name="Servicios" parent="menu_pet_root" action="action_pet_services" sequence="30"/>
-    <menuitem id="menu_pet_medical_history" name="Historial Clínico" parent="menu_pet_root" action="action_medical_history" sequence="40"/>
-    <menuitem id="menu_pet_grooming_history" name="Historial Grooming" parent="menu_pet_root" action="action_grooming_history" sequence="50"/>
-</odoo>
