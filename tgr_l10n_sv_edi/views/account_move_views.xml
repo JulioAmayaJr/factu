@@ -27,8 +27,25 @@
                             <field invisible="1" name="tgr_l10n_sv_edi_cancel_json_name"></field>
                             <field filename="tgr_l10n_sv_edi_cancel_json_name" invisible="state!='cancel'" name="tgr_l10n_sv_edi_cancel_json_binary"></field>
                         </group>
+                        <group
+                            invisible="tgr_l10n_sv_latam_doc_type_code != '15'"
+                            string="Comprobante de donación (CDE)"
+                        >
+                            <field name="tgr_l10n_sv_edi_cd_cod_domiciliado"></field>
+                            <field name="tgr_l10n_sv_edi_cd_cod_pais"></field>
+                            <field name="tgr_l10n_sv_edi_cd_otros_cod"></field>
+                            <field name="tgr_l10n_sv_edi_cd_otros_desc"></field>
+                            <field name="tgr_l10n_sv_edi_cd_otros_detalle"></field>
+                        </group>
                     </group>
                 </page>
+            </xpath>
+            <xpath expr="//field[@name='invoice_line_ids']//field[@name='quantity']" position="after">
+                <field
+                    column_invisible="parent.tgr_l10n_sv_latam_doc_type_code != '15'"
+                    name="tgr_l10n_sv_edi_tipo_donacion"
+                    optional="show"
+                ></field>
             </xpath>
         </field>
     </record>

@@ -1,13 +1,11 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 {
-    "name": "Facturación Electrónica pala El Salvador POS",
+    "name": "Facturación electrónica POS para El Salvador",
     "version": "18.0.1.0.1",
     "category": "Accounting/Localizations/Point of Sale",
-    "author": "Juan D. Collado Vasquez",
+    "author": "Julio Amaya",
     "countries": ["sv"],
-    "description": """
     "website": "https://tagre.pe",
-    """,
     "depends": [
         "tgr_l10n_sv",
         "tgr_l10n_sv_edi",
@@ -26,6 +24,6 @@
     "application": True,
     "auto_install": True,
     "license": "LGPL-3",
-    "price": 200.00,
+    "price": 1400.00,
     "currency": "USD",
 }

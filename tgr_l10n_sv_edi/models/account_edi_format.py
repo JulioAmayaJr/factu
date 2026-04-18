@@ -171,6 +171,8 @@ class AccountEdiFormat(models.Model):
             dte_model = self.env["l10n_sv.dte.nd"]
         elif tipo_dte == "14":
             dte_model = self.env["l10n_sv.dte.fse"]
+        elif tipo_dte == "15":
+            dte_model = self.env["l10n_sv.dte.cd"]
         else:
             return {
                 invoice: {
@@ -526,6 +528,31 @@ class AccountEdiFormat(models.Model):
                 res.append("Falta Documento relacionado.")
             if not move.debit_origin_id.l10n_latam_document_type_id.code in ["07", "03"]:
                 res.append("Solo se puede emitir DTE [06] Nota de débito solo a: [03] Comprobante de crédito fiscal")
+
+        if doc_type == "15":
+            if move.currency_id.name != "USD":
+                res.append("El comprobante de donación electrónico (CDE) debe estar en USD.")
+            if not (move.tgr_l10n_sv_edi_cd_otros_desc or "").strip() or not (move.tgr_l10n_sv_edi_cd_otros_detalle or "").strip():
+                res.append("CDE: complete descripción y detalle del documento asociado (otros documentos).")
+            if move.tgr_l10n_sv_edi_cd_otros_cod not in (1, 2):
+                res.append("CDE: el código de documento asociado debe ser 1 o 2.")
+            head = root_company.partner_id
+            if not head.phone or len(head.phone.strip()) < 8:
+                res.append("CDE: el teléfono del donatario (empresa) debe tener al menos 8 caracteres.")
+            if not head.email or "@" not in head.email:
+                res.append("CDE: indique un correo electrónico válido del donatario (empresa).")
+            nit_donatario = (root_company.vat or "").replace("-", "").replace(" ", "")
+            if len(nit_donatario) < 9:
+                res.append("CDE: el NIT del donatario (empresa matriz) debe estar completo.")
+            if not partner.vat:
+                res.append("CDE: falta número de documento del donante.")
+            if not partner.l10n_latam_identification_type_id or not partner.l10n_latam_identification_type_id.l10n_sv_vat_code:
+                res.append("CDE: defina el tipo de documento de identificación del donante.")
+            if move.tgr_l10n_sv_edi_cd_cod_domiciliado == "1":
+                if not partner.l10n_sv_edi_economic_activity_id:
+                    res.append("CDE: falta actividad económica del donante.")
+                if not partner.street or not partner.l10n_sv_district or not partner.city_id or not partner.state_id:
+                    res.append("CDE: dirección incompleta del donante (requerida si está domiciliado).")
 
         # add walidation
         # example

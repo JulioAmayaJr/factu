@@ -4,12 +4,12 @@
     <template id="report_invoice_document" inherit_id="account.report_invoice_document">
         <!-- Add column amount total on line -->
         <xpath expr="//table[@name='invoice_line_table']/thead/tr" position="inside">
-            <th class="text-end" name="th_total_line" t-if="o.l10n_latam_document_type_id.code =='01'">
+            <th class="text-end" name="th_total_line" t-if="o.l10n_latam_document_type_id.code in ('01','15')">
                 <span>Total</span>
             </th>
         </xpath>
         <xpath expr="//td[@name='td_subtotal']" position="after">
-            <td class="text-end o_price_total" name="td_total_line" t-if="line.move_id.l10n_latam_document_type_id.code =='01'">
+            <td class="text-end o_price_total" name="td_total_line" t-if="line.move_id.l10n_latam_document_type_id.code in ('01','15')">
                 <span class="text-nowrap" t-esc="line.quantity * line.price_unit">30.00</span>
             </td>
         </xpath>

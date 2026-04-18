@@ -12,7 +12,7 @@
      """,
     "countries": ["sv"],
     "category": "Accounting/Localizations/Account Charts",
-    "author": "Juan D. Collado Vasquez",
+    "author": "Julio Amaya",
     "website": "https://tagre.pe",
     "depends": [
         "base_vat",

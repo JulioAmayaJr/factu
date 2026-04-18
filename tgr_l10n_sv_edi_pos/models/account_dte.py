@@ -39,3 +39,12 @@ class CfDteDocument(models.AbstractModel):
         res = super()._get_emisor(invoice)
         cod_pos = self._get_cod_pos(invoice)
         return {**res, **cod_pos}
+
+
+class CdDteDocument(models.AbstractModel):
+    _inherit = "l10n_sv.dte.cd"
+
+    def _get_donatario(self, invoice):
+        res = super()._get_donatario(invoice)
+        cod_pos = self._get_cod_pos(invoice)
+        return {**res, **cod_pos}

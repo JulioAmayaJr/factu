@@ -5,6 +5,7 @@ from . import account_edi_format
 from . import account_edi_json_dte_sv
 from . import account_journal
 from . import account_move
+from . import account_move_line
 from . import account_tax_group
 from . import l10n_sv_cat_019
 from . import res_company
@@ -17,3 +18,4 @@ from . import account_dte_nc
 from . import anulacion_v2
 from . import account_dte_fse
 from . import account_dte_nd
+from . import account_dte_cd

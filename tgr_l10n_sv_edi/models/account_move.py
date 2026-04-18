@@ -1,9 +1,11 @@
 import copy
+import re
 from urllib.parse import quote_plus, urlencode
 import uuid
 
 from num2words import num2words
 from odoo import _, api, fields, models
+from odoo.exceptions import UserError
 import base64
 import json
 from io import BytesIO
@@ -37,6 +39,12 @@ CAT_024_TIPO_INVAlIDACION = [
 class AccountMove(models.Model):
     _inherit = "account.move"
 
+    tgr_l10n_sv_latam_doc_type_code = fields.Char(
+        related="l10n_latam_document_type_id.code",
+        string="Código tipo documento LATAM",
+        readonly=True,
+    )
+
     move_is_dte = fields.Boolean(string="Es DTE", compute="_compute_is_dte")
     tgr_l10n_sv_edi_codigo_generacion = fields.Char(string="Código de Generación", size=36, copy=False)
     tgr_l10n_sv_edi_sello_recibido = fields.Char(string="Sello de recepción", size=40, copy=False)
@@ -67,6 +75,23 @@ class AccountMove(models.Model):
         help="Tipo de evento de contingencia CAT 005",
     )
     contingency_reason = fields.Char("Motivo de Contingencia")
+
+    tgr_l10n_sv_edi_cd_cod_domiciliado = fields.Selection(
+        [("1", "Domiciliado"), ("2", "No domiciliado")],
+        string="Donante domicilio fiscal (CDE)",
+        default="1",
+        copy=False,
+    )
+    tgr_l10n_sv_edi_cd_cod_pais = fields.Char(
+        string="Donante código país (cat.020 CDE)",
+        size=4,
+        default="9300",
+        copy=False,
+        help="Código de país según catálogo 020 del MH.",
+    )
+    tgr_l10n_sv_edi_cd_otros_cod = fields.Integer(string="CDE documento asociado (código)", default=1, copy=False)
+    tgr_l10n_sv_edi_cd_otros_desc = fields.Char(string="CDE documento asociado (descripción)", copy=False)
+    tgr_l10n_sv_edi_cd_otros_detalle = fields.Char(string="CDE documento asociado (detalle)", copy=False)
 
     tgr_l10n_sv_edi_barcode_image = fields.Char(string="SV Barcode Image", compute="_compute_l10n_sv_edi_barcode_image")
 
@@ -101,6 +126,19 @@ class AccountMove(models.Model):
     # Utils
     # ----------------------------------------------------------
 
+    @staticmethod
+    def _l10n_sv_edi_correlativo_numeric_z15(document_name):
+        """Último bloque de dígitos del número de documento, en 15 posiciones (MH)."""
+        if document_name is False or document_name is None:
+            raise UserError(_("No se pudo obtener un correlativo numérico válido para el número de documento: %s") % document_name)
+        label = str(document_name).strip()
+        if not label:
+            raise UserError(_("No se pudo obtener un correlativo numérico válido para el número de documento: %s") % document_name)
+        groups = re.findall(r"\d+", label)
+        if not groups:
+            raise UserError(_("No se pudo obtener un correlativo numérico válido para el número de documento: %s") % document_name)
+        return str(int(groups[-1])).zfill(15)
+
     @api.model
     def l10n_sv_edi_numero_control_values(self):
         """
@@ -116,8 +154,7 @@ class AccountMove(models.Model):
         """
         self.ensure_one()
 
-        correlantivo = self.name
-        correlantivo = str(int(correlantivo.split("-")[-1])).zfill(15)
+        correlantivo = self._l10n_sv_edi_correlativo_numeric_z15(self.name)
 
         # Valores base
         return {

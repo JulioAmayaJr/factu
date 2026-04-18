@@ -2,11 +2,11 @@
     "name": "Facturación electrónica para El Salvador",
     "version": "18.0.1.0.1",
     "summary": """
-    Facturación electrónica para El Salvador (Metodo API externa)
+    Facturación electrónica para El Salvador
      """,
     "countries": ["sv"],
     "category": "Accounting/Localizations/EDI",
-    "author": "Juan D. Collado Vasquez",
+    "author": "Julio Amaya",
     "website": "https://tagre.pe",
     "depends": [
         "tgr_l10n_sv",
@@ -41,7 +41,7 @@
     },
     "external_dependencies": {"python": ["cryptography", "pyjwt", "xmltodict"]},
     "images": ["static/description/banner.png"],
-    "price": 920.00,
+    "price": 1920.00,
     "currency": "USD",
     "application": True,
     "installable": True,
